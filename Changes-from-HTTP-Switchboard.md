@@ -35,6 +35,12 @@ As a result, now creating rules in narrower scopes is the natural way to use µM
 
 For example, when using the browser's _"Translate to [Specific language]"_ option in the contextual menu, the browser will send a request to `translate.googleapis.com` to do the job. If you whitelist `translate.googleapis.com` in the global scope, then the feature to translate a page using the contextual menu will work in all scopes (that is, unless a explicit block rule exists in a narrower scope).
 
+#### No more restriction on effective domain boundaries
+
+Unlike HTTPSB, µMatrix does not enforce effective domain boundary for rules. Though the matrix UI does enforce effective domain boundary, you can manually create rules which apply to a whole [TLD](http://en.wikipedia.org/wiki/Top-level_domain) for instance, and this will be properly evaluated by the matrix-filtering engine without any restriction.
+
+For example, the rule `* biz * block` will block all net requests which are made to a hostname which ends with `.biz`. In short, do whatever you want.
+
 #### There is no longer "scope" data structures internally
 
 In HTTPSB, scopes were mapped to discrete data structures internally, which were used to sandbox rules -- and as a consequence preventing scopes to inherit rules from broader scopes. There was a resource cost when creating a scope, and when evaluating a net request.
@@ -70,9 +76,3 @@ Because this is essentially what the tab has become with pattern-based filtering
 #### "Scoped rules" tab replaced by "Your rules" tab
 
 Since now scopes are gone, the over-complicated _"Scoped rules"_ tab has been replace by the extremely simple _"Your rules"_ tab, which will just allow you to edit/add/remove rules manually if you wish.
-
-#### No rmore restriction on effective domain boundaries
-
-Unlike HTTPSB, µMatrix does not enforce effective domain boundary for rules. Though the matrix UI does enforce effective domain boundary, you can manually create rules which apply to a whole [TLD](http://en.wikipedia.org/wiki/Top-level_domain) for instance, and this will be properly evaluated by the matrix-filtering engine without any restriction.
-
-For example, the rule `* biz * block` will block all net requests which are made to a hostname which ends with `.biz`. In short, do whatever you want.
