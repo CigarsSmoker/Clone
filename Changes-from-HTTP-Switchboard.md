@@ -79,6 +79,8 @@ So _"Enable strict blocking"_ is now gone, and strict blocking is how the matrix
 
 Because this is essentially what the tab has become with pattern-based filtering removed. The code to manage external lists has been imported from µBlock, so the tab functions pretty much the same now.
 
+All hostnames in selected hosts files are used as blacklisted hostnames in the global scope, so they propagate to narrower scopes just like in HTTPSB.
+
 Just as with µBlock, you can specify URLs to external hosts file-compliant resources.
 
 #### "Scoped rules" tab replaced by "Your rules" tab
