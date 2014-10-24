@@ -73,6 +73,6 @@ Since now scopes are gone, the over-complicated _"Scoped rules"_ tab has been re
 
 #### No rmore restriction on effective domain boundaries
 
-Unlike HTTPSB, µMatrix does not enforce effective domain boundary for rules. Though the matrix UI does enforce effective domain boundary, you can manually create rules which apply to a whole TLD for instance, and this will be properly evaluated by the matrix-filtering engine without any restriction.
+Unlike HTTPSB, µMatrix does not enforce effective domain boundary for rules. Though the matrix UI does enforce effective domain boundary, you can manually create rules which apply to a whole [TLD](http://en.wikipedia.org/wiki/Top-level_domain) for instance, and this will be properly evaluated by the matrix-filtering engine without any restriction.
 
 For example, the rule `* biz * block` will block all net requests which are made to a hostname which ends with `.biz`. In short, do whatever you want.
