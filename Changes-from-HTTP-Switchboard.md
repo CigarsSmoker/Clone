@@ -63,7 +63,7 @@ To auto-whitelist the domain of the web page is simply a matter of whitelisting 
 
 #### Strict mode is now the only available mode
 
-There was not much real use for disabling "strict mode", except for when a user wanted to fully auto-whitelist 1st-party requests when `frame` (or whatever request type(s)) were globally blacklisted (a good habit).
+There was not much real use for disabling "strict mode", except for when a user wanted to fully auto-whitelist 1st-party requests when `frame` (or whatever request type) was globally blacklisted (blacklisting 3rd-party `frame` is a good habit security-wise).
 
 Now with the `1st-party` row, it's just a matter of whitelisting `* 1st-party frame`, which will override the global blacklisting of the `frame` type, and thus it has become possible to fully whitelist a domain despite the presence of blacklisted types.
 
