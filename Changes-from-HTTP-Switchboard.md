@@ -2,7 +2,7 @@
 
 µMatrix inherited the task of matrix-filtering, while µBlock inherited the task of pattern-based filtering.
 
-Main differences of µMatrix vs. HTTP Switchboard.
+Main differences of µMatrix vs. HTTP Switchboard explained below.
 
 #### Rules are no longer sandboxed within scopes
 
