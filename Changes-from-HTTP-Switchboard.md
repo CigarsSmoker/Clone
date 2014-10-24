@@ -78,3 +78,5 @@ Just as with µBlock, you can specify URLs to external hosts file-compliant reso
 #### "Scoped rules" tab replaced by "Your rules" tab
 
 Since now scopes are gone, the over-complicated _"Scoped rules"_ tab has been replace by the extremely simple _"Your rules"_ tab, which will allow you to plainly edit/add/remove rules manually if you wish.
+
+[TODO: rules syntax]
