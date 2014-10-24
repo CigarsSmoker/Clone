@@ -23,7 +23,7 @@ When a request needs to be evaluated, µMatrix will find out from which web page
 
 A matrix cell can have one of three _colors_: red (blacklisted), green (whitelisted), or transparent (graylisted). Just like before. The difference is that now with µMatrix all the possible scope are evaluated from narrowest to broadest to find out the _color_ of a cell.
 
-Once the color is found, the rest function the same as with HTTP Switchboard, i.e. the matrix inheritance model is the same (that would be the X and Y part of the evaluation).
+Once the color is found, the matrix functions just the same as in HTTP Switchboard, i.e. the matrix inheritance model is the same (that would be the X and Y part of the evaluation).
 
 #### Concrete examples of how µMatrix differs from HTTP Switchboard
 
