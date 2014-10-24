@@ -15,7 +15,7 @@ The matrix is now conceptually 3d:
 
 There is now only one flat data structure to hold all the matrix rules, and all rules are defined as follow:
 
-`source hostname`, `destination hostname`, `request type`, `action`
+`source-hostname destination-hostname request type action`
 
 When a request needs to be evaluated, µMatrix will find out from which web page the request originate. The hostname of the URL address of the web page will be extracted and used as the `source hostname` component. The hostname of the URL address of the request will be extracted and used as the `destination hostname` component.
 
