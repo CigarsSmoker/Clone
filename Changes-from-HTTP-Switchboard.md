@@ -61,7 +61,7 @@ In HTTPSB, if you wished to auto-whitelist the domain of the web page, you had t
 
 To auto-whitelist the domain of the web page is simply a matter of whitelisting the `1st-party` cell in the global scope. With just this one rule now all net requests which are 1st-party to a web page will be allowed (unless overriden by a narrower rule as usual). So as opposed to before with HTTPSB, no temporary rules are created to auto-whitelist: your ruleset is kept clean and tidy.
 
-Note that the `1st-party` row will be available in all scopes. Typically the rules for that row are typically set in the global scope, but I chose to make it available in narrower scope in case a user wants to override 1st-party rules in a narrower scope (for instance [HTTPSB issue #221](https://github.com/gorhill/httpswitchboard/issues/221)).
+Note that the `1st-party` row will be available in all scopes. The rules for that row are typically set in the global scope, but I chose to make it available in narrower scope in case a user wants to override 1st-party rules in a narrower scope (for instance [HTTPSB issue #221](https://github.com/gorhill/httpswitchboard/issues/221)).
 
 #### "Strict blocking" is now the only available mode
 
