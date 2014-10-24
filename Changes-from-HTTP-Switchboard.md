@@ -27,7 +27,7 @@ Once the color is found, the matrix functions just the same as in HTTP Switchboa
 
 ##### Concrete examples of how µMatrix's matrix-filtering differs from HTTP Switchboard's matrix-filtering 
 
-Any explicit rules created in the global scope will be seen in narrower scopes. More generally, any explicit rules created in a broader scope will be seen in narrower scopes. Rules in `example.com` will be seen by the `www.example.com` scope. And so on. This is important to remember when you create rules.
+Any explicit rules created in the global scope will be seen in **all** narrower scopes. More generally, any explicit rules created in a broader scope will be seen in narrower scopes. Rules in `example.com` will be seen by the `www.example.com` scope. And so on. This is important to remember when you create rules.
 
 As a result, now creating rules in narrower scopes is the natural way to use µMatrix. Since rules created in the global scope `*` will be seen everywhere, then global rules are useful for some specific cases. 
 
