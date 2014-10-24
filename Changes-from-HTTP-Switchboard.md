@@ -25,7 +25,7 @@ A matrix cell can have one of three _colors_: red (blacklisted), green (whitelis
 
 Once the color is found, the matrix functions just the same as in HTTP Switchboard, i.e. the matrix inheritance model is the same (that would be the X and Y part of the evaluation).
 
-#### Concrete examples of how µMatrix differs from HTTP Switchboard
+##### Concrete examples of how µMatrix's matrix-filtering differs from HTTP Switchboard's matrix-filtering 
 
 Any explicit rules created in the global scope will be seen in narrower scopes. More generally, any explicit rules created in a broader scope will be seen in narrower scopes. Rules in `example.com` will be seen by the `www.example.com` scope. And so on. This is important to remember when you create rules.
 
