@@ -35,7 +35,7 @@ As a result, now creating rules in narrower scopes is the natural way to use µM
 
 For example, when using the browser's _"Translate to [Specific language]"_ option in the contextual menu, the browser will send a request to `translate.googleapis.com` to do the job. If you whitelist `translate.googleapis.com` in the global scope, then the feature to translate a page using the contextual menu will work in all scopes (that is, unless a explicit block rule exists in a narrower scope).
 
-#### There is no longer "scope" data structure internally
+#### There is no longer "scope" data structures internally
 
 In HTTP Switchboard, scopes were mapped to discrete data structure internally, which was used to sandbox rules -- and as a consequence preventing scopes to inherit rules from broader scopes. There was a resource cost when creating a scope, and when evaluating a net request.
 
