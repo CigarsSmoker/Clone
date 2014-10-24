@@ -39,7 +39,7 @@ For example, when using the browser's _"Translate to [Specific language]"_ optio
 
 Unlike HTTPSB, µMatrix does not enforce effective domain boundary for rules. Though the matrix UI does enforce effective domain boundary, you can manually create rules which apply to a whole [TLD](http://en.wikipedia.org/wiki/Top-level_domain) for instance, and this will be properly evaluated by the matrix-filtering engine without any restriction.
 
-For example, the rule `* biz * block` will block all net requests which are made to a hostname which ends with `.biz`. In short, do whatever you want. (Releated: [HTTPSB issue 115](https://github.com/gorhill/httpswitchboard/issues/115).)
+For example, the rule `* biz * block` will block all net requests which are made to a hostname which ends with `.biz`. In short, do whatever you want. (Related: [HTTPSB issue 115](https://github.com/gorhill/httpswitchboard/issues/115).)
 
 #### There is no longer "scope" data structures internally
 
