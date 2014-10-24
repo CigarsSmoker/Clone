@@ -61,13 +61,13 @@ In HTTPSB, if you wished to auto-whitelist the domain of the web page, you had t
 
 To auto-whitelist the domain of the web page is simply a matter of whitelisting the `1st-party` cell in the global scope. With just this one rule now all net requests which are 1st-party to a web page will be allowed (unless overriden by a narrower rule as usual). So as opposed to before with HTTPSB, no temporary rules are created to auto-whitelist: your ruleset is kept clean and tidy.
 
-#### Strict mode is now the only available mode
+#### "Strict blocking" is now the only available mode
 
-There was not much real use for disabling "strict mode", except for when a user wanted to fully auto-whitelist 1st-party requests when `frame` (or whatever request type) was globally blacklisted (blacklisting 3rd-party `frame` is a good habit security-wise).
+There was not much real use for disabling "strict blocking", except for when a user wanted to fully auto-whitelist 1st-party requests when `frame` (or whatever request type) was globally blacklisted (blacklisting 3rd-party `frame` is a good habit security-wise).
 
 Now with the `1st-party` row, it's just a matter of whitelisting `* 1st-party frame`, which will override the global blacklisting of the `frame` type, and thus it has become possible to fully whitelist a domain despite the presence of blacklisted types.
 
-So _"Enable strict blocking"_ is now gone.
+So _"Enable strict blocking"_ is now gone, and strict blocking is how the matrix naturally works.
 
 #### "Ubiquitous rules" tab replaced by "Hosts files" tab
 
