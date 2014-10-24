@@ -6,7 +6,7 @@ Main differences of µMatrix vs. HTTPSB explained below.
 
 #### Rules are no longer sandboxed within scopes
 
-Related HTTPSB issue: [#227](https://github.com/gorhill/httpswitchboard/issues/227).
+Related HTTPSB issue: [#115](https://github.com/gorhill/httpswitchboard/issues/115), [#227](https://github.com/gorhill/httpswitchboard/issues/227).
 
 The matrix is now conceptually 3d:
 - Z is the source hostname axis (aka "scope"), from narrower scopes to global scope
@@ -37,9 +37,11 @@ For example, when using the browser's _"Translate to [Specific language]"_ optio
 
 #### No more restriction on effective domain boundaries
 
+Related HTTPSB issue: [#109](https://github.com/gorhill/httpswitchboard/issues/109).
+
 Unlike HTTPSB, µMatrix does not enforce effective domain boundary for rules. Though the matrix UI does enforce effective domain boundary, you can manually create rules which apply to a whole [TLD](http://en.wikipedia.org/wiki/Top-level_domain) for instance, and this will be properly evaluated by the matrix-filtering engine without any restriction.
 
-For example, the rule `* biz * block` will block all net requests which are made to a hostname which ends with `.biz`. In short, do whatever you want. (Related: [HTTPSB issue 109](https://github.com/gorhill/httpswitchboard/issues/109).)
+For example, the rule `* biz * block` will block all net requests which are made to a hostname which ends with `.biz`. In short, do whatever you want.
 
 #### There is no longer "scope" data structures internally
 
@@ -57,11 +59,13 @@ The scope selector in the matrix popup is simply used to select where a rule sho
 
 #### A new `1st-party` row
 
+Related HTTPSB issue: [#221](https://github.com/gorhill/httpswitchboard/issues/221).
+
 In HTTPSB, if you wished to auto-whitelist the domain of the web page, you had to enable the setting _"Auto whitelist page domain"_. This setting is now gone, and a `1st-party` row is now used in the matrix to create whatever rules you want for net requests which are 1st-party to a web page.
 
 To auto-whitelist the domain of the web page is simply a matter of whitelisting the `1st-party` cell in the global scope. With just this one rule now all net requests which are 1st-party to a web page will be allowed (unless overriden by a narrower rule as usual). So as opposed to before with HTTPSB, no temporary rules are created to auto-whitelist: your ruleset is kept clean and tidy.
 
-Note that the `1st-party` row will be available in all scopes. The rules for that row are typically set in the global scope, but I chose to make it available in narrower scopes in case a user wants to override 1st-party rules in a narrower scope (for instance [HTTPSB issue #221](https://github.com/gorhill/httpswitchboard/issues/221)).
+Note that the `1st-party` row will be available in all scopes. The rules for that row are typically set in the global scope, but I chose to make it available in narrower scopes in case a user wants to override 1st-party rules in a narrower scope.
 
 #### "Strict blocking" is now the only available mode
 
