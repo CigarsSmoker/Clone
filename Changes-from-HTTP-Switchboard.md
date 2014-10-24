@@ -1,12 +1,12 @@
-µMatrix and [µBlock](https://github.com/gorhill/uBlock) are both spin-off of [HTTP Switchboard](https://github.com/gorhill/httpswitchboard).
+µMatrix and [µBlock](https://github.com/gorhill/uBlock) are both spin-off of [HTTP Switchboard](https://github.com/gorhill/httpswitchboard) ("HTTPSB").
 
 µMatrix inherited the task of matrix-filtering, while µBlock inherited the task of pattern-based filtering.
 
-Main differences of µMatrix vs. HTTP Switchboard explained below.
+Main differences of µMatrix vs. HTTPSB explained below.
 
 #### Rules are no longer sandboxed within scopes
 
-Related HTTP Switchboard issue: [#227](https://github.com/gorhill/httpswitchboard/issues/227).
+Related HTTPSB issue: [#227](https://github.com/gorhill/httpswitchboard/issues/227).
 
 The matrix is now conceptually 3d:
 - Z is the source hostname axis (aka "scope"), from narrower scopes to global scope
@@ -23,9 +23,9 @@ When a request needs to be evaluated, µMatrix will find out from which web page
 
 A matrix cell can have one of three _colors_: red (blacklisted), green (whitelisted), or transparent (graylisted). Just like before. The difference is that now with µMatrix all the possible scope are evaluated from narrowest to broadest to find out the _color_ of a cell.
 
-Once the color is found, the matrix functions just the same as in HTTP Switchboard, i.e. the matrix inheritance model is the same (that would be the X and Y part of the evaluation).
+Once the color is found, the matrix functions just the same as in HTTPSB, i.e. the matrix inheritance model is the same (that would be the X and Y part of the evaluation).
 
-##### Concrete examples of how µMatrix's matrix-filtering differs from HTTP Switchboard's matrix-filtering 
+##### Concrete examples of how µMatrix's matrix-filtering differs from HTTPSB's matrix-filtering 
 
 Any explicit rules created in the global scope will be seen in **all** narrower scopes.
 
@@ -37,7 +37,7 @@ For example, when using the browser's _"Translate to [Specific language]"_ optio
 
 #### There is no longer "scope" data structures internally
 
-In HTTP Switchboard, scopes were mapped to discrete data structures internally, which were used to sandbox rules -- and as a consequence preventing scopes to inherit rules from broader scopes. There was a resource cost when creating a scope, and when evaluating a net request.
+In HTTPSB, scopes were mapped to discrete data structures internally, which were used to sandbox rules -- and as a consequence preventing scopes to inherit rules from broader scopes. There was a resource cost when creating a scope, and when evaluating a net request.
 
 There is no more concrete data structure for scopes in µMatrix: all scopes virtually exist, so in µMatrix there is no longer a resource cost associated with scope creation. This also eliminate the need for settings such as:
 
@@ -48,3 +48,10 @@ There is no more concrete data structure for scopes in µMatrix: all scopes virt
 Al these settings are now gone.
 
 The scope selector in the matrix popup is simply used to select where a rule should be created. As a convenience, µMatrix will remember the scope level you selected and select it automatically next time you open the matrix popup.
+
+#### A new `1st-party` row
+
+In HTTPSB, if you wished to auto-whitelist the domain of the web page, you have to enable the setting _"Auto whitelist page domain"_. This setting is now gone, and a `1st-party` row is now used in the matrix to create whatever rules you want for net requests which are 1st-party to a web page.
+
+To auto-whitelist the domain of the web page is simply a matter of whitelisting the `1st-party` cell in the global scope. With just this one rule now all net requests which are 1st-party to a web page will be allowed (unless overriden by a narrower rule as usual). So as opposed to before with HTTPSB, no temporary are created to auto-whitelist: your ruleset is kept clean and tidy.
+
