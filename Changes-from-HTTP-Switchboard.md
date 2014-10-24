@@ -53,5 +53,7 @@ The scope selector in the matrix popup is simply used to select where a rule sho
 
 In HTTPSB, if you wished to auto-whitelist the domain of the web page, you had to enable the setting _"Auto whitelist page domain"_. This setting is now gone, and a `1st-party` row is now used in the matrix to create whatever rules you want for net requests which are 1st-party to a web page.
 
-To auto-whitelist the domain of the web page is simply a matter of whitelisting the `1st-party` cell in the global scope. With just this one rule now all net requests which are 1st-party to a web page will be allowed (unless overriden by a narrower rule as usual). So as opposed to before with HTTPSB, no temporary are created to auto-whitelist: your ruleset is kept clean and tidy.
+To auto-whitelist the domain of the web page is simply a matter of whitelisting the `1st-party` cell in the global scope. With just this one rule now all net requests which are 1st-party to a web page will be allowed (unless overriden by a narrower rule as usual). So as opposed to before with HTTPSB, no temporary rules are created to auto-whitelist: your ruleset is kept clean and tidy.
+
+#### Strict mode is now the only available mode
 
