@@ -1,6 +1,6 @@
 µMatrix and [µBlock](https://github.com/gorhill/uBlock) are both spin-off of [HTTP Switchboard](https://github.com/gorhill/httpswitchboard) ("HTTPSB"). They both improve significantly on HTTPSB.
 
-µMatrix inherited the task of matrix-filtering, while µBlock inherited the task of pattern-based filtering.
+µMatrix inherited the task of matrix-based filtering, while µBlock inherited the task of pattern-based filtering.
 
 Main differences of µMatrix vs. HTTPSB explained below.
 
@@ -25,7 +25,7 @@ A matrix cell can have one of three _colors_: red (blacklisted), green (whitelis
 
 Once the color is found, the matrix functions just the same as in HTTPSB, i.e. the matrix inheritance model is the same (that would be the X and Y part of the evaluation).
 
-##### Concrete examples of how µMatrix's matrix-filtering differs from HTTPSB's matrix-filtering 
+##### Concrete examples of how µMatrix's matrix-based filtering differs from HTTPSB's matrix-based filtering 
 
 Any explicit rules created in the global scope will be seen in **all** narrower scopes.
 
@@ -39,7 +39,7 @@ For example, when using the browser's _"Translate to [Specific language]"_ optio
 
 Related HTTPSB issue: [#109](https://github.com/gorhill/httpswitchboard/issues/109).
 
-Unlike HTTPSB, µMatrix does not enforce effective domain boundary for rules. Though the matrix UI does enforce effective domain boundary, you can manually create rules which apply to a whole [TLD](http://en.wikipedia.org/wiki/Top-level_domain) for instance, and this will be properly evaluated by the matrix-filtering engine without any restriction.
+Unlike HTTPSB, µMatrix does not enforce effective domain boundary for rules. Though the matrix UI does enforce effective domain boundary, you can manually create rules which apply to a whole [TLD](http://en.wikipedia.org/wiki/Top-level_domain) for instance, and this will be properly evaluated by the matrix-based filtering engine without any restriction.
 
 For example, the rule `* biz * block` will block all net requests which are made to a hostname which ends with `.biz`. In short, do whatever you want.
 
