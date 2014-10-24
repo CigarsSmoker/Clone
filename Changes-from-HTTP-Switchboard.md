@@ -10,7 +10,7 @@ Related HTTP Switchboard issue: [#227](https://github.com/gorhill/httpswitchboar
 
 The matrix is now conceptually 3d:
 - Z is the source hostname axis (aka "scope"), from narrower scopes to global scope
-- X is the request type axis: *, cookie, css, etc.
+- X is the request type axis: `*`, `cookie`, `css`, etc.
 - Y is the destination hostname axis (`www.example.com`, `example.com`, `com`, `*`)
 
 There is now only one flat data structure to hold all the matrix rules, and all rules are defined as follow:
