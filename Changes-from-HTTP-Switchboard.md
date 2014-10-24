@@ -73,6 +73,8 @@ So _"Enable strict blocking"_ is now gone, and strict blocking is how the matrix
 
 Because this is essentially what the tab has become with pattern-based filtering removed. The code to manage external lists has been imported from µBlock, so the tab functions pretty much the same now.
 
+Just as with µBlock, you can specify URLs to external hosts file-compliant resources.
+
 #### "Scoped rules" tab replaced by "Your rules" tab
 
 Since now scopes are gone, the over-complicated _"Scoped rules"_ tab has been replace by the extremely simple _"Your rules"_ tab, which will just allow you to edit/add/remove rules manually if you wish.
