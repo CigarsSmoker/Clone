@@ -1,4 +1,4 @@
-µMatrix and [µBlock](https://github.com/gorhill/uBlock) are both spin-off of [HTTP Switchboard](https://github.com/gorhill/httpswitchboard) ("HTTPSB").
+µMatrix and [µBlock](https://github.com/gorhill/uBlock) are both spin-off of [HTTP Switchboard](https://github.com/gorhill/httpswitchboard) ("HTTPSB"). They both improve significantly on HTTPSB.
 
 µMatrix inherited the task of matrix-filtering, while µBlock inherited the task of pattern-based filtering.
 
