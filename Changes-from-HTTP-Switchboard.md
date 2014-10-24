@@ -35,3 +35,16 @@ As a result, now creating rules in narrower scopes is the natural way to use µM
 
 For example, when using the browser's _"Translate to [Specific language]"_ option in the contextual menu, the browser will send a request to `translate.googleapis.com` to do the job. If you whitelist `translate.googleapis.com` in the global scope, then the feature to translate a page using the contextual menu will work in all scopes (that is, unless a explicit block rule exists in a narrower scope).
 
+#### There is no longer "scope" data structure internally
+
+In HTTP Switchboard, scopes were mapped to discrete data structure internally, which was used to sandbox rules -- and as a consequence preventing scopes to inherit rules from broader scopes. There was a resource cost when creating a scope, and when evaluating a net request.
+
+There is no more concrete data structure for scopes in µMatrix: all scopes virtually exist, so in µMatrix there is no longer a resource cost associated with scope creation. This also eliminate the need for settings such as:
+
+- _"Auto create temporary [domain | site]-level scope"_
+- _"Copy all rules from global scope into newly created local scopes"_
+- _"Auto delete unused temporary scopes"_
+
+Al these settings are now gone.
+
+The scope selector in the matrix popup is simply used to select where a rule should be created. As a convenience, µMatrix will remember the scope level you selected and select it automatically next time you open the matrix popup.
