@@ -59,7 +59,18 @@ To auto-whitelist the domain of the web page is simply a matter of whitelisting 
 
 There was not much real use for disabling "strict mode", except for when a user wanted to fully auto-whitelist 1st-party requests when `frame` (or whatever request type(s)) were globally blacklisted (a good habit).
 
-Now with the `1st-party` row, it's just a matter of whitelisting `*, 1st-party, frame`, which will override the global blacklisting of the `frame` type, and thus it has become possible to fully whitelist a domain despite the presence of blacklisted types.
+Now with the `1st-party` row, it's just a matter of whitelisting `* 1st-party frame`, which will override the global blacklisting of the `frame` type, and thus it has become possible to fully whitelist a domain despite the presence of blacklisted types.
 
 So _"Enable strict blocking"_ is now gone.
 
+#### "Ubiquitous rules" tab replaced by "Hosts files" tab
+
+Because this is essentially what the tab has become with pattern-based filtering removed. The code to manage external lists has been imported from µBlock, so the tab functions pretty much the same now.
+
+#### "Scoped rules" tab replaced by "Your rules" tab
+
+Since now scopes are gone, the over-complicated _"Scoped rules"_ tab has been replace by the extremely simple _"Your rules"_ tab, which will just allow you to edit/add/remove rules manually if you wish.
+
+Unlike HTTPSB, µMatrix does not enforce effective domain boundary for rules. Though the matrix UI does enforce effective domain boundary, you can manually create rules which apply to a whole TLD for instance, and this will be properly evaluated by the matrix-filtering engine without any restriction.
+
+For example, the rule `* biz * block` will block all net requests which are made to a hostname which ends with `.biz`. In short, do whatever you want.
