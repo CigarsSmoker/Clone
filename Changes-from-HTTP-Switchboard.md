@@ -37,7 +37,7 @@ For example, when using the browser's _"Translate to [Specific language]"_ optio
 
 #### There is no longer "scope" data structures internally
 
-In HTTP Switchboard, scopes were mapped to discrete data structure internally, which was used to sandbox rules -- and as a consequence preventing scopes to inherit rules from broader scopes. There was a resource cost when creating a scope, and when evaluating a net request.
+In HTTP Switchboard, scopes were mapped to discrete data structures internally, which were used to sandbox rules -- and as a consequence preventing scopes to inherit rules from broader scopes. There was a resource cost when creating a scope, and when evaluating a net request.
 
 There is no more concrete data structure for scopes in µMatrix: all scopes virtually exist, so in µMatrix there is no longer a resource cost associated with scope creation. This also eliminate the need for settings such as:
 
