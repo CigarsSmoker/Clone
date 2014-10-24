@@ -1,1 +1,1 @@
-Welcome to the uMatrix wiki!
+[Changes from HTTP Switchboard](https://github.com/gorhill/uMatrix/wiki/Changes-from-HTTP-Switchboard)
