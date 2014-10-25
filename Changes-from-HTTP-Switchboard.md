@@ -90,3 +90,11 @@ Just as with µBlock, you can specify URLs to external hosts file-compliant reso
 Since now scopes are gone, the over-complicated _"Scoped rules"_ tab has been replace by the extremely simple _"Your rules"_ tab, which will allow you to plainly edit/add/remove rules manually if you wish.
 
 [TODO: rules syntax]
+
+#### Preset rulesets are gone for the time being
+
+The preset rulesets are gone for the time being, due to re-factoring. Given how rules have been redesigned with µMatrix, it will be easier to design preset rulesets to unbreak web pages or portion of web pages (i.e. Disqus, etc.)
+
+I just want to get it right for long-term, and think all this through carefully. The writing of preset rulesets was over-complicated in HTTPSB, and also there was no mechanism to integrate external preset rulesets.
+
+Specific regions may have their own useful preset rulesets etc. So the goal will be to make it very simple for the community to create their own preset rulesets, and for µMatrix to make it easy for a user to subscribe to any external preset rulesets.
