@@ -21,7 +21,7 @@ When a request needs to be evaluated, µMatrix will find out from which web page
 
 µMatrix will then try to find an explicit rule which match exactly `source-hostname destination-hostname, request-type`. If no explicit rule is found, µMatrix will derive a broader scope from `source-hostname` and try again to find an explicit rule in that broader scope. Eventually, the broadest scope possible is reached, which is `source-hostname` being `*`: the global scope.
 
-This z-axis evaluation mechanism did not exist in HTTPSB, aside the not very flexible ubiquitous rules. Given that now all rules in global scope are ubiquitous to all scopes, HTTPSB's _"ubiquitous block rules"_ and _"ubiquitous allow rules"_ are gone, there is no more need for these.
+This z-axis evaluation mechanism did not exist in HTTPSB, aside the not very flexible _"ubiquitous rules"_. Given that now all rules in global scope are ubiquitous to all scopes, HTTPSB's _"ubiquitous block rules"_ and _"ubiquitous allow rules"_ are gone, there is no more need for these.
 
 A matrix cell can have one of three _colors_: red (blacklisted), green (whitelisted), or transparent (graylisted). Just like before. The difference is that now with µMatrix all the possible scope are evaluated from narrowest to broadest to find out the _color_ of a cell.
 
