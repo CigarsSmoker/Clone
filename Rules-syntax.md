@@ -1,6 +1,8 @@
 Rules is used in a broad sense here: let's rather call them "directives". Most directives will be rules, hence I used "Your rules" in the dashboard.
 
-Each line is a directive. Empty lines will be skipped. The `#` can be used for commenting, and for each line, the parser will ignore the first occurrence of `#` and everything following it.
+Each line is a directive. Empty lines will be skipped.
+
+The `#` character can be used for commenting, and for each line, the parser will ignore the first occurrence of `#` and everything following it.
 
 A directive starts with a directive keyword, immediately followed by the `:` which character is used to tell a parser that we are dealing with a directive keyword.
 
