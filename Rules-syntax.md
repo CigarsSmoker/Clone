@@ -10,5 +10,5 @@ In the documentation below the square brackets (`[]`) are used to denote optiona
 
 #### Directive `rules:` syntax
 
-[`rules:` {white spaces}] source hostname {white spaces} destination hostname {white spaces} [request type {white spaces} [action]]
+[`rules:` {white spaces}] _source hostname_ {white spaces} _destination hostname_ {white spaces} [_request type_ {white spaces} [_action_]]
 
