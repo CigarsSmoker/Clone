@@ -20,7 +20,7 @@ White spaces can be any number of space character or tab character.
 
 _source hostname_ is the context from which a net request is made, also known as the "scope". `*` can be used to denote "any context".
 
-_destination hostname_ is where the net request made. `*` can be used to denote "any destination".
+_destination hostname_ is where the net request is destined. `*` can be used to denote "any destination".
 
 _request type_ is the type of the net request. If omitted, the `*` type is assumed. Request type `*` means, "any type".
 
