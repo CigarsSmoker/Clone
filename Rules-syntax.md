@@ -42,3 +42,15 @@ or
 or
 
 `facebook.com facebook.net`
+
+#### Directive `switch:` syntax
+
+Force disable or enable matrix filtering for a specific scope. Syntax:
+
+`switch:` {white spaces} _source hostname_ {white spaces} _state_
+
+_source hostname_ is the context for which matrix filtering needs to be triggered on or off.
+
+_state_ can be one of `on` or `off` keyword.
+
+Reminder: narrower scopes inherit the matrix-filtering switch state from broader scopes. So if you disable matrix-filtering in the global scope (`*`), then matrix-filtering will be turned off for all scopes, unless a scope has an explicit override of the matrix-filtering switch.
