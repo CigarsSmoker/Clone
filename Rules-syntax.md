@@ -34,14 +34,10 @@ If _action_ is omitted, `allow` is used -- because µMatrix works is naturally d
 Allow net requests of any type to `facebook.net` only when they are made from within `facebook.com` context:
 
 `facebook.com facebook.net * allow`
-
-or
-
 `facebook.com facebook.net *`
-
-or
-
 `facebook.com facebook.net`
+
+The above rules all accomplish the same thing, as per default values.
 
 #### Directive `switch:` syntax
 
