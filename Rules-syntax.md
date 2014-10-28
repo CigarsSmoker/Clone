@@ -12,7 +12,7 @@ In the documentation below the square brackets (`[]`) are used to denote optiona
 
 #### Directive `rules:` syntax
 
-[`rules:` {white spaces}] _source hostname_ {white spaces} _destination hostname_ {white spaces} [_request type_ {white spaces} [_action_]]
+> [`rules:` {white spaces}] _source hostname_ {white spaces} _destination hostname_ {white spaces} [_request type_ {white spaces} [_action_]]
 
 `rules:` is implicit, you don't have to use it (actually, currently the parser will not work if you use it...)
 
@@ -45,7 +45,7 @@ The above rules all accomplish the same thing, as per default values.
 
 Force disable or enable matrix filtering for a specific scope. Syntax:
 
-`switch:` {white spaces} _source hostname_ {white spaces} _state_
+> `switch:` {white spaces} _source hostname_ {white spaces} _state_
 
 _source hostname_ is the context for which matrix filtering needs to be triggered on or off.
 
