@@ -6,8 +6,9 @@ A directive starts with a directive keyword, immediately followed by the `:` whi
 
 There are currently two directives: `rule:` and `switch:`. However, the `rule:` directive can be omitted, because it is implicit when there is no directive. Since most directives will be rules, it would be inconvenient to be forced to use `rule:` for each rule.
 
-In the documentation below the square brackets are used to denote optional fields.
+In the documentation below the square brackets are used to denote optional fields. Curly brackets are used to denote what should appear at a specific position.
 
 #### Directive `rules:` syntax
 
-[`rules:`] `source hostname` `destination hostname` [`request type` [action]]
+[`rules:`] {white spaces} source hostname {white spaces} destination hostname {white spaces} [request type {white spaces} [action]]
+
