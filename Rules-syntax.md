@@ -27,3 +27,18 @@ _action_ is what to do when a net request matches _source hostname_, _destinatio
 - `allow`: the request will be allowed (often referred as "whitelisted")
 - `inherit`: the action will be inherited from another cell in the matrix, as per cell inheritance logic. It's what is often referred as "graylisted".
 
+If _action_ is omitted, `allow` is used -- because µMatrix works is naturally deny-default mode at heart.
+
+##### Examples of valid rules
+
+Allow net requests of any type to `facebook.net` only when they are made from within `facebook.com` context:
+
+`facebook.com facebook.net * allow`
+
+or
+
+`facebook.com facebook.net *`
+
+or
+
+`facebook.com facebook.net`
