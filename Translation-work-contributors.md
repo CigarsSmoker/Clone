@@ -5,6 +5,8 @@
 - [German](https://crowdin.com/project/umatrix/de)
     - [https://crowdin.com/profile/lolmon100](lolmon100)
     - [tlu1024](https://crowdin.com/profile/tlu1024)
+- [Hebrew](https://crowdin.com/project/umatrix/he)
+    - [michael1993](https://crowdin.com/profile/michael1993)
 - [Portuguese, Brazilian](https://crowdin.com/project/umatrix/pt-BR)
     - [alemus](https://crowdin.com/profile/alemus)
     - [alexsilvalhp](https://crowdin.com/profile/alexsilvalhp)
