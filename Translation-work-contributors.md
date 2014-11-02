@@ -3,7 +3,7 @@
 - [French](https://crowdin.com/project/umatrix/fr)
     - [bedoncity](https://crowdin.com/profile/bedoncity)
 - [German](https://crowdin.com/project/umatrix/de)
-    - [https://crowdin.com/profile/lolmon100](lolmon100)
+    - [lolmon100](https://crowdin.com/profile/lolmon100)
     - [tlu1024](https://crowdin.com/profile/tlu1024)
 - [Hebrew](https://crowdin.com/project/umatrix/he)
     - [michael1993](https://crowdin.com/profile/michael1993)
