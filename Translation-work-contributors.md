@@ -7,6 +7,8 @@
     - [tlu1024](https://crowdin.com/profile/tlu1024)
 - [Hebrew](https://crowdin.com/project/umatrix/he)
     - [michael1993](https://crowdin.com/profile/michael1993)
+- [Italian](https://crowdin.com/project/umatrix/it)
+    - [salognicus](https://crowdin.com/profile/salognicus)
 - [Portuguese, Brazilian](https://crowdin.com/project/umatrix/pt-BR)
     - [alemus](https://crowdin.com/profile/alemus)
     - [alexsilvalhp](https://crowdin.com/profile/alexsilvalhp)
