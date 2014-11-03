@@ -18,7 +18,7 @@ In the documentation below the square brackets (`[]`) are used to denote optiona
 
 White spaces can be any number of space character or tab character.
 
-_source hostname_ is the context from which a net request is made, also known as the "scope". `*` can be used to denote any context, aka the _global scope_.
+_source hostname_ is the context from which a net request is made, also known as the "scope". `*` can be used to denote "any context", aka the _global scope_.
 
 _destination hostname_ is where the net request is destined. `*` can be used to denote "any destination".
 
