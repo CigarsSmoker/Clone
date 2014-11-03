@@ -1,4 +1,4 @@
-Rules is used in a broad sense here: let's rather call them "directives". Most directives will be rules, hence I used "Your rules" in the dashboard.
+Rules is used in a broad sense here: let's rather call them "directives". Most directives will be rules, hence I used _"My rules"_ in the dashboard.
 
 Each line is a directive. Empty lines will be skipped.
 
