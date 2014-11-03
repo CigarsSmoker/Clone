@@ -22,7 +22,7 @@ _source hostname_ is the context from which a net request is made, also known as
 
 _destination hostname_ is where the net request is destined. `*` can be used to denote "any destination".
 
-_request type_ is the type of the net request. If omitted, the `*` type is assumedand means "any type".
+_request type_ is the type of the net request. If omitted, the `*` type is assumed and means "any type".
 
 _action_ is what to do when a net request matches _source hostname_, _destination hostname_ and _request type_. Currently, the actions supported are:
 - `block`: the request will be prevented (often referred as "blacklisted")
