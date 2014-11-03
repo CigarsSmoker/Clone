@@ -31,7 +31,7 @@ _action_ is what to do when a net request matches _source hostname_, _destinatio
 
 If _action_ is omitted, `allow` is used -- because µMatrix is naturally deny-default mode at heart.
 
-##### Examples of valid rules
+##### Examples of rules
 
 Forbid all requests to `facebook.net`, but allow all net requests of any type to `facebook.net` only when they are made from within `facebook.com` context:
 
