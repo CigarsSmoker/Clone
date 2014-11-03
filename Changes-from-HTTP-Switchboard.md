@@ -5,8 +5,8 @@
 Main differences of µMatrix vs. HTTPSB explained below.
 
 - [Rules are no longer sandboxed within scopes](#rules-are-no-longer-sandboxed-within-scopes)
-- [No more restriction on effective domain boundaries](#no-more-restriction-on-effective-domain-boundaries)
 - [A new `1st-party` row](#a-new-1st-party-row)
+- [No more restriction on effective domain boundaries](#no-more-restriction-on-effective-domain-boundaries)
 - ["Ubiquitous rules" tab replaced by "Hosts files" tab](#ubiquitous-rules-tab-replaced-by-hosts-files-tab)
 - [Preset rulesets are gone for the time being](#ubiquitous-rules-tab-replaced-by-hosts-files-tab)
 
@@ -43,6 +43,16 @@ As a result, now creating rules in narrower scopes is the natural way to use µM
 
 For example, when using the browser's _"Translate to [Specific language]"_ option in the contextual menu, the browser will send a request to `translate.googleapis.com` to do the job. If you whitelist `xhr` for `translate.googleapis.com` in the global scope, then the feature to translate a page using the contextual menu will work in all scopes (that is, unless a explicit block rule exists in a narrower scope). This was not possible in HTTPSB, because rules in the global scopes were not visible to narrower scopes.
 
+#### A new `1st-party` row
+
+Related HTTPSB issue: [#221](https://github.com/gorhill/httpswitchboard/issues/221).
+
+In HTTPSB, if you wished to auto-whitelist the domain of the web page, you had to enable the setting _"Auto whitelist page domain"_. This setting is now gone, and a `1st-party` row is now used in the matrix to create whatever rules you want for net requests which are 1st-party to a web page.
+
+To auto-whitelist the domain of the web page is simply a matter of whitelisting the `1st-party` cell in the global scope. With just this one rule now all net requests which are 1st-party to a web page will be allowed (unless overriden by a narrower rule as usual). So as opposed to before with HTTPSB, no temporary rules are created to auto-whitelist: your ruleset is kept clean and tidy.
+
+Note that the `1st-party` row will be available in all scopes. The rules for that row are typically set in the global scope, but I chose to make it available in narrower scopes in case a user wants to override 1st-party rules in a narrower scope.
+
 #### No more restriction on effective domain boundaries
 
 Related HTTPSB issue: [#109](https://github.com/gorhill/httpswitchboard/issues/109).
@@ -69,16 +79,6 @@ There is no more concrete data structure for scopes in µMatrix: all scopes virt
 Al these settings are now gone.
 
 The scope selector in the matrix popup is simply used to select where a rule should be created. As a convenience, µMatrix will remember the scope level you selected and select it automatically next time you open the matrix popup.
-
-#### A new `1st-party` row
-
-Related HTTPSB issue: [#221](https://github.com/gorhill/httpswitchboard/issues/221).
-
-In HTTPSB, if you wished to auto-whitelist the domain of the web page, you had to enable the setting _"Auto whitelist page domain"_. This setting is now gone, and a `1st-party` row is now used in the matrix to create whatever rules you want for net requests which are 1st-party to a web page.
-
-To auto-whitelist the domain of the web page is simply a matter of whitelisting the `1st-party` cell in the global scope. With just this one rule now all net requests which are 1st-party to a web page will be allowed (unless overriden by a narrower rule as usual). So as opposed to before with HTTPSB, no temporary rules are created to auto-whitelist: your ruleset is kept clean and tidy.
-
-Note that the `1st-party` row will be available in all scopes. The rules for that row are typically set in the global scope, but I chose to make it available in narrower scopes in case a user wants to override 1st-party rules in a narrower scope.
 
 #### "Strict blocking" is now the only available mode
 
