@@ -8,6 +8,7 @@ Main differences of µMatrix vs. HTTPSB explained below.
 - [A new `1st-party` row](#a-new-1st-party-row)
 - [No more restriction on effective domain boundaries](#no-more-restriction-on-effective-domain-boundaries)
 - ["Ubiquitous rules" tab replaced by "Hosts files" tab](#ubiquitous-rules-tab-replaced-by-hosts-files-tab)
+- ["Scoped rules" tab replaced by "My rules" tab](#ubiquitous-rules-tab-replaced-by-hosts-files-tab)
 - [Preset rulesets are gone for the time being](#ubiquitous-rules-tab-replaced-by-hosts-files-tab)
 
 #### Rules are no longer sandboxed within scopes
@@ -96,9 +97,9 @@ All hostnames in selected hosts files are interpreted as blacklisted hostnames i
 
 Just as with µBlock, you can specify URLs to external hosts file-compliant resources.
 
-#### "Scoped rules" tab replaced by "Your rules" tab
+#### "Scoped rules" tab replaced by "My rules" tab
 
-Since now scopes are gone, the over-complicated _"Scoped rules"_ tab has been replace by the extremely simple _"Your rules"_ tab, which will allow you to plainly edit/add/remove rules manually if you wish.
+Since now scopes are gone, the over-complicated _"Scoped rules"_ tab has been replace by the extremely simple _"My rules"_ tab, which will allow you to plainly edit/add/remove rules manually if you wish.
 
 Further reading: [Rules-syntax](https://github.com/gorhill/uMatrix/wiki/Rules-syntax).
 
