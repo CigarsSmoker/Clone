@@ -33,10 +33,19 @@ If _action_ is omitted, `allow` is used -- because µMatrix is naturally deny-de
 
 ##### Examples of valid rules
 
-Allow net requests of any type to `facebook.net` only when they are made from within `facebook.com` context:
+Forbid all requests to `facebook.net`, but allow all net requests of any type to `facebook.net` only when they are made from within `facebook.com` context:
 
+`* facebook.net * block`<br>
 `facebook.com facebook.net * allow`<br>
+
+or
+
+`* facebook.net * block`<br>
 `facebook.com facebook.net *`<br>
+
+or
+
+`* facebook.net * block`<br>
 `facebook.com facebook.net`
 
 The above rules all accomplish the same thing, as per default values.
