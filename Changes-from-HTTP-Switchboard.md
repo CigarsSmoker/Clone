@@ -54,7 +54,7 @@ In short, with µMatrix, do whatever you want.
 
 In HTTPSB, scopes were mapped to discrete data structures internally, which were used to sandbox rules -- and as a consequence preventing scopes to inherit rules from broader scopes. There was a resource cost when creating a scope, and when evaluating a net request.
 
-There is no more concrete data structure for scopes in µMatrix: all scopes virtually exist, so in µMatrix there is no longer a resource cost associated with scope creation. This also eliminate the need for settings such as:
+There is no more concrete data structure for scopes in µMatrix: all scopes virtually exist at all time, so in µMatrix there is no longer a resource cost associated with scope creation -- because there is no scope creation. This also eliminate the need for settings such as:
 
 - _"Auto create temporary [domain | site]-level scope"_
 - _"Copy all rules from global scope into newly created local scopes"_
