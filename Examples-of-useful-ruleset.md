@@ -1,6 +1,12 @@
 #### Youtube
 
-    www.youtube.com accounts.google.com cookie allow
-    www.youtube.com plus.googleapis.com frame allow
-    www.youtube.com plus.googleapis.com script allow
-    www.youtube.com youtube.com cookie allow
+This worked for me:
+
+    youtube.com apis.google.com * allow
+    youtube.com apis.google.com frame allow
+    youtube.com googlevideo.com * allow
+    youtube.com plus.google.com * allow
+    youtube.com plus.google.com frame allow
+    youtube.com plus.googleapis.com * allow
+    youtube.com plus.googleapis.com frame allow
+    youtube.com ytimg.com script allow
