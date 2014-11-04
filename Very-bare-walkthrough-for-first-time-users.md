@@ -10,6 +10,6 @@ All rules in µMatrix apply to a specific scope. Above in the picture, the `*` i
 
 Since µMatrix works in block-all/allow-exceptionally out of the box, pretty much everything is blocked in the global scope, except for CSS-related resources and images.
 
-let's switch scope to `wired.com`: click the scope cell, and select `wired.com`. The matrix looks different now:
+Let's switch scope to `wired.com`: click the scope cell, and select `wired.com`. The matrix looks different now:
 
 ![`wired.com` scope](https://raw.githubusercontent.com/gorhill/uMatrix/master/doc/img/wired-walkthru-2.png)
