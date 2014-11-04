@@ -1,4 +1,6 @@
-Assuming out of the box ruleset.
+Assuming that you start with out of the box ruleset.
+
+To copy a specific ruleset below into your own ruleset, go to _"My rules"_ in the dashboard. When you click _Edit_, you will be able to freely edit your rules, so from there it is just a matter of copy any specific ruleset below and to paste it at the end of your list of rules, then click _Save_.
 
 #### Youtube
 
