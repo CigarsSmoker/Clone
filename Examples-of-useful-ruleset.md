@@ -5,7 +5,6 @@ To copy a specific ruleset below into your own ruleset, go to _"My rules"_ in th
 #### Github
 
     github.com ghconduit.com xhr allow
-    github.com github.com cookie allow
     github.com githubapp.com * allow
     github.com raw.githubusercontent.com * allow
     github.com render.githubusercontent.com * allow
