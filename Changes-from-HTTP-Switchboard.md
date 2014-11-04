@@ -7,7 +7,7 @@ Main differences of µMatrix vs. HTTPSB explained below.
 - [Rules are no longer sandboxed within scopes](#rules-are-no-longer-sandboxed-within-scopes)
 - [A new `1st-party` row](#a-new-1st-party-row)
 - [No more restriction on effective domain boundaries](#no-more-restriction-on-effective-domain-boundaries)
-- [There is no longer scope data structures internally](#there-is-no-longer-scope-data-structures-internally)
+- [There is no longer "scope" data structures internally](#there-is-no-longer-scope-data-structures-internally)
 - ["Strict blocking" is now the only available mode](#strict-blocking-is-now-the-only-available-mode)
 - ["Ubiquitous rules" tab replaced by "Hosts files" tab](#ubiquitous-rules-tab-replaced-by-hosts-files-tab)
 - ["Scoped rules" tab replaced by "My rules" tab](#scoped-rules-tab-replaced-by-my-rules-tab)
