@@ -20,4 +20,5 @@ Even if you blocked all things Google in the global scope, Youtube will work jus
 #### Twitch TV
 
     twitch.tv api.swiftype.com script allow
-    twitch.tv jtvnw.net * allow
+    twitch.tv jtvnw.net plugin allow
+    twitch.tv jtvnw.net script allow
