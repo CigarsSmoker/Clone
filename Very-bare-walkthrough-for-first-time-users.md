@@ -16,4 +16,4 @@ Let's switch scope to `wired.com`: click the scope cell, and select `wired.com`.
 
 Here we see that in the `wired.com` scope, net requests which originate from within the `wired.com` domain are all allowed. (Except for `cookie`, that is my personal setting and I forgot to remove it before taking the screenshots.)
 
-This is because of the `1st-party` row: the cell in this row are used to tell what to do with net requests which are 1st-party to the URL address of the current page.
+This is because of the `1st-party` row: the cells in this row are used to tell what to do with net requests which are 1st-party to the URL address of the current page.
