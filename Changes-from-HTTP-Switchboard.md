@@ -87,7 +87,7 @@ The scope selector in the matrix popup is simply used to select where a rule sho
 
 There was not much real use for disabling "strict blocking", except for when a user wanted to fully auto-whitelist 1st-party requests when `frame` (or whatever request type) was globally blacklisted (blacklisting 3rd-party `frame` is a good habit security-wise).
 
-Now with the `1st-party` row, it's just a matter of whitelisting `* 1st-party frame`, which will override the global blacklisting of the `frame` type, and thus it has become possible to fully whitelist a domain despite the presence of blacklisted types.
+Now with the `1st-party` row, it's just a matter of whitelisting `* 1st-party frame`, which will override the global blacklisting of the `frame` type, and thus it has become possible to fully whitelist a domain despite the presence of blacklisted request types.
 
 So _"Enable strict blocking"_ is now gone, and strict blocking is how the matrix naturally works.
 
