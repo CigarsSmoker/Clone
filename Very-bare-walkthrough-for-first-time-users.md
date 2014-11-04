@@ -14,6 +14,6 @@ Let's switch scope to `wired.com`: click the scope cell, and select `wired.com`.
 
 ![`wired.com` scope](https://raw.githubusercontent.com/gorhill/uMatrix/master/doc/img/wired-walkthru-2.png)
 
-Here we see that in the `wired.com` scope, net requests which originate from within the wired.com domain are all allowed.
+Here we see that in the `wired.com` scope, net requests which originate from within the `wired.com` domain are all allowed.
 
 This is because of the `1st-party` row: the cell in this row are used to tell what to do with net requests which are 1st-party to the URL address of the current page.
