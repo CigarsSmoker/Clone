@@ -8,7 +8,7 @@ The top-most left-most cell is the currently selected **scope**. The currently s
 
 All rules in µMatrix apply to a specific scope. Above in the picture, the `*` is selected. The `*` is the global scope. The global scope contains rules which applies **everywhere**, on every page you visit.
 
-Since µMatrix works in block-all/allow-exceptionally out of the box, pretty much everything is blocked in the global scope, except for CSS-related resources and images.
+Since µMatrix works in block-all/allow-exceptionally out of the box, pretty much everything is blocked in the global scope, except for CSS-related and image resources.
 
 Let's switch scope to `wired.com`: click the scope cell, and select `wired.com`. The matrix looks different now:
 
