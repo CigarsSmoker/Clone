@@ -6,7 +6,7 @@ The `#` character can be used for commenting, and for each line, the parser will
 
 A directive starts with a directive keyword, immediately followed by the `:` which character is used to tell a parser that we are dealing with a directive keyword.
 
-There are currently two directives: `rule:` and `switch:`. However, the `rule:` directive can be omitted, because it is implicit when there is no directive. Since most directives will be rules, it would be inconvenient to be forced to use `rule:` for each rule.
+There are currently two directives: `rule:` and `matrix:`. However, the `rule:` directive can be omitted, because it is implicit when there is no directive. Since most directives will be rules, it would be inconvenient to be forced to use `rule:` for each rule.
 
 In the documentation below the square brackets (`[]`) are used to denote optional fields. Curly brackets (`{}`) are used to denote what should appear at a specific position.
 
@@ -50,11 +50,11 @@ or
 
 The above rules all accomplish the same thing, as per default values.
 
-#### Directive `switch:` syntax
+#### Directive `matrix:` syntax
 
 Force disable or enable matrix filtering for a specific scope. Syntax:
 
-> `switch:` {white spaces} _source hostname_ {white spaces} _state_
+> `matrix:` {white spaces} _source hostname_ {white spaces} _state_
 
 _source hostname_ is the context for which matrix filtering needs to be triggered on or off.
 
