@@ -12,7 +12,7 @@ In the documentation below the square brackets (`[]`) are used to denote optiona
 
 #### Directive `rule:` syntax
 
-> [`rule:` {white spaces}] _source hostname_ {white spaces} _destination hostname_ {white spaces} [_request type_ {white spaces} [_action_]]
+> _source hostname_ {white spaces} _destination hostname_ {white spaces} [_request type_ {white spaces} [_action_]]
 
 `rule:` is implicit, you don't have to use it (actually, currently the parser will not work if you use it...)
 
