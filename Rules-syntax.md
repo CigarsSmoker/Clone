@@ -10,11 +10,11 @@ There are currently two directives: `rule:` and `matrix:`. However, the `rule:` 
 
 In the documentation below the square brackets (`[]`) are used to denote optional fields. Curly brackets (`{}`) are used to denote what should appear at a specific position.
 
-#### Directive `rules:` syntax
+#### Directive `rule:` syntax
 
-> [`rules:` {white spaces}] _source hostname_ {white spaces} _destination hostname_ {white spaces} [_request type_ {white spaces} [_action_]]
+> [`rule:` {white spaces}] _source hostname_ {white spaces} _destination hostname_ {white spaces} [_request type_ {white spaces} [_action_]]
 
-`rules:` is implicit, you don't have to use it (actually, currently the parser will not work if you use it...)
+`rule:` is implicit, you don't have to use it (actually, currently the parser will not work if you use it...)
 
 White spaces can be any number of space character or tab character.
 
