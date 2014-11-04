@@ -81,7 +81,7 @@ There is no more concrete data structure for scopes in µMatrix: all scopes virt
 
 Al these settings are now gone.
 
-The scope selector in the matrix popup is simply used to select where a rule should be created. As a convenience, µMatrix will remember the scope level you selected and select it automatically next time you open the matrix popup.
+The scope selector in the matrix popup is simply used to select where a rule should be created. As a convenience, µMatrix will remember the scope level you last selected and select it automatically next time you open the matrix popup.
 
 #### "Strict blocking" is now the only available mode
 
