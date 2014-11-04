@@ -101,7 +101,7 @@ Just as with µBlock, you can specify URLs to external hosts file-compliant reso
 
 #### "Scoped rules" tab replaced by "My rules" tab
 
-Since now scopes are gone, the over-complicated _"Scoped rules"_ tab has been replaced by the simpler _"My rules"_ tab, which will allow you to plainly edit/add/remove rules manually if you wish.
+Since now scopes are gone, the over-complicated _"Scoped rules"_ tab has been replaced by the simpler _"My rules"_ tab, which will allow you to plainly edit/add/remove rules, manually if you wish.
 
 Further reading: [Rules-syntax](https://github.com/gorhill/uMatrix/wiki/Rules-syntax).
 
