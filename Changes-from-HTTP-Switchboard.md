@@ -15,6 +15,8 @@ Main differences of µMatrix vs. HTTPSB explained below.
 
 Related HTTPSB issue: [#115](https://github.com/gorhill/httpswitchboard/issues/115), [#227](https://github.com/gorhill/httpswitchboard/issues/227).
 
+Scopes are now fully layered exactly as how [this user expected them to be](https://github.com/gorhill/httpswitchboard/issues/227) in HTTP Switchboard (they were not).
+
 The matrix is now conceptually 3d:
 - Z is the source hostname axis (aka "scope"), from narrower scopes to global scope
 - X is the request type axis: `*`, `cookie`, `css`, etc.
