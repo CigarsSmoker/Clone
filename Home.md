@@ -1,2 +1,3 @@
 - [Changes from HTTP Switchboard](https://github.com/gorhill/uMatrix/wiki/Changes-from-HTTP-Switchboard)
 - [Examples of useful ruleset](https://github.com/gorhill/uMatrix/wiki/Examples-of-useful-ruleset)
+- [Translation work contributors](https://github.com/gorhill/uMatrix/wiki/Translation-work-contributors)
