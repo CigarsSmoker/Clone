@@ -1,4 +1,4 @@
-Images are way easier than wall of texts to explain how µMatrix works. So let's visit [wired.com](https://wired.com).
+Images are way easier than walls of text to explain how µMatrix works. So let's visit [wired.com](https://wired.com).
 
 When you first visit [wired.com](https://wired.com), open the matrix:
 
