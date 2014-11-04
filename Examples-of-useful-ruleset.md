@@ -16,3 +16,8 @@ This worked for me:
     youtube.com ytimg.com * allow
 
 Even if you blocked all things Google in the global scope, Youtube will work just find with these rules.
+
+#### Twitch TV
+
+    twitch.tv api.swiftype.com script allow
+    twitch.tv jtvnw.net * allow
