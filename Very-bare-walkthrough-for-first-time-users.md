@@ -1,3 +1,9 @@
 Images are way easier than wall of texts to explain how µMatrix works. So let's visit [wired.com](https://wired.com).
 
+When you first visit [wired.com](https://wired.com), open the matrix:
+
 ![Global scope](https://raw.githubusercontent.com/gorhill/uMatrix/master/doc/img/wired-walkthru-1.png)
+
+The top-most left-most cell is the **scope**.
+
+All rules in µMatrix apply to a specific scope. Above in the picture, the `*` is selected. The `*` is the global scope. The global scope contains rules which applies **everywhere**, on every page you visit.
