@@ -1,5 +1,7 @@
-If you chose to use µBlock with µMatrix, it is suggested:
+If you chose to use µBlock with µMatrix, here are suggestions:
 
-To un-select all malware-domain lists in µBlock if the same lists are selected in µMatrix. µMatrix is more hardcore when it comes to block net requests from undesirable remote servers: when a hostname is blacklisted, even the root document will be prevented from downloading, while µBlock will only block secondary resources -- as per ABP-filter semantic.
+Un-select all _"Malware domains"_ lists in µBlock if the same lists are selected in µMatrix. µMatrix is more hardcore when it comes to block net requests from undesirable remote servers: when a hostname is blacklisted, even the root document will be prevented from downloading, while µBlock will only block secondary resources -- as per ABP-filter semantic.
 
-To no not use dynamic filtering for `script` tags in µBlock. The Chrome API allows only one extension to modify outgoing and incoming HTTP headers, and thus it is better to make sure µMatrix has full control of the HTTP headers. So make sure µBlock gets out of the way of µMatrix by disabling dynamic filtering for `script` tags. You can keep dynamic filtering for `iframe` enabled in µBlock if you wish though, there is no harm.
+Do not use dynamic filtering for `script` tags in µBlock. The Chrome API allows only one extension to modify outgoing and incoming HTTP headers, and thus it is better to make sure µMatrix has full control of the HTTP headers. So make sure µBlock gets out of the way of µMatrix by disabling dynamic filtering for `script` tags. You can keep dynamic filtering for `iframe` enabled in µBlock if you wish though, there is no harm.
+
+Keep in mind µMatrix and µBlock are two different extensions. Each can be use as a standalone extension, you do not have to use one if you use the other. µBlock is for everybody, µMatrix is for advanced users who understand that sites will easily break when using a firewall, and have good knowledge of how to un-break sites by editing firewall ruleset.
