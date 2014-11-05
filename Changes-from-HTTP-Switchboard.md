@@ -1,4 +1,4 @@
-µMatrix and [µBlock](https://github.com/gorhill/uBlock) are both spin-off of [HTTP Switchboard](https://github.com/gorhill/httpswitchboard) ("HTTPSB"). They both improve significantly on HTTPSB.
+µMatrix and [µBlock](https://github.com/gorhill/uBlock) are both spin-off of [HTTP Switchboard](https://github.com/gorhill/httpswitchboard) ("HTTPSB"). They both improve significantly on HTTPSB. Essentially, HTTPSB is the fancy prototype, proof of concept to test many ideas. µMatrix and µBlock are the final products.
 
 µMatrix inherited the task of matrix-based filtering, while µBlock inherited the task of pattern-based filtering.
 
@@ -17,7 +17,9 @@ Main differences of µMatrix vs. HTTPSB explained below.
 
 Related HTTPSB issue: [#115](https://github.com/gorhill/httpswitchboard/issues/115), [#227](https://github.com/gorhill/httpswitchboard/issues/227).
 
-Scopes are now fully layered exactly as how [this user expected them to be](https://github.com/gorhill/httpswitchboard/issues/227) in HTTP Switchboard (they were not).
+With HTTPSB, if you created a rule in the global scope to block all from `addthis.com`, narrower scopes would not be aware of that rule: a user would have to re-create the rule in each and every narrower scopes. This is because originally scopes didn't exist in HTTPSB, _scoping_ was slapped on top of the existing infra-structure at some point during development. In µMatrix, the infrastructure has been rewritten from the ground up with scoping as a core feature. So with µMatrix, adding a block rule for `addthis.com` in the global scope will cause `addthis.com` to be blocked everywhere, in all scopes (as usual, unless a more specific rule override the broader rule).
+
+So scopes are now fully layered exactly as how [this user expected them to be](https://github.com/gorhill/httpswitchboard/issues/227) in HTTP Switchboard (they were not).
 
 The matrix is now conceptually 3d:
 - Z is the source hostname axis (aka "scope"), from narrower scopes to global scope
