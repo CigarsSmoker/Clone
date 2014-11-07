@@ -58,5 +58,5 @@ Even if you blocked all things Google in the global scope, Youtube will work jus
 
 This one is useful when you click on a blocked Youtube embedded in a frame on a 3rd-party page (click the label). It worked for me.
 
-youtube-nocookie.com googlevideo.com xhr allow
-youtube-nocookie.com ytimg.com * allow
+    youtube-nocookie.com googlevideo.com xhr allow
+    youtube-nocookie.com ytimg.com * allow
