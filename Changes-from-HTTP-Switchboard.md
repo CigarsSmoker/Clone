@@ -32,7 +32,7 @@ There is now only one flat data structure to hold all the matrix rules, and all 
 
 When a request needs to be evaluated, µMatrix will find out from which web page the request originate. The hostname of the URL address of the web page will be extracted and used as the `source-hostname` component. The hostname of the URL address of the request will be extracted and used as the `destination-hostname` component.
 
-µMatrix will then try to find an explicit rule which match exactly `source-hostname destination-hostname, request-type`. If no explicit rule is found, µMatrix will derive a broader scope from `source-hostname` and try again to find an explicit rule in that broader scope. Eventually, the broadest scope possible is reached, which is `source-hostname` being `*`: the global scope.
+µMatrix will then try to find an explicit rule which match exactly `source-hostname`, `destination-hostname`, and `request-type`. If no explicit rule is found, µMatrix will derive a broader scope from `source-hostname` and try again to find an explicit rule in that broader scope. Eventually, the broadest scope possible is reached, which is `source-hostname` being `*`: the global scope.
 
 This z-axis evaluation mechanism did not exist in HTTPSB, aside the not very flexible _"ubiquitous rules"_. Given that now all rules in global scope are ubiquitous to all scopes, HTTPSB's _"ubiquitous block rules"_ and _"ubiquitous allow rules"_ are gone, there is no more need for these.
 
