@@ -2,7 +2,7 @@ Assuming that you start with out of the box ruleset.
 
 To copy a specific ruleset below into your own ruleset, go to _"My rules"_ in the dashboard. When you click _Edit_, you will be able to freely edit your rules, so from there it is just a matter of copying any specific ruleset below and pasting at the end of your list of rules, then click _Save_.
 
-#### facebook.com ONLY on Facebook, blocked everywhere else
+#### facebook.* ONLY on Facebook, blocked everywhere else
 
     * facebook.com * block
     * facebook.net * block
