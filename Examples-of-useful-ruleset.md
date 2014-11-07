@@ -2,7 +2,7 @@ Assuming that you start with out of the box ruleset.
 
 To copy a specific ruleset below into your own ruleset, go to _"My rules"_ in the dashboard. When you click _Edit_, you will be able to freely edit your rules, so from there it is just a matter of copying any specific ruleset below and pasting at the end of your list of rules, then click _Save_.
 
-#### Facebook ONLY on Facebook
+#### facebook.com ONLY on Facebook, blocked everywhere else
 
     * facebook.com * block
     * facebook.net * block
@@ -11,7 +11,7 @@ To copy a specific ruleset below into your own ruleset, go to _"My rules"_ in th
 
 Probably needs more rules, but I don't have a Facebook account, can't tell. But for those without a Facebook account, this worked good enough to browse Facebook pages.
 
-#### Github
+#### github.com
 
     github.com ghconduit.com xhr allow
     github.com githubapp.com * allow
@@ -21,7 +21,7 @@ Probably needs more rules, but I don't have a Facebook account, can't tell. But 
     github.com s3.amazonaws.com other allow
     github.com s3.amazonaws.com xhr allow
 
-#### Skyscraper Live
+#### skyscraperlive.com
 
     skyscraperlive.com brightcove.com plugin allow
     skyscraperlive.com brightcove.com script allow
@@ -33,13 +33,13 @@ Probably needs more rules, but I don't have a Facebook account, can't tell. But 
     skyscraperlive.com ustream.tv script allow
     skyscraperlive.com www.ustream.tv frame allow
 
-#### Twitch TV
+#### twitch.tv
 
     twitch.tv api.swiftype.com script allow
     twitch.tv jtvnw.net plugin allow
     twitch.tv jtvnw.net script allow
 
-#### Youtube
+#### youtube.com
 
 This worked for me:
 
@@ -53,3 +53,10 @@ This worked for me:
     youtube.com ytimg.com * allow
 
 Even if you blocked all things Google in the global scope, Youtube will work just fine with these rules.
+
+#### youtube-nocookie.com
+
+This one is useful when you click on a blocked Youtube embedded in a frame on a 3rd-party page (click the label). It worked for me.
+
+youtube-nocookie.com googlevideo.com xhr allow
+youtube-nocookie.com ytimg.com * allow
