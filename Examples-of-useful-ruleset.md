@@ -2,6 +2,15 @@ Assuming that you start with out of the box ruleset.
 
 To copy a specific ruleset below into your own ruleset, go to _"My rules"_ in the dashboard. When you click _Edit_, you will be able to freely edit your rules, so from there it is just a matter of copying any specific ruleset below and pasting at the end of your list of rules, then click _Save_.
 
+#### Facebook **only** on Facebook
+
+    * facebook.com * block
+    * facebook.net * block
+    facebook.com facebook.com * allow
+    facebook.com fbstatic-a.akamaihd.net * allow
+
+Probably needs more rules, but I don't have a Facebook account, can't tell. But for those without a Facebook account, this worked good enough to browse Facebook pages.
+
 #### Github
 
     github.com ghconduit.com xhr allow
