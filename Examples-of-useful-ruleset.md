@@ -21,6 +21,18 @@ Probably needs more rules, but I don't have a Facebook account, can't tell. But 
     github.com s3.amazonaws.com other allow
     github.com s3.amazonaws.com xhr allow
 
+#### Skyscraper Live
+
+    skyscraperlive.com brightcove.com plugin allow
+    skyscraperlive.com brightcove.com script allow
+    skyscraperlive.com c.brightcove.com plugin allow
+    skyscraperlive.com connect.facebook.net script allow
+    skyscraperlive.com discintlhdflash-f.akamaihd.net plugin allow
+    skyscraperlive.com platform.twitter.com script allow
+    skyscraperlive.com ustream.tv plugin allow
+    skyscraperlive.com ustream.tv script allow
+    skyscraperlive.com www.ustream.tv frame allow
+
 #### Twitch TV
 
     twitch.tv api.swiftype.com script allow
