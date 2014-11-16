@@ -69,7 +69,7 @@ Unlike HTTPSB, µMatrix does not enforce effective domain boundary for rules. Th
 For example, the rules...
 
 - `* biz * block`: will block all net requests which are made to a hostname which ends with `.biz`.
-- `org * * block`: will allow everything whenever the scope ends with `.org` (just an example, that would not be a recommended thing to do).
+- `org * * allow`: will allow everything whenever the scope ends with `.org` (just an example, that would not be a recommended thing to do).
 
 In short, with µMatrix, do whatever you want.
 
