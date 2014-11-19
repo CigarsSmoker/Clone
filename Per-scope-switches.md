@@ -10,4 +10,6 @@ The per-scope switches layer just like matrix rules layer.
 
 Following is a list of the currently existing per-scope switches.
 
+#### Strict HTTPS
+
 #### User agent spoofing
