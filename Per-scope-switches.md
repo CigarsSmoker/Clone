@@ -30,7 +30,7 @@ To witness _"Strict HTTPS"_ at work, visit the encrypted version of Wired's [Thr
 
 When _"Strict HTTPS"_ is turned on, you can see in the above example the browser refusing to process all non-HTTPS connections -- to `kasperskyhub.staging.wpengine.com` in the above case.
 
-Since the unencrypted connection is not even attempted by the browser, this prevents µMatrix to account for these aborted connection, and thus they won't be reported in the matrix. But you can see them using the developer console.
+Since the unencrypted connection is not even attempted by the browser, this prevents µMatrix to account for these skipped connections, and thus they won't be reported in the matrix. But you can see them using the developer console.
 
 ***
 
