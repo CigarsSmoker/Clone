@@ -14,6 +14,14 @@ Following is a list of the currently existing per-scope switches.
 
 #### Strict HTTPS
 
+When the _"Strict HTTPS"_ switch is turned on, mixed content will be forbidden.
+
+To witness _"Strict HTTPS"_ at work, visit the encrypted version of Wired's [Threat Post](https://threatpost.com/), which suffers (at time of writing, 2014-11) from mixed content:
+
+![Mixed content foiled](https://raw.githubusercontent.com/gorhill/uMatrix/master/doc/img/strict-https-at-work.png)
+
+When _"Strict HTTPS"_ is turned on, you can see the browser refusing to process all non-HTTPS connections.
+
 #### User agent spoofing
 
 
