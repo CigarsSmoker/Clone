@@ -14,7 +14,7 @@ Following is a list of the currently existing per-scope switches.
 
 ***
 
-#### Strict HTTPS
+### Strict HTTPS
 
 First, if you are not familiar with what is "mixed content", here are some places to learn more about it:
 
@@ -32,9 +32,9 @@ When _"Strict HTTPS"_ is turned on, you can see in the above example the browser
 
 ***
 
-#### User agent spoofing
+### User agent spoofing
 
 
 ***
 
-#### Referrer spoofing
+### Referrer spoofing
