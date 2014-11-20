@@ -13,3 +13,6 @@ Following is a list of the currently existing per-scope switches.
 #### Strict HTTPS
 
 #### User agent spoofing
+
+
+#### Referrer spoofing
