@@ -16,6 +16,12 @@ Following is a list of the currently existing per-scope switches.
 
 #### Strict HTTPS
 
+First, if you are not familiar with what is "mixed content", here are some places to learn more about it:
+
+- [Mozilla Developer Network: Mixed Content](https://developer.mozilla.org/en-US/docs/Security/MixedContent)
+- [Qualys Blog: HTTPS Mixed Content: Still the Easiest Way to Break SSL](https://community.qualys.com/blogs/securitylabs/2014/03/19/https-mixed-content-still-the-easiest-way-to-break-ssl)
+- [W3C: Mixed Content](https://w3c.github.io/webappsec/specs/mixedcontent/)
+
 When the _"Strict HTTPS"_ switch is turned on, mixed content will be forbidden.
 
 To witness _"Strict HTTPS"_ at work, visit the encrypted version of Wired's [Threat Post](https://threatpost.com/), which suffers (at time of writing, 2014-11) from mixed content:
