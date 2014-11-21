@@ -47,3 +47,5 @@ User agent spoofing has been transformed from global setting into a per-scope se
 Similarly, referrer spoofing has been transformed from global setting into a per-scope setting, so that you can now disable/enable it specifically on a per-scope basis. The setting in the _Privacy_ tab is still there, and its purpose is to control referrer spoofing for the global scope (`*`).
 
 The logic behind referrer spoofing is simpler now: it's whether the switch referrer spoofing is turned on, and whether the domain of the referrer URL is third-party to the domain of the request URL. Whether the domain of the URL of a request is whitelisted is now irrelevant.
+
+Also, notice that now I use the term "spoofing". Whereas before the referrer string was blanked, the referrer information will now be foiled will now be replaced by the root URL derived from the URL of the request. For example, if the URL of a request is `http://www.example.com/blahblahblah/boring.html` and the referrer is `http://google.com`, the referrer will be spoofed using the `http://www.example.com/` string.
