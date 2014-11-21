@@ -16,6 +16,8 @@ Following is a list of the currently existing per-scope switches.
 
 ### Strict HTTPS
 
+**Edit 2014-11-21:** After I updated to Chromium 38 yesterday, I just found out that now apparently Chromium forbid mixed content by default. When there is mixed content on a web page, a little shield icon will in the address bar. This is great, and this kind of render the new _"Strict HTTPS"_ switch here useless. I still have to see if does this completely for all types of requests, but I expect it to be the case. Given this, I may remove the _"Strict HTTPS"_ switch before release if it ends up not having a purpose anymore.
+
 First, if you are not familiar with what is "mixed content", here are some places to learn more about it:
 
 - [Mozilla Developer Network: Mixed Content](https://developer.mozilla.org/en-US/docs/Security/MixedContent)
