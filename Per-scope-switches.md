@@ -44,7 +44,7 @@ When the _"Strict HTTPS"_ switch is turned on, mixed content will be forbidden.
 
 _"Strict HTTPS"_ is more then to just protect MITM attack. Without _"Strict HTTPS"_, data-mining by 3rd-parties can still occur, as evil ISPs like Verizon et al. could still inject tagging information in the HTTP headers of outgoing net requests which are not done through encrypted connections.
 
-After I updated to Chromium 38 on 2014-11-21, I found out that Chromium 38 forbids mixed content by default. When there is mixed content on a web page, a little shield icon will appear in the address bar, and a user may click on it to load the content which was forbidden from loading natively by the browser. However, as [investigated by a user](https://github.com/gorhill/uMatrix/issues/67), this does not apply to image, video and audio resources.
+After I updated to Chromium 38 on 2014-11-21, I found out that Chromium 38 forbids **some** mixed content by default. When there is mixed content on a web page, a little shield icon will appear in the address bar, and a user may click on it to load the content which was forbidden from loading natively by the browser. However, as [investigated by a user](https://github.com/gorhill/uMatrix/issues/67), this [does not apply to image, video and audio resources](https://www.bennish.net/mixed-content.html).
 
 To witness _"Strict HTTPS"_ at work, visit the encrypted version of Wired's [Threat Post](https://threatpost.com/), which suffers (at time of writing, 2014-11) from mixed content:
 
