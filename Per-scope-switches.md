@@ -20,15 +20,15 @@ The per-scope switches layer just like matrix rules layer.
 
 User agent spoofing has been transformed from a global setting into a per-scope setting, so that you can now disable/enable it specifically on a per-scope basis.
 
-The setting in the _Privacy_ tab is still there, and its purpose is to control user agent spoofing for the global scope (`*`).
+The setting in the _Privacy_ tab is still there, and its purpose is to control user agent spoofing for the global scope (`*`). Since narrower scopes will inherit the switch state from a broader scope, this means the global scope switch still act as a global setting, difference being that now the switch state can be overridden in a narrower scope.
 
 ***
 
 ### Referrer spoofing
 
-Similarly, referrer spoofing has been transformed from global setting into a per-scope setting, so that you can now disable/enable it specifically on a per-scope basis.
+Similarly, referrer spoofing has been transformed from a global setting into a per-scope setting, so that you can now disable/enable it specifically on a per-scope basis.
 
-The setting in the _Privacy_ tab is still there, and its purpose is to control referrer spoofing for the global scope (`*`).
+The setting in the _Privacy_ tab is still there, and its purpose is to control referrer spoofing for the global scope (`*`). Since narrower scopes will inherit the switch state from a broader scope, this means the global scope switch still act as a global setting, difference being that now the switch state can be overridden in a narrower scope.
 
 The logic behind referrer spoofing is simpler now: it's whether the switch referrer spoofing is turned on, and whether the domain of the referrer URL is third-party to the domain of the request URL. Whether the domain of the URL of a request is whitelisted is now irrelevant.
 
