@@ -11,8 +11,8 @@ The per-scope switches layer just like matrix rules layer.
 ### The per-scope switches
 
 - [User agent spoofing](#user-agent-spoofing)
-- [User agent spoofing](#referrer-spoofing)
-- [User agent spoofing](#strict-https)
+- [Referrer spoofing](#referrer-spoofing)
+- [Strict HTTPS](#strict-https)
 
 ***
 
