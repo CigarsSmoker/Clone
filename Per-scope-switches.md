@@ -10,7 +10,7 @@ The per-scope switches layer just like matrix rules layer.
 
 ### The per-scope switches
 
-Following is a list of the currently existing per-scope switches.
+- [User agent spoofing](#User-agent-spoofing)
 
 ***
 
