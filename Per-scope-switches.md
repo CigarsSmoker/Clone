@@ -42,6 +42,8 @@ First, if you are not familiar with what is "mixed content", here are some place
 
 When the _"Strict HTTPS"_ switch is turned on, mixed content will be forbidden.
 
+_"Strict HTTPS"_ is more then to just protect MITM attack. Without _"Strict HTTPS"_, data-mining by 3rd-parties can still occur, as evil ISPs like Verizon et al. could still inject tagging information in the HTTP headers of outgoing net requests which are not done through encrypted connections.
+
 To witness _"Strict HTTPS"_ at work, visit the encrypted version of Wired's [Threat Post](https://threatpost.com/), which suffers (at time of writing, 2014-11) from mixed content:
 
 ![Mixed content foiled](https://raw.githubusercontent.com/gorhill/uMatrix/master/doc/img/strict-https-at-work.png)
