@@ -1,0 +1,1 @@
+![Suggested settings](https://raw.githubusercontent.com/gorhill/uMatrix/master/doc/img/chromium-privacy-settings.png)
