@@ -11,6 +11,7 @@ Main differences of µMatrix vs. HTTPSB explained below.
 - ["Strict blocking" is now the only available mode](#strict-blocking-is-now-the-only-available-mode)
 - ["Ubiquitous rules" tab replaced by "Hosts files" tab](#ubiquitous-rules-tab-replaced-by-hosts-files-tab)
 - ["Scoped rules" tab replaced by "My rules" tab](#scoped-rules-tab-replaced-by-my-rules-tab)
+- [Per-scope switches](#per-scope-switches)
 - [Preset rulesets are gone for the time being](#ubiquitous-rules-tab-replaced-by-hosts-files-tab)
 
 #### Rules are no longer sandboxed within scopes
@@ -108,6 +109,10 @@ Just as with µBlock, you can specify URLs to external hosts file-compliant reso
 Since now scopes are gone, the over-complicated _"Scoped rules"_ tab has been replaced by the simpler _"My rules"_ tab, which will allow you to plainly edit/add/remove rules, manually if you wish.
 
 Further reading: [Rules-syntax](https://github.com/gorhill/uMatrix/wiki/Rules-syntax).
+
+#### Per-scope switches
+
+Ability to enable/disable user agent-spoofing and referrer spoofing on a per-scope basis. These settings applied only globally in HTTP Switchboard. They still apply globally, but they can now be overridden on a per-scope basis.
 
 #### Preset rulesets are gone for the time being
 
