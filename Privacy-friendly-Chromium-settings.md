@@ -1,5 +1,7 @@
 ![Suggested settings](https://raw.githubusercontent.com/gorhill/uMatrix/master/doc/img/chromium-privacy-settings.png)
 
+Un-checking options in the _Privacy_ is a good idea if privacy is a primary concern.
+
 ![Suggested settings](https://raw.githubusercontent.com/gorhill/uMatrix/master/doc/img/chromium-about-blank.png)
 
 To prevent _"New tab"_ from making any outbound network connection, you can select any search engine other then Google. You can even create a fake search engine using the `about:blank` page, which will be used when creating a _"New tab"_.
