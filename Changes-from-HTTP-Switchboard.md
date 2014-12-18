@@ -37,7 +37,7 @@ When a request needs to be evaluated, µMatrix will find out from which web page
 
 This z-axis evaluation mechanism did not exist in HTTPSB, aside the not very flexible _"ubiquitous rules"_. Given that now all rules in global scope are ubiquitous to all scopes, HTTPSB's _"ubiquitous block rules"_ and _"ubiquitous allow rules"_ are gone, there is no more need for these.
 
-A matrix cell can have one of three _colors_: red (blacklisted), green (whitelisted), or transparent (graylisted). Just like before. The difference is that now with µMatrix all the possible scopes are evaluated from narrowest to broadest to find out the _color_ of a cell.
+A matrix cell can have one of three _colors_: red (blacklisted), green (whitelisted), or no color (graylisted). Just like before. The difference is that now with µMatrix all the possible scopes are evaluated from narrowest to broadest to find out the _color_ of a cell.
 
 Once the color is found, the matrix functions just the same as in HTTPSB, i.e. the matrix inheritance model is the same (that would be the X and Y part of the evaluation).
 
