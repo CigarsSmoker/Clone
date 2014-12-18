@@ -18,7 +18,7 @@ Main differences of µMatrix vs. HTTPSB explained below.
 
 Related HTTPSB issue: [#115](https://github.com/gorhill/httpswitchboard/issues/115), [#227](https://github.com/gorhill/httpswitchboard/issues/227).
 
-With HTTPSB, if you created a rule in the global scope to block all from `addthis.com`, narrower scopes would not be aware of that rule: a user would have to re-create the rule in each and every narrower scopes. This is because originally scopes didn't exist in HTTPSB, _scoping_ was slapped on top of the existing infra-structure at some point during development. In µMatrix, the infrastructure has been rewritten from the ground up with scoping as a core feature. So with µMatrix, adding a block rule for `addthis.com` in the global scope will cause `addthis.com` to be blocked everywhere, in all scopes (as usual, unless a more specific rule override the broader rule).
+With HTTPSB, if you created a rule in the global scope to block all from `addthis.com`, narrower scopes would not be aware of that rule: a user would have to re-create the rule in each and every narrower scopes. This is because originally scopes didn't exist in HTTPSB, _scoping_ was slapped on top of the existing infra-structure at some point during development. In µMatrix, the infrastructure has been rewritten from the ground up with scoping as a core feature. So with µMatrix, adding a block rule for `addthis.com` in the global scope will cause `addthis.com` to be blocked everywhere, in all scopes (as usual, unless a more specific rule overrides the broader rule).
 
 So scopes are now fully layered exactly as how [this user expected them to be](https://github.com/gorhill/httpswitchboard/issues/227) in HTTP Switchboard (they were not).
 
@@ -33,7 +33,7 @@ There is now only one flat data structure to hold all the matrix rules, and all 
 
 When a request needs to be evaluated, µMatrix will find out from which web page the request originate. The hostname of the URL address of the web page will be extracted and used as the `source-hostname` component. The hostname of the URL address of the request will be extracted and used as the `destination-hostname` component.
 
-µMatrix will then try to find an explicit rule which match exactly `source-hostname`, `destination-hostname`, and `request-type`. If no explicit rule is found, µMatrix will derive a broader scope from `source-hostname` and try again to find an explicit rule in that broader scope. Eventually, the broadest scope possible is reached, which is `source-hostname` being `*`: the global scope.
+µMatrix will then try to find an explicit rule which matches exactly `source-hostname`, `destination-hostname`, and `request-type`. If no explicit rule is found, µMatrix will derive a broader scope from `source-hostname` and try again to find an explicit rule in that broader scope. Eventually, the broadest scope possible is reached, which is `source-hostname` being `*`: the global scope.
 
 This z-axis evaluation mechanism did not exist in HTTPSB, aside the not very flexible _"ubiquitous rules"_. Given that now all rules in global scope are ubiquitous to all scopes, HTTPSB's _"ubiquitous block rules"_ and _"ubiquitous allow rules"_ are gone, there is no more need for these.
 
