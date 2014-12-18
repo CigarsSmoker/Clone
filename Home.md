@@ -4,3 +4,5 @@
 - [Examples of useful ruleset](https://github.com/gorhill/uMatrix/wiki/Examples-of-useful-ruleset)
 - [Using µBlock with µMatrix](https://github.com/gorhill/uMatrix/wiki/Using-%C2%B5Block-with-%C2%B5Matrix)
 - [Translation work contributors](https://github.com/gorhill/uMatrix/wiki/Translation-work-contributors)
+- Spotted on the WWW:
+    - [Chrome: uMatrix - Das wichtigste Addon](https://www.youtube.com/watch?v=af0tUR0GZUI) (German)
