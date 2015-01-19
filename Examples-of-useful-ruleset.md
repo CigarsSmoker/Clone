@@ -36,6 +36,7 @@ Probably needs more rules, but I don't have a Facebook account, can't tell. But 
 #### twitch.tv
 
     twitch.tv api.swiftype.com script allow
+    twitch.tv web-cnd.ttvnw.net script allow
     twitch.tv jtvnw.net plugin allow
     twitch.tv jtvnw.net script allow
 
