@@ -1,6 +1,12 @@
 uMatrix version 0.9.0.0 comes with a completely new logger.
 
-[blah blah blah]
+This new logger is forward-looking, i.e. it will log events only when it is actually opened. This is a more efficient approach than logging everything even when the user does not care about inspecting the network events -- which used to be the case. So now the memory/CPU overhead of logging is incurred if and only if the logger is being used (opened).
+
+Also, the logger is now _unified_:
+
+- All events of interest are being logged, not just network traffic.
+- All events from everywhere are logged in one place, no need to select which tab to inspect.
+    - This is particularly useful to relate together behind-the-scene event to ongoing network traffic.
 
 ##### Special status indicators
 
