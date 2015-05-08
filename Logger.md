@@ -4,9 +4,9 @@ uMatrix version 0.9.0.0 comes with a completely new logger.
 
 ##### Special status indicators
 
-The _eye-slash_ icon means the entry is a behind-the-scene network request.
+The _eye-slash_ indicator means the entry is a behind-the-scene network request.
 
-The _X_ icon means the entry belongs to a tab which has been closed. You may cleanup such entries from the logger using the _X_ icon in the toolbar.
+The _x_ indicator means the entry belongs to a tab which has been closed. You may cleanup such entries from the logger using the _x_ icon in the toolbar.
 
 ##### Filter expressions
 
