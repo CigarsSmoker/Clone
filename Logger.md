@@ -2,6 +2,12 @@ uMatrix version 0.9.0.0 comes with a completely new logger.
 
 [blah blah blah]
 
+##### Special status indicators
+
+The _eye-slash_ icon means the entry is a behind-the-scene network request.
+
+The _X_ icon means the entry belongs to a tab which has been closed. You may cleanup such entries from the logger using the _X_ icon in the toolbar.
+
 ##### Filter expressions
 
 You can filter entries in the logger using filter expressions. Log entries which do not match _all_ filter expression will be hidden from view. Syntax for a filter expression:
