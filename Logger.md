@@ -20,7 +20,7 @@ It is possible to click on the status indicator area to open the matrix for the 
 
 ##### Filter expressions
 
-You can filter entries in the logger using filter expressions. Log entries which do not match _all_ filter expression will be hidden from view. Syntax for a filter expression:
+You can filter entries in the logger using filter expressions. Log entries which do not match _all_ filter expressions will be hidden from view. Syntax for a filter expression:
 
 - Enter `foo` to only show entries which have a string `foo`.
 - Enter `|foo` to only show entries which have a field starting with `foo`.
