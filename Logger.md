@@ -34,5 +34,5 @@ You can filter entries in the logger using filter expressions. Log entries which
 
 Examples:
 
-- `!|-- facebook`: Show all non-blocked entries with the string `facebook` in it.
-- `|xhr google`: show all entries of type `XMLHttpRequest` with the work `google` in it.
+- `!|-- facebook`: show only non-blocked entries with the string `facebook` in it.
+- `|xhr google`: show only entries of type `XMLHttpRequest` with the work `google` in it.
