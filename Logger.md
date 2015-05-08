@@ -14,6 +14,8 @@ The _eye-slash_ indicator means the entry is a behind-the-scene network request.
 
 The _x_ indicator means the entry belongs to a tab which has been closed. You may cleanup such entries from the logger using the _x_ icon in the toolbar.
 
+It is possible to click on the status indicator area to open the matrix for the associated tab (if any). The matrix will open in _sticky_ mode, i.e. you can keep it opened permanently.
+
 ##### Filter expressions
 
 You can filter entries in the logger using filter expressions. Log entries which do not match _all_ filter expression will be hidden from view. Syntax for a filter expression:
