@@ -8,7 +8,7 @@ Also, the logger is now _unified_:
 
 - All events of interest are being logged, not just network traffic.
 - All events from everywhere are logged in one place, no need to select which tab to inspect.
-    - This is particularly useful to relate together behind-the-scene event to ongoing network traffic.
+    - This is particularly useful to relate together behind-the-scene events to ongoing network traffic.
 
 #### Special status indicators
 
