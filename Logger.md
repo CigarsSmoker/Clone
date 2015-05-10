@@ -20,7 +20,7 @@ This also allows to easily relate events from different origins. For example, wh
 
 This allows to see fully chains of redirects. The network requests for root document will just appear one after another in the logger.
 
-This allows to easily see the URL of popup windows, and from there one can create custom filters using the logged entries.
+This allows to easily see the URL of popup windows, and from there one can create custom filters using the information in the logged entries.
 
 #### Special status indicators
 
