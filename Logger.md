@@ -10,6 +10,18 @@ Also, the logger is now _unified_:
 - All events from everywhere are logged in one place, no need to select which tab to inspect.
     - This is particularly useful to relate together behind-the-scene events to ongoing network traffic.
 
+#### Advantages of a unified logger
+
+No events lost: all events from any origin are logged in one place, so they all get logged. Previously you had to select the tab which to inspect, which means all events from other tabs, or from behind-the-scene origin were lost.
+
+Since no events is lost, one can now easily spot what add-ons are doing behind-the-scene. If an add-on constantly phone home while you surf the net, you will be able to see this easily.
+
+This also allow to easily relates events from different origin. For example, when surfing GitHub, I can see behind-the-scene network requests being made while surfing GitHub. Though uMatrix/uBlock can't tell the behind-the-scene events are related to GitHub, a user can tell.
+
+This allows to see completely chain of redirects. This will just appears one after another in the logger.
+
+This allows to easily see the URL of popup windows, and from there one can create custom filters using the logged entries.
+
 #### Special status indicators
 
 The _eye-slash_ indicator means the entry is a behind-the-scene network request.
