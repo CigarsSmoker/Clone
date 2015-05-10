@@ -12,7 +12,7 @@ Also, the logger is now _unified_:
 
 #### Advantages of a unified logger
 
-No events lost: all events from any origin are logged in one place, so they all get logged. Previously you had to select the tab which to inspect, which means all events from other tabs, or from behind-the-scene origin were lost.
+No events lost: all events from all origins are logged in one place, so they all get logged. Previously you had to select the tab which to inspect, which means all events from other tabs, or from behind-the-scene origin were lost.
 
 Since no events is lost, one can now easily spot what add-ons are doing behind-the-scene. If an add-on constantly phone home while you surf the net, you will be able to see this easily.
 
