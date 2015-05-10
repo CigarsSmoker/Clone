@@ -16,7 +16,7 @@ No events lost: all events from all origins are logged in one place, so they all
 
 Since no events is lost, one can now easily spot what add-ons are doing behind-the-scene. If an add-on constantly phone home while you surf the net, you will be able to see this easily.
 
-This also allow to easily relate events from different origins. For example, when surfing GitHub, I can see behind-the-scene network requests being made while surfing GitHub. Though uMatrix/uBlock can't tell the behind-the-scene events are related to GitHub, a user can tell.
+This also allows to easily relate events from different origins. For example, when surfing GitHub, I can see behind-the-scene network requests being made while surfing GitHub. Though uMatrix/uBlock can't tell the behind-the-scene events are related to GitHub, a user can tell.
 
 This allows to see fully chains of redirects. The network requests for root document will just appear one after another in the logger.
 
