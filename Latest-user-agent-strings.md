@@ -1,6 +1,6 @@
 User agent strings used for spoofing are not updated automatically, this is your responsibility. So I will paste here updated strings, and your are free to update yours by cutting and pasting these in your dashboard.
 
-Volunteers are free to update when they think it's necessary. Please keep the list below ten entries, beyond this is overkill. I use the site listed in there and just copy/paste the top-most ones.
+Volunteers are free to update this wiki page when they think it's necessary. Please keep the list below ten entries, beyond this is overkill. I use the site listed in there and just copy/paste the top-most ones.
 
 ##### 2015-05-11
 
