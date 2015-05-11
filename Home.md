@@ -1,7 +1,7 @@
 - [Changes from HTTP Switchboard](https://github.com/gorhill/uMatrix/wiki/Changes-from-HTTP-Switchboard)
 - [Rules syntax](https://github.com/gorhill/uMatrix/wiki/Rules-syntax)
 - [Per-scope switches](https://github.com/gorhill/uMatrix/wiki/Per-scope-switches)
-- [Examples of useful ruleset](https://github.com/gorhill/uMatrix/wiki/Examples-of-useful-ruleset)
+- [Examples of useful rulesets](https://github.com/gorhill/uMatrix/wiki/Examples-of-useful-rulesets)
 - [Using uBlock with uMatrix](https://github.com/gorhill/uMatrix/wiki/Using-uBlock-with-uMatrix)
 - [Translation work contributors](https://github.com/gorhill/uMatrix/wiki/Translation-work-contributors)
 - Spotted on the WWW:
