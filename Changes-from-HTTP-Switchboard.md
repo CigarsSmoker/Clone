@@ -1,8 +1,8 @@
-µMatrix and [µBlock](https://github.com/gorhill/uBlock) are both spin-off of [HTTP Switchboard](https://github.com/gorhill/httpswitchboard) ("HTTPSB"). They both improve significantly on HTTPSB. Essentially, HTTPSB is the fancy prototype, proof of concept to test many ideas. µMatrix and µBlock are the final products.
+uMatrix and [uBlock](https://github.com/gorhill/uBlock) are both spin-off of [HTTP Switchboard](https://github.com/gorhill/httpswitchboard) ("HTTPSB"). They both improve significantly on HTTPSB. Essentially, HTTPSB is the fancy prototype, proof of concept to test many ideas. uMatrix and uBlock are the final products.
 
-µMatrix inherited the task of matrix-based filtering, while µBlock inherited the task of pattern-based filtering.
+uMatrix inherited the task of matrix-based filtering, while uBlock inherited the task of pattern-based filtering.
 
-Main differences of µMatrix vs. HTTPSB explained below.
+Main differences of uMatrix vs. HTTPSB explained below.
 
 - [Rules are no longer sandboxed within scopes](#rules-are-no-longer-sandboxed-within-scopes)
 - [A new `1st-party` row](#a-new-1st-party-row)
@@ -18,7 +18,7 @@ Main differences of µMatrix vs. HTTPSB explained below.
 
 Related HTTPSB issue: [#115](https://github.com/gorhill/httpswitchboard/issues/115), [#227](https://github.com/gorhill/httpswitchboard/issues/227).
 
-With HTTPSB, if you created a rule in the global scope to block all from `addthis.com`, narrower scopes would not be aware of that rule: a user would have to re-create the rule in each and every narrower scopes. This is because originally scopes didn't exist in HTTPSB, _scoping_ was slapped on top of the existing infra-structure at some point during development. In µMatrix, the infrastructure has been rewritten from the ground up with scoping as a core feature. So with µMatrix, adding a block rule for `addthis.com` in the global scope will cause `addthis.com` to be blocked everywhere, in all scopes (as usual, unless a more specific rule overrides the broader rule).
+With HTTPSB, if you created a rule in the global scope to block all from `addthis.com`, narrower scopes would not be aware of that rule: a user would have to re-create the rule in each and every narrower scopes. This is because originally scopes didn't exist in HTTPSB, _scoping_ was slapped on top of the existing infra-structure at some point during development. In uMatrix, the infrastructure has been rewritten from the ground up with scoping as a core feature. So with uMatrix, adding a block rule for `addthis.com` in the global scope will cause `addthis.com` to be blocked everywhere, in all scopes (as usual, unless a more specific rule overrides the broader rule).
 
 So scopes are now fully layered exactly as how [this user expected them to be](https://github.com/gorhill/httpswitchboard/issues/227) in HTTP Switchboard (they were not).
 
@@ -31,23 +31,23 @@ There is now only one flat data structure to hold all the matrix rules, and all 
 
 `source-hostname destination-hostname request-type action`
 
-When a request needs to be evaluated, µMatrix will find out from which web page the request originate. The hostname of the URL address of the web page will be extracted and used as the `source-hostname` component. The hostname of the URL address of the request will be extracted and used as the `destination-hostname` component.
+When a request needs to be evaluated, uMatrix will find out from which web page the request originate. The hostname of the URL address of the web page will be extracted and used as the `source-hostname` component. The hostname of the URL address of the request will be extracted and used as the `destination-hostname` component.
 
-µMatrix will then try to find an explicit rule which matches exactly `source-hostname`, `destination-hostname`, and `request-type`. If no explicit rule is found, µMatrix will derive a broader scope from `source-hostname` and try again to find an explicit rule in that broader scope. Eventually, the broadest scope possible is reached, which is `source-hostname` being `*`: the global scope.
+uMatrix will then try to find an explicit rule which matches exactly `source-hostname`, `destination-hostname`, and `request-type`. If no explicit rule is found, uMatrix will derive a broader scope from `source-hostname` and try again to find an explicit rule in that broader scope. Eventually, the broadest scope possible is reached, which is `source-hostname` being `*`: the global scope.
 
 This z-axis evaluation mechanism did not exist in HTTPSB, aside the not very flexible _"ubiquitous rules"_. Given that now all rules in global scope are ubiquitous to all scopes, HTTPSB's _"ubiquitous block rules"_ and _"ubiquitous allow rules"_ are gone, there is no more need for these.
 
-A matrix cell can have one of three _colors_: red (blacklisted), green (whitelisted), or no color (graylisted). Just like before. The difference is that now with µMatrix all the possible scopes are evaluated from narrowest to broadest to find out the _color_ of a cell.
+A matrix cell can have one of three _colors_: red (blacklisted), green (whitelisted), or no color (graylisted). Just like before. The difference is that now with uMatrix all the possible scopes are evaluated from narrowest to broadest to find out the _color_ of a cell.
 
 Once the color is found, the matrix functions just the same as in HTTPSB, i.e. the matrix inheritance model is the same (that would be the X and Y part of the evaluation).
 
-##### Concrete examples of how µMatrix's matrix-based filtering differs from HTTPSB's matrix-based filtering 
+##### Concrete examples of how uMatrix's matrix-based filtering differs from HTTPSB's matrix-based filtering 
 
 Any explicit rules created in the global scope will be seen in **all** narrower scopes.
 
 More generally, any explicit rules created in a broader scope will be seen in related narrower scopes. Rules in `example.com` will be seen by the `www.example.com` scope. And so on. This is important to remember when you create rules.
 
-As a result, now creating rules in narrower scopes is the natural way to use µMatrix. Since rules created in the global scope `*` will be seen everywhere, then global rules are useful for some specific cases. 
+As a result, now creating rules in narrower scopes is the natural way to use uMatrix. Since rules created in the global scope `*` will be seen everywhere, then global rules are useful for some specific cases. 
 
 For example, when using the browser's _"Translate to [Specific language]"_ option in the contextual menu, the browser will send a request to `translate.googleapis.com` to do the job. If you whitelist `xhr` for `translate.googleapis.com` in the global scope, then the feature to translate a page using the contextual menu will work in all scopes (that is, unless a explicit block rule exists in a narrower scope). This was not possible in HTTPSB, because rules in the global scopes were not visible to narrower scopes.
 
@@ -65,20 +65,20 @@ Note that the `1st-party` row will be available in all scopes. The rules for tha
 
 Related HTTPSB issue: [#109](https://github.com/gorhill/httpswitchboard/issues/109).
 
-Unlike HTTPSB, µMatrix does not enforce effective domain boundary for rules. Though the matrix UI does enforce effective domain boundary, you can manually create rules which apply to a whole [TLD](http://en.wikipedia.org/wiki/Top-level_domain) for instance, and this will be properly evaluated by the matrix-based filtering engine without any restriction.
+Unlike HTTPSB, uMatrix does not enforce effective domain boundary for rules. Though the matrix UI does enforce effective domain boundary, you can manually create rules which apply to a whole [TLD](http://en.wikipedia.org/wiki/Top-level_domain) for instance, and this will be properly evaluated by the matrix-based filtering engine without any restriction.
 
 For example, the rules...
 
 - `* biz * block`: will block all net requests which are made to a hostname which ends with `.biz`.
 - `org * * allow`: will allow everything whenever the scope ends with `.org` (just an example, that would not be a recommended thing to do).
 
-In short, with µMatrix, do whatever you want.
+In short, with uMatrix, do whatever you want.
 
 #### There is no longer "scope" data structures internally
 
 In HTTPSB, scopes were mapped to discrete data structures internally, which were used to sandbox rules -- and as a consequence preventing scopes to inherit rules from broader scopes. There was a resource cost when creating a scope, and when evaluating a net request.
 
-There is no more concrete data structure for scopes in µMatrix: all scopes virtually exist at all time, so in µMatrix there is no longer a resource cost associated with scope creation -- because there is no scope creation. This also eliminate the need for settings such as:
+There is no more concrete data structure for scopes in µMatrix: all scopes virtually exist at all time, so in uMatrix there is no longer a resource cost associated with scope creation -- because there is no scope creation. This also eliminate the need for settings such as:
 
 - _"Auto create temporary [domain | site]-level scope"_
 - _"Copy all rules from global scope into newly created local scopes"_
@@ -86,7 +86,7 @@ There is no more concrete data structure for scopes in µMatrix: all scopes virt
 
 Al these settings are now gone.
 
-The scope selector in the matrix popup is simply used to select where a rule should be created. As a convenience, µMatrix will remember the scope level you last selected and select it automatically next time you open the matrix popup.
+The scope selector in the matrix popup is simply used to select where a rule should be created. As a convenience, uMatrix will remember the scope level you last selected and select it automatically next time you open the matrix popup.
 
 #### "Strict blocking" is now the only available mode
 
@@ -98,11 +98,11 @@ So _"Enable strict blocking"_ is now gone, and strict blocking is how the matrix
 
 #### "Ubiquitous rules" tab replaced by "Hosts files" tab
 
-Because this is essentially what the tab has become with pattern-based filtering removed. The code to manage external lists has been imported from µBlock, so the tab functions pretty much the same now.
+Because this is essentially what the tab has become with pattern-based filtering removed. The code to manage external lists has been imported from uBlock, so the tab functions pretty much the same now.
 
 All hostnames in selected hosts files are interpreted as blacklisted hostnames in the global scope, so they propagate to narrower scopes just like in HTTPSB.
 
-Just as with µBlock, you can specify URLs to external hosts file-compliant resources.
+Just as with uBlock, you can specify URLs to external hosts file-compliant resources.
 
 #### "Scoped rules" tab replaced by "My rules" tab
 
@@ -116,8 +116,8 @@ Ability to enable/disable user agent-spoofing and referrer spoofing on a per-sco
 
 #### Preset rulesets are gone for the time being
 
-The preset rulesets are gone for the time being, due to re-factoring. Given how rules have been redesigned with µMatrix, it will be easier to design preset rulesets to unbreak web pages or portion of web pages (i.e. Disqus, etc.)
+The preset rulesets are gone for the time being, due to re-factoring. Given how rules have been redesigned with uMatrix, it will be easier to design preset rulesets to unbreak web pages or portion of web pages (i.e. Disqus, etc.)
 
 I just want to get it right for long-term, and think all this through carefully. The writing of preset rulesets was over-complicated in HTTPSB, and also there was no mechanism to integrate external preset rulesets.
 
-Specific regions may have their own useful preset rulesets etc. So the goal will be to make it very simple for the community to create their own preset rulesets, and for µMatrix to make it easy for a user to subscribe to any external preset rulesets.
+Specific regions may have their own useful preset rulesets etc. So the goal will be to make it very simple for the community to create their own preset rulesets, and for uMatrix to make it easy for a user to subscribe to any external preset rulesets.
