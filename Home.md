@@ -2,7 +2,7 @@
 - [Rules syntax](https://github.com/gorhill/uMatrix/wiki/Rules-syntax)
 - [Per-scope switches](https://github.com/gorhill/uMatrix/wiki/Per-scope-switches)
 - [Examples of useful ruleset](https://github.com/gorhill/uMatrix/wiki/Examples-of-useful-ruleset)
-- [Using µBlock with µMatrix](https://github.com/gorhill/uMatrix/wiki/Using-%C2%B5Block-with-%C2%B5Matrix)
+- [Using uBlock with uMatrix](https://github.com/gorhill/uMatrix/wiki/Using-uBlock-with-uMatrix)
 - [Translation work contributors](https://github.com/gorhill/uMatrix/wiki/Translation-work-contributors)
 - Spotted on the WWW:
     - [Chrome: uMatrix - Das wichtigste Addon](https://www.youtube.com/watch?v=af0tUR0GZUI) (German)
