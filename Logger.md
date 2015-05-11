@@ -43,6 +43,7 @@ You can filter entries in the logger using filter expressions. Log entries which
     - `!foo` means display only entries which do not have the string `foo` in it.
     - `!|--` means display only entries which were **not** blocked.
 - When more than one filter expression appear, a logical _and_ between the expressions is implied.
+- A special keyword can be used to filter behind-the-scene requests: `bts`, or `|bts` for a stricter filtering.
 
 Examples:
 
