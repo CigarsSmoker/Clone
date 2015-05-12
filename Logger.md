@@ -36,7 +36,7 @@ You can filter entries in the logger using filter expressions. Log entries which
 
 - Enter `foo` to only show entries which have a string `foo`.
 - Enter `|foo` to only show entries which have a field starting with `foo`.
-    - Tip: use `|--` to show only entries which were blocked.
+    - Tip: use `|--` to show only entries which were blocked (`--` may work for the most part, but there could be false positives).
 - Enter `foo|` to only show entries which have a field ending with `foo`.
 - Enter `|foo|` to only show entries which have exactly a field with `foo`.
 - Prefix any expression with `!` to reverse the meaning of the expression.
