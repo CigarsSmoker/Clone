@@ -9,3 +9,7 @@ I am going to add a bit more information about how you can check for yourself: j
 ##### Images/CSS from `kinja-*.com` blocked:
 
 ![Images blocked](https://cloud.githubusercontent.com/assets/585534/7592521/af96e53a-f8a1-11e4-8cb1-d736f17bbb5b.png)
+
+#### Notes
+
+It may happens some images or CSS are pulled from the browser cache (I know it happens in Chromium), in which case uMatrix won't block these: the primary purpose of uMatrix is to strictly block **network requests**. No network requests are performed when pulling from the cache.
