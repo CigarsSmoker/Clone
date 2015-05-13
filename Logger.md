@@ -18,7 +18,7 @@ Since no events is lost, one can now easily spot what add-ons are doing behind-t
 
 This also allows to easily relate events from different origins. For example, when surfing GitHub, I can see behind-the-scene network requests being made while surfing GitHub. Though uMatrix/uBlock can't tell the behind-the-scene events are related to GitHub, a user can tell.
 
-This allows to see fully chains of redirects. The network requests for root document will just appear one after another in the logger.
+This allows to see fully chains of redirects. The network requests for root document will just appear one after another in the logger. Useful to figure how to fix logging in when many redirects are involved.
 
 This allows to easily see the URL of popup windows, and from there one can create custom filters using the information in the logged entries.
 
