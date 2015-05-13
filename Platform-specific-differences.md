@@ -15,3 +15,7 @@ Requests for connection upgrade to websocket **can** be blocked.
 Connection upgrade requests are currently reported into the `other` column.
 
 **TO DO:** uMatrix should specifically check for requests for connection upgrade to websocket, and report this in the logger (just like it currently does for `ping` requests).
+
+##### Test cases
+
+- <http://ephemeralp2p.durazo.us/2bbbf21959178ef2f935e90fc60e5b6e368d27514fe305ca7dcecc32c0134838> (might not last forever).
