@@ -17,7 +17,6 @@
     - [AlfredoEManuela](https://crowdin.com/profile/AlfredoEManuela)
     - [cristiano04](https://crowdin.com/profile/cristiano04)
 - [Portuguese, Brazilian](https://crowdin.com/project/umatrix/pt-BR)
-    - [alemus](https://crowdin.com/profile/alemus)
     - [alexsilvalhp](https://crowdin.com/profile/alexsilvalhp)
     - [Havokdan](https://crowdin.com/profile/Havokdan)
 - [Russian](https://crowdin.com/project/umatrix/ru)
