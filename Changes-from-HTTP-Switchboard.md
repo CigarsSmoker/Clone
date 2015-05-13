@@ -112,7 +112,7 @@ Further reading: [Rules-syntax](https://github.com/gorhill/uMatrix/wiki/Rules-sy
 
 #### Per-scope switches
 
-Ability to enable/disable user agent-spoofing and referrer spoofing on a per-scope basis. These settings applied only globally in HTTP Switchboard. They still apply globally, but they can now be overridden on a per-scope basis.
+Ability to enable/disable user-agent and referrer spoofing and strict https on a per-scope basis. These settings applied only globally in HTTP Switchboard. They still apply globally, but they can now be overridden on a per-scope basis.
 
 #### Preset rulesets are gone for the time being
 
