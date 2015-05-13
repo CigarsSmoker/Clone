@@ -18,4 +18,4 @@ Connection upgrade requests are currently reported into the `other` column.
 
 ##### Test cases
 
-- [Ephemeral Hosting](http://ephemeralp2p.durazo.us2bbbf21959178ef2f935e90fc60e5b6e368d27514fe305ca7dcecc32c0134838> (might not last forever)
+- [Ephemeral Hosting](http://ephemeralp2p.durazo.us2bbbf21959178ef2f935e90fc60e5b6e368d27514fe305ca7dcecc32c0134838) (might not last forever)
