@@ -1,6 +1,6 @@
 For whatever reasons, I've seen uBlock/uMatrix being the targets of some weird grudge. The disinformation often propagandized is that uBlock/uMatrix do no really block network traffic. I [responded previously here](https://github.com/gorhill/uBlock/wiki/Does-uBlock-block-ads-or-just-hide-them%3F) for uBlock.
 
-I am going to add a bit more information about how you can check for yourself: just use Firefox's _Network_ tab in the developer console, this will tell what network requests went through.
+I am going to add a bit more information about how you can check for yourself: just use Firefox's _Network_ tab in the developer console, this will tell what network requests went through. Be sure to check _"Disable Cache (when toolbox is open)"_ (in _"Toolbox Options"_, the gear icon), this will ensure Firefox tries to pull everything.
 
 ##### Images/CSS from `kinja-*.com` allowed:
 
