@@ -1,4 +1,5 @@
 - [Changes from HTTP Switchboard](https://github.com/gorhill/uMatrix/wiki/Changes-from-HTTP-Switchboard)
+- [About the required permissions](https://github.com/gorhill/uMatrix/wiki/About-the-required-permissions)
 - [About disinformation](https://github.com/gorhill/uMatrix/wiki/About-disinformation)
 - [Walkthrough for first time users](https://github.com/gorhill/uMatrix/wiki/Very-bare-walkthrough-for-first-time-users)
 - [Platform specific differences](https://github.com/gorhill/uMatrix/wiki/Platform-specific-differences)
