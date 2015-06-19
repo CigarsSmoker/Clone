@@ -1,5 +1,8 @@
 User agent strings used for spoofing are not updated automatically, this is your responsibility. So I will paste here updated strings, and your are free to update yours by cutting and pasting these in your dashboard.
 
+You should be aware, that if JavaScript is enabled, it is possible to determine the browser and version via feature detection.
+https://html5test.com/compare/browser/mybrowser/chrome-43/chrome-42/firefox-38/firefox-37.html
+
 Volunteers are free to update this wiki page when they think it's necessary. Please keep the list below ten entries, beyond this is overkill. I use the site listed in there and just copy/paste the top-most ones.
 
 ##### 2015-06-19
