@@ -1,6 +1,6 @@
 Images are way easier than walls of text to explain how uMatrix works. So let's visit [wired.com](https://wired.com).
 
-When you first visit [wired.com](https://wired.com), open the matrix:
+When you first visit [wired.com](https://www.wired.com), open the matrix:
 
 ![Global scope](https://raw.githubusercontent.com/gorhill/uMatrix/master/doc/img/wired-walkthru-1.png)
 
