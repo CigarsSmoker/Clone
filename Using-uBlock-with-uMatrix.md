@@ -1,4 +1,4 @@
-_[I need to revise this article, it was heavily edited by someone else and I don't agree with some stuff in there -- and I do not even agree with my original version, since uBlock had changed a lot since the time this was written.]_
+_[I need to revise this article, it was heavily edited by someone else and I don't agree with some stuff in there -- and I do not even agree with my original version, as uBlock had changed a lot since the time this was written.]_
 
 ***
 
