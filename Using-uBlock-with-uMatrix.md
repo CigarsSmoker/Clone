@@ -1,3 +1,5 @@
+[I need to revise this article, it was heavily edited by someone else and I don't agree with some stuff in there -- and I do not even agree with my original version, since uBlock had changed a lot since the time this was written].
+
 Keep in mind uMatrix and uBlock are two different extensions. Each can be used as a standalone extension, you do not have to use one if you use the other. uBlock is for everybody, uMatrix is for advanced users who understand that sites will easily break when using a firewall, and have good knowledge of how to un-break sites by editing firewall ruleset.
 
 Nevertheless, a combination uBlock with uMatrix can make sense. So, if you choose to use uBlock with uMatrix, here are suggestions:
