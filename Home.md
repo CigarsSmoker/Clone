@@ -4,6 +4,7 @@
 - [Walkthrough for first time users](https://github.com/gorhill/uMatrix/wiki/Very-bare-walkthrough-for-first-time-users)
 - [Platform specific differences](https://github.com/gorhill/uMatrix/wiki/Platform-specific-differences)
 - [Rules syntax](https://github.com/gorhill/uMatrix/wiki/Rules-syntax)
+- [Cookies](https://github.com/gorhill/uMatrix/wiki/Cookies)
 - [Per-scope switches](https://github.com/gorhill/uMatrix/wiki/Per-scope-switches)
 - [Examples of useful rulesets](https://github.com/gorhill/uMatrix/wiki/Examples-of-useful-rulesets)
 - [Logger](https://github.com/gorhill/uMatrix/wiki/Logger)
