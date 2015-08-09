@@ -19,4 +19,5 @@ If you don't want to store 3rd-party-cookies and don't want that websites could 
 
 If you want to block cookies, so they are not stored at all (unless allowed), you should use an additional cookie-blocker-addon.
 
-
+-------
+See also: https://github.com/gorhill/uMatrix/issues/252, https://github.com/gorhill/uMatrix/issues/316
