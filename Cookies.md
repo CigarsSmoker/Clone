@@ -38,7 +38,7 @@ Note that this kind of "cookie-blocking" can have some side-effects on 3rd-party
   - Then, you go to socialnetwork.example, and allow cookies (e.g. because you want to log in).
   - socialnetwork.example can now read the (blocked 3rd-party-)cookie, which was set on somepage.example.
 
-If you don't like this behaviour, it's probably best to disable 3rd-party-cookies in you browser preferences.
+If you don't like this behaviour, it's probably best to disable 3rd-party-cookies in your browser preferences.
 
 ----
 
