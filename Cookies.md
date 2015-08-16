@@ -1,3 +1,7 @@
+[_gorhill_: I did not write this article, and I strongly disagree with how things are explained here, as it fails to explain properly all the details, and thus possibly blowing out of proportion what should be a non-issue given the tools available in uMatrix. How uMatrix handles cookies is concisely explained in the dashboard of uMatrix. Given that uMatrix is for advanced users, there is no need to throw more and more words to render more obscure what is really simple matter.]
+
+***
+
 uMatrix mainly blocks outgoing connections/outgoing data; it does not block incoming data. It's important to understand this concept to understand uMatrix cookie-handling:
 
 - All incoming cookies are accepted and stored (no matter if they are allowed or blocked by uMatrix).
