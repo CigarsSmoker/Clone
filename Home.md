@@ -10,7 +10,6 @@
 - [Logger](https://github.com/gorhill/uMatrix/wiki/Logger)
 - [FAQ](https://github.com/gorhill/uMatrix/wiki/FAQ)
 - [Latest user agent strings](https://github.com/gorhill/uMatrix/wiki/Latest-user-agent-strings)
-- [Using uBlock with uMatrix](https://github.com/gorhill/uMatrix/wiki/Using-uBlock-with-uMatrix)
 - [Translation work contributors](https://github.com/gorhill/uMatrix/wiki/Translation-work-contributors)
 - Spotted on the WWW:
     - [Chrome: uMatrix - Das wichtigste Addon](https://www.youtube.com/watch?v=af0tUR0GZUI) (German)
