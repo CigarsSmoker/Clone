@@ -50,14 +50,14 @@ or
 
 The above rules all accomplish the same thing, as per default values.
 
-#### Directive `matrix:` syntax
+#### Directive `matrix-off:` syntax
 
-Force disable or enable matrix filtering for a specific scope. Syntax:
+Disable or enable matrix filtering for a specific scope. Syntax:
 
-> `matrix:` {white spaces} _source hostname_ {white spaces} _state_
+> `matrix-off:` {white spaces} _source hostname_ {white spaces} _state_
 
-**source hostname** is the context for which matrix filtering needs to be triggered on or off.
+**source hostname** is the context for which matrix filtering needs to be toggled on or off.
 
-**state** can be one of `on` or `off` keyword.
+**state** can be one of `true` or `false` keyword.
 
 Reminder: narrower scopes inherit the matrix-filtering switch state from broader scopes. So if you disable matrix-filtering in the global scope (`*`), then matrix-filtering will be turned off for all scopes, unless a scope has an explicit override of the matrix-filtering switch.
