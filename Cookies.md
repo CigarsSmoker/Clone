@@ -1,3 +1,3 @@
 Blacklisted cookies are not prevented by uMatrix from entering your browser. However they are prevented from **leaving your browser**, which is what really matters. Not blocking cookies before they enter your browser gives you the opportunity to be informed that a site tried to use cookies, and furthermore to inspect their contents if you wish.
 
-Once these blacklisted cookies have been accounted for by uMatrix, they can be removed from your browser if you wish so.
+Once these blacklisted cookies have been accounted for by uMatrix, they can be removed from your browser if you wish so: just check the setting "Delete blocked cookies" in the _Privacy_ tab.
