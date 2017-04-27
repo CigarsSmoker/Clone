@@ -1,3 +1,7 @@
+This is a community-provided guides. Community-provided guides may or may not reflect my opinion of how to optimally use uMatrix. Feel free to contribute a guide.
+
+***
+
 The example below demonstrates how to create rules within uMatrix for either [Domain Specific Rules](https://github.com/gorhill/uMatrix/wiki/Setting-Domain-Specific-&-Global-Rules#setting-domain-specific-rules) or [Global Rules](https://github.com/gorhill/uMatrix/wiki/Setting-Domain-Specific-&-Global-Rules#setting-global-rules) which allows a user to achieve desired site functionality (_e.g._ The user wants to be able to always play embedded youtube videos on a website) 
 
 ## Setting Domain Specific Rules
