@@ -1,10 +1,11 @@
 - [Changes from HTTP Switchboard](https://github.com/gorhill/uMatrix/wiki/Changes-from-HTTP-Switchboard)
 - [About the required permissions](https://github.com/gorhill/uMatrix/wiki/About-the-required-permissions)
-- [About disinformation](https://github.com/gorhill/uMatrix/wiki/About-disinformation)
 - [Walkthrough for first time users](https://github.com/gorhill/uMatrix/wiki/Very-bare-walkthrough-for-first-time-users)
+- Community-provided guides:
+    - These guides may or may not reflect my opinion of how to _optimally_ use uMatrix. Feel free to contribute a guide.
+    - [Setting domain-specific & global rules](https://github.com/gorhill/uMatrix/wiki/Setting-Domain-Specific-&-Global-Rules)
 - [Platform specific differences](https://github.com/gorhill/uMatrix/wiki/Platform-specific-differences)
 - [Rules syntax](https://github.com/gorhill/uMatrix/wiki/Rules-syntax)
-- [Setting Domain Specific & Global Rules](https://github.com/gorhill/uMatrix/wiki/Setting-Domain-Specific-&-Global-Rules)
 - [Cookies](https://github.com/gorhill/uMatrix/wiki/Cookies)
 - [Per-scope switches](https://github.com/gorhill/uMatrix/wiki/Per-scope-switches)
 - [Examples of useful rulesets](https://github.com/gorhill/uMatrix/wiki/Examples-of-useful-rulesets)
