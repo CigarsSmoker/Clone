@@ -53,7 +53,7 @@ Repeat **Steps 1-4** until the website functions in the desired manner -- For th
 _Scripts for domains 'www.youtube.com', 'youtubei.youtube.com' & 's.ytimage.com' as well as XHR requests for 'googlevideo.com' & 'www.youtube.com' and frames for 'www.youtube.com' have now been allowed on 'digg.com' **only**._
 
 
-### Rules you set following the steps above should now only apply to the **selected** website.' (digg.c'om) 
+### Rules you set following the steps above should now only apply to the **selected** website.' (In this example, digg.com) 
 ***
 ***
 
