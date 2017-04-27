@@ -1,4 +1,4 @@
-This is a community-provided guides. Community-provided guides may or may not reflect my opinion of how to optimally use uMatrix. Feel free to contribute a guide.
+This is a community-provided guide. Community-provided guides may or may not reflect my opinion of how to optimally use uMatrix. Feel free to contribute a guide.
 
 ***
 
