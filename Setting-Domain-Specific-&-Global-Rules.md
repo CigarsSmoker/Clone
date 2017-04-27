@@ -1,4 +1,4 @@
-The example below demonstrates how to create rules within uMatrix for either [Domain Specific](https://github.com/gorhill/uMatrix/wiki/Setting-Domain-Specific-&-Global-Rules#setting-domain-specific-rules) or Globally Allowed setting to achieve user desired functionality (_e.g._ The user wants to be able to always play embedded youtube videos on a website) 
+The example below demonstrates how to create rules within uMatrix for either [Domain Specific](https://github.com/gorhill/uMatrix/wiki/Setting-Domain-Specific-&-Global-Rules#setting-domain-specific-rules) or [Global Rules](https://github.com/gorhill/uMatrix/wiki/Setting-Domain-Specific-&-Global-Rules#setting-global-rules) which allows a user to achieve desired site functionality (_e.g._ The user wants to be able to always play embedded youtube videos on a website) 
 
 ## Setting Domain Specific Rules
 For the steps below we will use an [example website](http://digg.com/video/free-climber-pass) which has a youtube video embedded on the page.
