@@ -31,6 +31,8 @@ White spaces can be any number of space character or tab character.
 
 If _action_ is omitted, `allow` is used -- because uMatrix is naturally deny-default mode at heart.
 
+For both source and destination, matching is hierarchical: a rule for a domain will be matched by all subdomains (except if another rule match for the subdomain).
+
 ##### Examples of rules
 
 Forbid all requests to `facebook.net`, but allow all net requests of any type to `facebook.net` only when they are made from within `facebook.com` context:
@@ -49,6 +51,8 @@ or
 `facebook.com facebook.net`
 
 The above rules all accomplish the same thing, as per default values.
+
+Subdomains will also match, so `www.facebook.net` will also be filtered except from any subdomain of `facebook.com`.
 
 #### Directive `matrix-off:` syntax
 
