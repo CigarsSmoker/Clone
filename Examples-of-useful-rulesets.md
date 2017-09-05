@@ -61,3 +61,8 @@ This one is useful when you click on a blocked Youtube embedded in a frame on a 
 
     youtube-nocookie.com googlevideo.com xhr allow
     youtube-nocookie.com ytimg.com * allow
+
+---
+
+#### Third-party rules:
+- https://github.com/Rictusempra/uMatrix-Rules
