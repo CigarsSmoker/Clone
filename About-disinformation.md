@@ -12,4 +12,4 @@ I am going to add a bit more information about how you can check for yourself: j
 
 #### Notes
 
-It may happens some images or CSS are pulled from the browser cache (I know it happens in Chromium), in which case uMatrix won't block these: the primary purpose of uMatrix is to strictly block **network requests**. No network requests are performed when pulling from the cache.
+It may happen some images or CSS are pulled from the browser cache (I know it happens in Chromium), in which case uMatrix won't block these: the primary purpose of uMatrix is to strictly block **network requests**. No network requests are performed when pulling from the cache.
