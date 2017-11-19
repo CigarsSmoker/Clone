@@ -8,6 +8,8 @@ For example, setting the per-scope switch _"User agent spoofing"_ in the global 
 
 The per-scope switches layer just like matrix rules layer.
 
+**Important:** The per-site switches are independent from the matrix filtering switch, meaning that if you turn off matrix filtering in one scope, the per-site switches which are toggled on will still apply. For example, one could turn off matrix filtering while keeping the ability to enforce strict HTTPS.
+
 ### The per-scope switches
 
 - [User agent spoofing](#user-agent-spoofing)
