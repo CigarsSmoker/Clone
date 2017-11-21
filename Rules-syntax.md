@@ -33,6 +33,15 @@ If _action_ is omitted, `allow` is used -- because uMatrix is naturally deny-def
 
 For both source and destination, matching is hierarchical: a rule for a domain will be matched by all subdomains (except if another rule match for the subdomain).
 
+##### Order of precedence
+
+General principle: more specific rule overrides less specific rule. Precedence is defined in `evaluateCellZXY` method (see [matrix.js](https://github.com/gorhill/uMatrix/blob/master/src/js/matrix.js)).
+
+Priority order is following: matrix-off > srcHostname > desHostname > type
+
+The order of rules doesn't matter. It is undefined what the rule will have effect among the rules with the same priority.
+
+
 ##### Examples of rules
 
 Forbid all requests to `facebook.net`, but allow all net requests of any type to `facebook.net` only when they are made from within `facebook.com` context:
