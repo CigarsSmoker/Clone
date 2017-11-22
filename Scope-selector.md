@@ -10,7 +10,11 @@ A concrete example. Disqus is a commenting platform which use is quite widesprea
 
 ![a](https://user-images.githubusercontent.com/585534/33133068-9c2f35aa-cf69-11e7-9d0b-edd09d36b5bf.png)
 
-However this won't be sufficient to unbreak the Disqus comment widget, because after you allowed 3rd-party `disqus.com`, the comment widge is still broken, and now the matrix shows network requests to `disquscdn.com` were blocked. You could just create one more local `allow` rule for `disquscdn.com` to enable Disqus on the page. Another approach is to create an `allow` rule for `disquscdn.com` in the global scope, such that next time you want to allow Disqus on any given site, the Disqus widget will work immediately after you allow `disqus.com` (notice the global scope is selected below):
+However this won't be sufficient to unbreak the Disqus comment widget, because after you allowed 3rd-party `disqus.com`, the Disqus widget is still broken, and now the matrix shows network requests to `disquscdn.com` were blocked.
+
+You could just create one more local `allow` rule for `disquscdn.com` to enable Disqus on the page (`lareviewofbooks.org disquscdn * allow`).
+
+Another approach is to create an `allow` rule for `disquscdn.com` in the global scope (`* disquscdn.com * allow`), such that next time you want to allow Disqus on any given site, the Disqus widget will work immediately after you locally allow `disqus.com` (notice the global scope is selected below):
 
 ![b](https://user-images.githubusercontent.com/585534/33133245-2e421de0-cf6a-11e7-9542-0dbb98e023aa.png)
 
