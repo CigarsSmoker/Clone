@@ -6,7 +6,7 @@ Every rule you create in uMatrix applies to a specific scope. The scope tells uM
 
 It is of course advised that you create rules which apply only for a specific scope, but of course it's convenient that some rules are created in the global scope (`*`) such that you do not have to constantly create the same rules for many sites. For most it's convenient to create `allow` rules in the global scope for domains which use is widespread, and which you trust.
 
-A concrete example. Disqus is a commenting platform which use is quite widespread, so it's a good idea to keep `disqus.com` blocked everywhere by default (which is the case if you keep uMatrix's default settings). However, there might be times where you want to view the comments or use the Disqus commenting widget on a given site. In such case, you would create `allow` rules for that site, as seen below:
+A concrete example. Disqus is a commenting platform which use is quite widespread, so it's a good idea to keep `disqus.com` blocked everywhere by default (which is the case if you keep uMatrix's default settings). However, there might be times where you want to view the comments or use the Disqus commenting widget on a given site. In such case, you would create `allow` rules for that site, as seen below (`lareviewofbooks.org disqus.com * allow`, `lareviewofbooks.org disqus.com frame allow`):
 
 ![a](https://user-images.githubusercontent.com/585534/33133068-9c2f35aa-cf69-11e7-9d0b-edd09d36b5bf.png)
 
