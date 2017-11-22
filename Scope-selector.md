@@ -18,4 +18,6 @@ Another approach is to create an `allow` rule for `disquscdn.com` in the global 
 
 ![b](https://user-images.githubusercontent.com/585534/33133245-2e421de0-cf6a-11e7-9542-0dbb98e023aa.png)
 
+Rules from a broader scope always propagate to narrower scopes, so rules from the global scope always propagate to all scopes, unless of course a narrower scope override a specific rule.
+
 Anyway, this is the purpose of the scope selector, to easily switch back and forth between scopes. When you switch to a given scope, the matrix will reflect the rules in effects for that scope, i.e. what would happen if the network requests had been made in the selected scope, and the rules you create/remove will be created/removed from the selected scope.
