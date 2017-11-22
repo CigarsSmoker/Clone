@@ -1,4 +1,6 @@
-Every rule you create in uMatrix applies to a specific scope. The scope tells uMatrix where a rule should be enforced. For example, you may want to block all network requests to `facebook.com` everywhere by default, except when visiting web pages from `facebook.com`. The matrix UI in the popup panel allows you to easily select the scope in which to create/remove rules, the top-left cell is the scope selector:
+Every rule you create in uMatrix applies to a specific scope. The scope tells uMatrix where a rule should be enforced. For example, you may want to block all network requests to `facebook.com` everywhere by default (`* facebook.com * block`), except when visiting web pages from `facebook.com` (`facebook.com facebook.com * allow`)
+
+ The matrix UI in the popup panel allows you to easily select the scope from which to visualize/create/remove rules, the top-left cell is the scope selector:
 
 ![a](https://user-images.githubusercontent.com/585534/33131928-17587830-cf66-11e7-8a69-30902ac4ac87.png)
 
