@@ -18,7 +18,7 @@ Another approach is to create an `allow` rule for `disquscdn.com` in the global 
 
 ![b](https://user-images.githubusercontent.com/585534/33133245-2e421de0-cf6a-11e7-9542-0dbb98e023aa.png)
 
-Rules from a broader scope always propagate to narrower scopes, so rules from the global scope always propagate to all scopes, unless of course a narrower scope override a specific rule:
+Rules from a broader scope always propagate to narrower scopes, so rules from the global scope always propagate to all scopes, unless of course a narrower scope override a specific rule. Back to the `lareviewofbooks.org` scope, we see the global rule for `disquscdn.com` has propagated to the local scope:
 
 ![c](https://user-images.githubusercontent.com/585534/33133562-30a7f900-cf6b-11e7-93b1-934e80090cd4.png)
 
