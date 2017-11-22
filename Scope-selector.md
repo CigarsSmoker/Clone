@@ -22,6 +22,6 @@ Rules from a broader scope always propagate to narrower scopes, so rules from th
 
 ![c](https://user-images.githubusercontent.com/585534/33133562-30a7f900-cf6b-11e7-93b1-934e80090cd4.png)
 
-If you would rather have Disqus commenting widget not be broken at all on all sites by default, then you can just create the `disqus.com` rules above in the global scope: `* disqus.com * allow`, `* disqus.com frame allow`: your choice (I personally wouldn't do this given how widespread is Disqus).
+If you would rather have Disqus commenting widget not be broken at all on all sites by default, then you can just create the `disqus.com` rules above in the global scope: `* disqus.com * allow`, `* disqus.com frame allow` -- i.e., _your choice_ (I personally wouldn't do this given how widespread is Disqus).
 
 Anyway, this is the purpose of the scope selector, to easily switch back and forth between scopes. When you switch to a given scope, the matrix will reflect the rules in effects for that scope, i.e. what would happen if the network requests had been made in the selected scope, and the rules you create/remove will be created/removed from the selected scope.
