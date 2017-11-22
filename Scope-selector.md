@@ -8,7 +8,7 @@ It is advised that you create rules which apply only for a specific scope, but o
 
 A concrete example. Disqus is a commenting platform which use is quite widespread, so it's a good idea to keep `disqus.com` blocked everywhere by default (which is the case if you keep uMatrix's default settings). However, there might be times where you want to view the comments or use the Disqus commenting widget on a given site. In such case, you would create `allow` rules for that site, as seen below (`lareviewofbooks.org disqus.com * allow`, `lareviewofbooks.org disqus.com frame allow`):
 
-![a](https://user-images.githubusercontent.com/585534/33133068-9c2f35aa-cf69-11e7-9d0b-edd09d36b5bf.png)<br><sup>Sidenote: notice that network requests to `referrer.disqus.com`, `glitter.services.disqus.com`, and `realtime.services.disqus.com` are still blocked despite allowing `disqus.com`. These block rules are from the loaded HOSTS files. This also demonstrates that narrower rules can't be overriden by broader ones.</sup>
+![a](https://user-images.githubusercontent.com/585534/33133068-9c2f35aa-cf69-11e7-9d0b-edd09d36b5bf.png)<br><sup>Sidenote: notice that network requests to `referrer.disqus.com`, `glitter.services.disqus.com`, and `realtime.services.disqus.com` are still blocked despite allowing `disqus.com`. These block rules are loaded from the HOSTS files. This also demonstrates that narrower rules can't be overriden by broader ones.</sup>
 
 However this won't be sufficient to unbreak the Disqus comment widget, because after you allowed 3rd-party `disqus.com`, the Disqus widget is still broken, and now the matrix shows network requests to `disquscdn.com` were blocked.
 
