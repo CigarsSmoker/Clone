@@ -19,5 +19,5 @@
     - [WebExtension uMatrix disponible sur Firefox pour Android](https://primokorn.wordpress.com/2017/11/23/webextension-umatrix-disponible-sur-firefox-pour-android/) (Français)
     - [Firefox 57: Sicher ohne NoScript](https://www.youtube.com/watch?v=R9dePpq9OnQ) (German)
     - [How to use uMatrix to protect your online privacy & improve security | uMatrix tutorial](https://www.youtube.com/watch?v=TVozpo3zUBk)
+    - [uMatrix avec Firefox](https://vive-gnulinux.fr.cr/firefox-umatrix-1/) (Français)
     - [Chrome: uMatrix - Das wichtigste Addon](https://www.youtube.com/watch?v=af0tUR0GZUI) (German)
-    - [uMatrix avec Firefox](https://vive-gnulinux.fr.cr/firefox-umatrix-1/)
