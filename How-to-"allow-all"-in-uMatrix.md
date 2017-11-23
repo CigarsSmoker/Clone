@@ -42,8 +42,8 @@ The matrix filtering switch is just like any other rule, its state propagates to
 
 ## Reminders
 
-A reminder that all rules (matrix or switches) are temporary by default. So in the examples above, one would simply click of the _"Revert all temporary changes"_ button in the popup panel to remove all these allow-all rules and put back uMatrix in its original state.
+A reminder that all rules (matrix or switches) are temporary by default. So in the examples above, one would simply click the _"Revert all temporary changes"_ button in the popup panel to remove all these allow-all rules and put back uMatrix in its original state.
 
-Also, I want to remind and emphasize that all rules (matrix or switches) in uMatrix propagate to narrower scopes, unless a more explicit rule is encountered on the way down to narrower scopes.
+Also, I want to reiterate and emphasize that all rules (matrix or switches) in uMatrix propagate to narrower scopes, unless a more explicit rule is encountered on the way down to narrower scopes.
 
 This means that it's entirely possible for uMatrix to work in "reverse mode", in which uMatrix does not filter anything by default, and one would enable uMatrix only for specific site. Of course I do not expect power users to ever work this way, but this is just to again emphasize the rule propagation logic inherent to uMatrix.
