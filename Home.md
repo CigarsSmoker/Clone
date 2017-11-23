@@ -5,11 +5,12 @@
     - These guides may or may not reflect my opinion of how to _optimally_ use uMatrix. Feel free to contribute a guide.
     - [Setting domain-specific & global rules](https://github.com/gorhill/uMatrix/wiki/Setting-Domain-Specific-&-Global-Rules)
 - [Platform specific differences](https://github.com/gorhill/uMatrix/wiki/Platform-specific-differences)
-- [Rules syntax](https://github.com/gorhill/uMatrix/wiki/Rules-syntax)
+- [How to block 1st-party scripts everywhere by default](https://github.com/gorhill/uMatrix/wiki/How-to-block-1st-party-scripts-everywhere-by-default)
 - [Cookies](https://github.com/gorhill/uMatrix/wiki/Cookies)
 - [Scope selector](https://github.com/gorhill/uMatrix/wiki/Scope-selector)
 - [Per-scope switches](https://github.com/gorhill/uMatrix/wiki/Per-scope-switches)
 - [How to "allow all" in uMatrix](https://github.com/gorhill/uMatrix/wiki/How-to-%22allow-all%22-in-uMatrix)
+- [Rules syntax](https://github.com/gorhill/uMatrix/wiki/Rules-syntax)
 - [Examples of useful rulesets](https://github.com/gorhill/uMatrix/wiki/Examples-of-useful-rulesets)
 - [Logger](https://github.com/gorhill/uMatrix/wiki/Logger)
 - [FAQ](https://github.com/gorhill/uMatrix/wiki/FAQ)
