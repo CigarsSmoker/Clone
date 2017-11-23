@@ -14,7 +14,7 @@ Create a block rule for all scripts (`* * script block`):
 
 ![a](https://user-images.githubusercontent.com/585534/33189068-52538652-d06d-11e7-9f3a-3329d0bd74ab.png)
 
-If you want the approach of block 1st-party script for good, you will want to persist the new block rule:
+If you want the approach of blocking all scripts for good, you will want to persist the new block rule:
 
 ![a](https://user-images.githubusercontent.com/585534/33189093-9d7f32ac-d06d-11e7-9b54-728b7cb048f1.png)
 
