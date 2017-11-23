@@ -16,3 +16,4 @@
 - [Translation work contributors](https://github.com/gorhill/uMatrix/wiki/Translation-work-contributors)
 - Spotted on the WWW:
     - [Chrome: uMatrix - Das wichtigste Addon](https://www.youtube.com/watch?v=af0tUR0GZUI) (German)
+    - [How to use uMatrix to protect your online privacy & improve security | uMatrix tutorial](https://www.youtube.com/watch?v=TVozpo3zUBk)
