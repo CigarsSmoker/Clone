@@ -28,4 +28,6 @@ Create a global _allow_ rule for the _all_ cell (notice the global scope is sele
 
 ![a](https://user-images.githubusercontent.com/585534/33176486-350de8de-d02d-11e7-8b78-cd60fe16fadf.png)
 
-Same behavior as "local allow-all", except that now it applies to all scopes, i.e. web pages loaded from wherever will all be in soft allow-all mode. keep in mind though that all narrower block rules will not be overriden, as per uMatrix rule propagation logic, so all block rules from hosts files will still be enforced everywhere, and also all your block rules will still be enforced.
+Same behavior as "local allow-all", except that now it applies to all scopes, i.e. web pages loaded from wherever will all be in soft allow-all mode.
+
+Keep in mind though that all narrower block rules will not be overridden, as per uMatrix rule propagation logic, so all block rules from hosts files will still be enforced everywhere, and also all your block rules will still be enforced.
