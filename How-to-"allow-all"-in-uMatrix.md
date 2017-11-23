@@ -12,7 +12,7 @@ Note: the example page above could be read all fine with no need to allow all, I
 
 Create a local _allow_ rule for the _all_ cell:
 
-![a](https://user-images.githubusercontent.com/585534/33179254-c44bfa8c-d036-11e7-9bbc-a0e349c8e343.png)<br><sup>Screenshot shows result of reloading the page after the _allow_ rule was set.</sup>
+![a](https://user-images.githubusercontent.com/585534/33179254-c44bfa8c-d036-11e7-9bbc-a0e349c8e343.png)<br><sup>Screenshot shows result of reloading the page after the _allow_ rule was set. Note that `gstatic.com` appeared in the matrix, and the _allow_ rule from the _all_ cell did propagate to this newly seen domain.</sup>
 
 This way the _allow_ rule applies only in the local scope, nowhere else. Assigning an _allow_ rule to the _all_ cell is a soft allow-all, because no narrower block rules will be overriden as a result, i.e. all the block rules imported from the hosts file will still be enforced.
 
