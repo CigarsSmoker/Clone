@@ -18,7 +18,7 @@ If you want the approach of blocking all scripts for good, you will want to pers
 
 ![a](https://user-images.githubusercontent.com/585534/33189093-9d7f32ac-d06d-11e7-9b54-728b7cb048f1.png)
 
-At this poin, all 1st-party scripts are blocked everywhere. On the site where you created the rule:
+At this point, all scripts, including 1st-party ones, are blocked everywhere. On the site where you created the rule:
 
 ![a](https://user-images.githubusercontent.com/585534/33189108-bf860420-d06d-11e7-8617-08f7b9e2b96f.png)
 
