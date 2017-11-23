@@ -32,4 +32,4 @@ And from now on you will have to allow scripts manually as you see fit, locally 
 
 ## Reminder
 
-All rules are temporary by default in uMatrix. As you build your ruleset from the ground up for the sites you visit regularly, you will find yourself using more and more temporary rules (if needed at all) for those other sites you visit once in a while or even just once. Hence temporary rules are really the more natural approach in the long term.
+All rules are temporary by default in uMatrix. As you build your ruleset from the ground up for the sites you visit regularly, you will find yourself using less and less the padlock, and stick to only temporary rules for all those other sites you visit once in a while or even just once. Hence temporary rules are really the more natural approach in the long term.
