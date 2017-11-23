@@ -4,7 +4,6 @@
 - Community-provided guides:
     - These guides may or may not reflect my opinion of how to _optimally_ use uMatrix. Feel free to contribute a guide.
     - [Setting domain-specific & global rules](https://github.com/gorhill/uMatrix/wiki/Setting-Domain-Specific-&-Global-Rules)
-- [Platform specific differences](https://github.com/gorhill/uMatrix/wiki/Platform-specific-differences)
 - [How to block 1st-party scripts everywhere by default](https://github.com/gorhill/uMatrix/wiki/How-to-block-1st-party-scripts-everywhere-by-default)
 - [Cookies](https://github.com/gorhill/uMatrix/wiki/Cookies)
 - [Scope selector](https://github.com/gorhill/uMatrix/wiki/Scope-selector)
