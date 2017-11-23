@@ -1,6 +1,6 @@
 I see often users asking how to "allow all" in NoScript. So I will address the same question here but for uMatrix.
 
-There are four ways to "allow all" in uMatrix. I will present then in order of gentleness, from the less scary way of allowing all to the most scary way of allowing all.
+There are four ways to "allow all" in uMatrix. I will present them in order of gentleness, from the less scary way of allowing all to the most scary way of allowing all.
 
 ## Gentle "allow all"
 
