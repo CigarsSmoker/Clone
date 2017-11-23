@@ -12,3 +12,12 @@ This way the _allow_ rule applies only in the local scope, nowhere else. Assigni
 
 Note that due to the propagation logic of rules in uMatrix, an _allow_ rule on the _all_ cell propagate to all non-blacklisted cells in the matrix, so that if you reload the page, the _allow_ rule will also propagate to newly seen network requests for which there is no explicit block rule.
 
+## Local hard "allow all"
+
+A local hard "allow all" will completely disable matrix filtering, but only for the local scope:
+
+![b](https://user-images.githubusercontent.com/585534/33176267-7fdf41c4-d02c-11e7-926b-16276b2bf3a2.png)
+
+Note that in such case, this will also disable all the block rules imported from the hosts file, which is the equivalent of almost completely disabling uMatrix, but at least only for the current scope.
+
+Important: keep in mind that the per-scope switches are independent of the matrix filtering switch, you may also need/want to turn them off.
