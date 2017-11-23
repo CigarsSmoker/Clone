@@ -2,6 +2,12 @@ I see often users asking how to "allow all" in NoScript. So I will address the s
 
 There are four ways to "allow all" in uMatrix. I will present them in order of gentleness, from the less scary way of allowing all to the most scary way of allowing all.
 
+First, an example page, this is what you would get when using uMatrix with default settings:
+
+![a](https://user-images.githubusercontent.com/585534/33179053-2ae381a8-d036-11e7-8a32-8dcfbdeebe7c.png)
+
+Note: the example page above could be read all fine with no need to allow all, I just use this one page for tutorial purpose.
+
 ## Local soft allow-all
 
 Create a local _allow_ rule for the _all_ cell:
