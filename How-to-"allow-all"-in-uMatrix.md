@@ -31,3 +31,17 @@ Create a global _allow_ rule for the _all_ cell (notice the global scope is sele
 Same behavior as "local allow-all", except that now it applies to all scopes, i.e. web pages loaded from wherever will all be in soft allow-all mode.
 
 Keep in mind though that all narrower block rules will not be overridden, as per uMatrix rule propagation logic, so all block rules from hosts files will still be enforced everywhere, and also all your block rules will still be enforced.
+
+## Global hard allow-all
+
+Disable matrix filtering while in the global scope (notice the global scope is selected in the picture):
+
+![b](https://user-images.githubusercontent.com/585534/33176919-c85212f4-d02e-11e7-833f-458bf02e2b89.png)
+
+The matrix filtering switch is just like any other rule, its state propagates to narrower scopes. So disabling matrix filtering in the global scope is almost equivalent to disabling completely uMatrix on all sites.
+
+## Reminder
+
+Again, I want to remind and emphasize that all rules (matrix or switches) in uMatrix propagate to narrower scopes, unless a more explicit rule is encountered on the way down to narrower scopes.
+
+This means that it's entirely possible for uMatrix to work in "reverse mode", in which uMatrix does not filter anything by default, and one would enable uMatrix only for specific site. Of course I do not expect power users to ever work this way, but this is just to again emphasize the rule propagation logic inherent to uMatrix.
