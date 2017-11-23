@@ -10,7 +10,7 @@ Select the global scope:
 
 ![a](https://user-images.githubusercontent.com/585534/33189061-3a4bea9a-d06d-11e7-99ba-ab95c50f5484.png)
 
-Create a block rule for all scripts (`* * script block`):
+Create a block rule for all scripts (equivalent to `* * script block` in picture below):
 
 ![a](https://user-images.githubusercontent.com/585534/33189068-52538652-d06d-11e7-9f3a-3329d0bd74ab.png)
 
@@ -26,7 +26,7 @@ And all other sites:
 
 ![a](https://user-images.githubusercontent.com/585534/33189144-123ff018-d06e-11e7-82f2-62920f864660.png)
 
-And from now on you will have to allow scripts manually as you see fit, locally or globally:
+And from now on you will have to allow scripts manually as you see fit, locally or globally (equivalent to `theverge.com theverge.com script allow` in picture below):
 
 ![a](https://user-images.githubusercontent.com/585534/33189212-aab6c5ce-d06e-11e7-9975-a1657fbe7eb9.png)
 
