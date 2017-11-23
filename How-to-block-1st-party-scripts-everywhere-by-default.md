@@ -26,3 +26,10 @@ And all other sites:
 
 ![a](https://user-images.githubusercontent.com/585534/33189144-123ff018-d06e-11e7-82f2-62920f864660.png)
 
+And from now on you will have to allow scripts manually as you see fit, locally or globally:
+
+![a](https://user-images.githubusercontent.com/585534/33189212-aab6c5ce-d06e-11e7-9975-a1657fbe7eb9.png)
+
+## Reminder
+
+All rules are temporary by default in uMatrix. As you build your ruleset from the ground up for the site you visit regularly, you will find yourself using more and more temporary rules as only needed for those other sites you visit once in a while or even just once.
