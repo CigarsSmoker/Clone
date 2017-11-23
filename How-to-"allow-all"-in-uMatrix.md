@@ -12,7 +12,7 @@ Note: the example page above could be read all fine with no need to allow all, I
 
 Create a local _allow_ rule for the _all_ cell:
 
-![a](https://user-images.githubusercontent.com/585534/33175914-39b16cb4-d02b-11e7-96e9-1750e31774c4.png)
+![a](https://user-images.githubusercontent.com/585534/33179254-c44bfa8c-d036-11e7-9bbc-a0e349c8e343.png)<br><sup>Screenshot show the matrix after the page was reloaded.</sup>
 
 This way the _allow_ rule applies only in the local scope, nowhere else. Assigning an _allow_ rule to the _all_ cell is a soft allow-all, because no narrower block rules will be overriden as a result, i.e. all the block rules imported from the hosts file will still be enforced.
 
