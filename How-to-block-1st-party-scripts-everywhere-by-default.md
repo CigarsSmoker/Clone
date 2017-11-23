@@ -1,4 +1,4 @@
-By default, out of the box, uMatrix blocks all 3rd-party script, but allows 1st-party scripts to run on any web site -- it's just convenient for the majority of people.
+By default, out of the box, uMatrix blocks all 3rd-party scripts, but allows 1st-party scripts to run on any web site -- it's just convenient for the majority of people.
 
 If you wish, you can set up uMatrix to block all scripts by default everywhere with only a few clicks.
 
