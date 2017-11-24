@@ -24,5 +24,16 @@ Given a rule `source destination type action`, the _all_ cell means that `source
 
 Given a rule `source destination type action`, a _type_ cell controls the `type` part of that rule.
 
-Currrently, the _type_ cells translates into these network request types internally:
+Currently, the _type_ cells translates into these network request types internally:
+
+| header types  | internal types  |
+| ------------- |:--------------- |
+| cookie        | cookies,<br>local storages (as browser API allows) |
+| css           | stylesheets,<br>fonts |
+| image         | images |
+| media         | audio,<br>video,<br>plugins |
+| script        | scripts |
+| XHR           | [XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest), [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) |
+| frame         | embedded documents (`iframe`, `frame`) |
+| other         | everything [which does not fit in previous types](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/webRequest/ResourceType#):<br>beacons,<br> CSP reports,<br> ping,<br> [Web App Manifest](https://developer.mozilla.org/en-US/docs/Web/Manifest),<br> [XBL](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XBL),<br> [DTD](https://developer.mozilla.org/en-US/docs/Glossary/DTD),<br>[XSLT](https://developer.mozilla.org/en-US/docs/Web/XSLT), and other |
 
