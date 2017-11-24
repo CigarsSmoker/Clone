@@ -8,7 +8,7 @@ The scope selector allows you to pick the scope to visualize which rules are par
 
 Using the picture above as example, one can use the scope selector to visualize or add/remove rules specific to the `www.sciencemag.org`, `sciencemag.org`, `org`, and even the global scope, `*`.
 
-As per uMatrix rule-propagation logic, rules from a broader scope propagate to narrower scopes, unless of course there is an explicit rule on the way.
+As per uMatrix rule-propagation logic, remember that rules from a broader scope propagate to narrower scopes, unless of course there is an explicit rule on the way.
 
 Given a rule `source destination type action`, the scope selector controls the `source` part of that rule.
 
