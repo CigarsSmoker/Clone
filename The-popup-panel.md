@@ -3,6 +3,7 @@ Preamble: The core of uMatrix is the sum of all your rules -- i.e. your ruleset.
     source destination type action
 
 - `source` is the scope in which the rule must be enforced.
+    - The scope is derived from the hostname of the URL address of the current web page.
     - The special scope `*` represents the global scope, meaning a rule in that scope will apply everywhere, unless overridden by a higher precedence rule.
 - `destination` is the remote server for which the rule applies.
     - The special destination `*` means "all destinations", meaning a rule that will be enforced for all destinations, unless overridden by a higher precedence rule.
