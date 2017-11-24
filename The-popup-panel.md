@@ -58,6 +58,6 @@ Rules on a base domain or subdomains propagate to all descendant subdomains. Gen
 
 Again, keep in mind that rules from broader scopes propagate to narrower scopes, so for some it might be convenient to set an _allow_ rule in the global scope for a base domain they completely trust, for example this is convenient for content delivery network ("CDN") which use is widespread: `* jquery.com * allow` (but really this is a matter of opinion, many will argue that it is not good to wholly allow even such popular CDN: in the end, it's your choice).
 
-The _1st-party_ row is a special row used to assign default rules to whatever is 1st-party to the current site. Typically the rules for 1st-party are set in the global scope -- it's a bit weird to set a _1st-party_ rule in a narrower scope, but it is possible after all, so you deal with this as you wish.
+The _1st-party_ row is a special row used to assign default rules to whatever is 1st-party to the current site. Typically the rules for 1st-party are set in the global scope -- it's a bit weird to set a _1st-party_ rule in a narrower scope, but it is possible after all.
 
 Given a rule `source destination type action`, the destination row controls the `destination` part of that rule, and the `type` is set to `*` -- meaning "all resources" from that destination will be affected by the rule.
