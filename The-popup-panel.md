@@ -15,6 +15,8 @@ The matrix UI in the popup panel is a **direct and accurate view of your ruleset
 
 ![a](https://user-images.githubusercontent.com/585534/33213085-ff74afd8-d0f3-11e7-8232-4c204925d274.png)
 
+The matrix UI will show you at once all the connections for the current page (including the failed one), and how your ruleset affected the outcome. The matrix UI is fully interactive, you can point-and-click to add/remove rules to/from your ruleset.
+
 ## Scope selector
 
 ![b](https://user-images.githubusercontent.com/585534/33210614-f90bb638-d0e8-11e7-8639-8566c3577cd3.png)
