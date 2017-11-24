@@ -4,6 +4,8 @@
 
 The scope selector allows you to pick the scope to visualize which rules are part of, or propagate to that scope, and also from which scope rules will be added/removed when you click on a cell in the matrix.
 
+As per uMatrix rule-propagation logic, rules from a broader scope propagate to narrower scope, unless of course there is an explicit rule on the way.
+
 Given a rule `source destination type action`, the scope selector controls the `source` part of that rule.
 
 #### The "all" cell
