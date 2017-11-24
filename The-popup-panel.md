@@ -100,7 +100,9 @@ These cells serve to visualize what resource for what destination are allowed/bl
 
 The count reported in these cells represent the number of _distinct_ URLs which were used to connect (or attempted connection) to the remote server.
 
-Typically, it is inconvenient to strictly work at such granularity, one will usually assign rules to whole domains or whole types, but the _destination & type_ are very useful in case one needs to override an inherited rule from a lower scope or lower precedence cell. For example, with uMatrix's default ruleset, there is an _allow_ rule assigned to the _1st-party/frame_ cell, to override the global _block_ rule for _frame_.
+Typically, it is inconvenient to strictly work at such granularity, one will usually assign rules to whole domains or whole types, but the _destination & type_ are very useful in case one needs to override an inherited rule from a lower scope or lower precedence cell.
+
+For example, with uMatrix's default ruleset, there is an _allow_ rule assigned to the _1st-party/frame_ cell, to override the global _block_ rule for _frame_.
 
 But as usual, it's up to you to make use of this ability to go more granular when you craft your ruleset.
 
