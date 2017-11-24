@@ -1,11 +1,5 @@
 ![a](https://user-images.githubusercontent.com/585534/33213085-ff74afd8-d0f3-11e7-8232-4c204925d274.png)
 
-The matrix is made of cells, and the color of a cell tells whether the cell will result in a _block_ or _allow_ action:
-- Dark red: the cell is affected by a _block_ rule.
-- Pale red: the cell inherit a _block_ rule by virtue of uMatrix's rule-propagation logic.
-- Dark green: the cell is affected by an _allow_ rule.
-- Pale green: the cell inherit an _allow_ rule by virtue of uMatrix's rule-propagation logic.
-
 ### Scope selector
 
 ![b](https://user-images.githubusercontent.com/585534/33210614-f90bb638-d0e8-11e7-8639-8566c3577cd3.png)
@@ -15,6 +9,21 @@ The scope selector allows you to pick the scope to visualize which rules are par
 As per uMatrix rule-propagation logic, rules from a broader scope propagate to narrower scopes, unless of course there is an explicit rule on the way.
 
 Given a rule `source destination type action`, the scope selector controls the `source` part of that rule.
+
+*** The matrix cells
+
+![b](https://user-images.githubusercontent.com/585534/33214668-e5e3fa68-d0fa-11e7-8c73-d703988b5855.png)
+
+
+The matrix is made of cells, and the color of a cell tells whether the cell will result in a _block_ or _allow_ action:
+- Dark red: the cell is affected by a _block_ rule.
+- Pale red: the cell inherit a _block_ rule by virtue of uMatrix's rule-propagation logic.
+- Dark green: the cell is affected by an _allow_ rule.
+- Pale green: the cell inherit an _allow_ rule by virtue of uMatrix's rule-propagation logic.
+
+The matrix is a view on the current state of the temporary ruleset. The temporary ruleset is always what uMatrix uses to decide whether a network request must be blocked or allowed.
+
+The matrix will however also show you the permanent rule assigned to a cell, if any: the little triangle in the top left corner of a cell when present represent a permanent rule that exists for that cell.
 
 ***
 
