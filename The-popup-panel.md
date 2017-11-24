@@ -58,7 +58,7 @@ Given a rule `source destination type action`, the _all_ cell means that `source
 
 Given a rule `source destination type action`, a _type_ cell controls the `type` part of that rule while the `destination` part is `*` (meaning all destinations).
 
-Currently, the _type_ cells translates into these network request types internally:
+Currently, the _type_ cells translate into these network request types internally:
 
 | matrix header | rule type   | browser resources  |
 | ------------- |:----------- |:------------------ |
