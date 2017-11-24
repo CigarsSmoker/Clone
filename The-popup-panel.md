@@ -1,4 +1,4 @@
-#### Scope selector
+### Scope selector
 
 ![b](https://user-images.githubusercontent.com/585534/33210614-f90bb638-d0e8-11e7-8639-8566c3577cd3.png)
 
@@ -8,7 +8,7 @@ As per uMatrix rule-propagation logic, rules from a broader scope propagate to n
 
 Given a rule `source destination type action`, the scope selector controls the `source` part of that rule.
 
-#### The "all" cell
+### The "all" cell
 
 ![b](https://user-images.githubusercontent.com/585534/33210981-667e08d2-d0ea-11e7-8fb5-dc563916405e.png)
 
@@ -18,7 +18,7 @@ As per uMatrix rule-propagation logic, all cells for which there is no explicit 
 
 Given a rule `source destination type action`, the _all_ cell means that `source`, `destination`, and `type` are all `*`.
 
-#### The "type" cells
+### The "type" cells
 
 ![b](https://user-images.githubusercontent.com/585534/33211240-a160542c-d0eb-11e7-99f3-c237113076b8.png)
 
