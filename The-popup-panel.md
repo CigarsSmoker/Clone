@@ -32,7 +32,7 @@ Currently, the _type_ cells translates into these network request types internal
 | cookie        | `cookie`    | cookies,<br>local storages (as browser API allows) |
 | css           | `css`       | stylesheets,<br>fonts |
 | image         | `image`     | images |
-| media         | `media`     | audio,<br>video,<br>plugins |
+| media         | `media`     | audio (`<audio>`),<br>video (`<video>`),<br>plugins (`<object>`, `<embed>`) |
 | script        | `script`    | scripts |
 | XHR           | `xhr`       | [XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest), [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) |
 | frame         | `frame`     | embedded documents (`iframe`, `frame`) |
