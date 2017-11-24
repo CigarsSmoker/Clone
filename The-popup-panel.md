@@ -10,10 +10,11 @@ As per uMatrix rule-propagation logic, rules from a broader scope propagate to n
 
 Given a rule `source destination type action`, the scope selector controls the `source` part of that rule.
 
-*** The matrix cells
+***
+
+## The matrix cells
 
 ![b](https://user-images.githubusercontent.com/585534/33214668-e5e3fa68-d0fa-11e7-8c73-d703988b5855.png)
-
 
 The matrix is made of cells, and the color of a cell tells whether the cell will result in a _block_ or _allow_ action:
 - Dark red: the cell is affected by a _block_ rule.
