@@ -54,6 +54,8 @@ The _destination_ rows allow to easily set allow/block rules to allow/block all 
 
 When a network request is made to a specific destination, uMatrix will report the hostname at which the network request was made, and all the intermediate subdomains (if any) up to the base domain.
 
-Rules on a base domain or subdomains propagate to all descendant subdomains. This way you can easily set a rule which applies to the base domain and all subdomains, or to a specific subdomain as you see fit.
+Rules on a base domain or subdomains propagate to all descendant subdomains. Generally, if you trust a base domain, it is convenient to set an _allow_ rule to it, so that all subdomains are also allowed as per rule-propagation logic.
+
+Again, keep in mind that rules from broader scopes propagate to narrower scopes, so for some it might be convenient to set an _allow_ rule in the global scope for a base domain they completely trust, for example this is convenient for content delivery network ("CDN") which use is widespread: `* jquery.com * allow` (but really this is a matter of opinion, many will argue that it is not good to wholly allow even such popular CDN: in the end, it's your choice).
 
 Given a rule `source destination type action`, the destination row controls the `destination` part of that rule, and the `type` is set to `*` -- meaning "all resources" from that destination will be affected by the rule.
