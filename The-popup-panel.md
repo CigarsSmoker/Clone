@@ -19,6 +19,8 @@ The matrix UI in the popup panel is a **direct and accurate view of your ruleset
 
 ![b](https://user-images.githubusercontent.com/585534/33210614-f90bb638-d0e8-11e7-8639-8566c3577cd3.png)
 
+The scope currently selected in the picture above is `sciencemag.org`.
+
 The scope selector allows you to pick the scope to visualize which rules are part of, or propagate to that scope, and also from which scope rules will be added/removed when you click on a cell in the matrix.
 
 Using the picture above as example, one can use the scope selector to visualize or add/remove rules specific to the `www.sciencemag.org`, `sciencemag.org`, `org`, and even the global scope, `*`.
