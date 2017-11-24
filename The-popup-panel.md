@@ -48,4 +48,4 @@ Currently, the _type_ cells translates into these network request types internal
 
 ![b](https://user-images.githubusercontent.com/585534/33212262-36b6cc32-d0f0-11e7-833c-ea316995a9a4.png)
 
-Given a rule `source destination type action`, a destination row controls the `destination` part of that rule.
+Given a rule `source destination type action`, the destination row controls the `destination` part of that rule, and the `type` is set to `*` -- meaning "all resources" from that destination will be affected by the rule.
