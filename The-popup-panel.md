@@ -4,4 +4,4 @@
 
 The scope selector allows you to pick the scope to visualize which rules are part of, or propagate to that scope, and also from which scope rules will be added/removed when you click on a cell in the matrix.
 
-Given a rule `source destination type action` syntax, the scope selector controls the `source` part of that rule.
+Given a rule `source destination type action`, the scope selector controls the `source` part of that rule.
