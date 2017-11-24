@@ -30,7 +30,11 @@ The matrix is a view on the current state of the temporary ruleset. The temporar
 
 The matrix will however also show you the permanent rule assigned to a cell, if any: the little triangle in the top left corner of a cell when present represent a permanent rule that exists for that cell.
 
-If a cell has a permanent rule assigned to it and you change the state of the cell, you will see that the permanent state and the temporary state become different as a result. The discrepancy will disappear when you persist the temporary rules in the current scope by clicking the padlock icon.
+If a cell has a permanent rule assigned to it and you change the state of the cell, you will see that the permanent state and the temporary state become different as a result. The discrepancy will disappear when you persist the temporary rules in the current scope by clicking the padlock icon:
+
+![b](https://user-images.githubusercontent.com/585534/33215395-91e1dec8-d0fd-11e7-9bb0-3072920464f1.png)
+
+The above picture shows that the cell has a permanent _allow_ rule assigned to it, and a permanent _block_ rule, meaning that if you revert all temporary rules, the cell will go back to its saved _block_ state.
 
 ***
 
