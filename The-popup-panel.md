@@ -1,5 +1,11 @@
 ![a](https://user-images.githubusercontent.com/585534/33213085-ff74afd8-d0f3-11e7-8232-4c204925d274.png)
 
+The matrix is made of cells, and the color of a cell tells whether the cell will result in a _block_ or _allow_ action:
+- Dark red: the cell is affected by a _block_ rule.
+- Pale red: the cell inherit a _block_ rule by virtue of uMatrix's rule-propagation logic.
+- Dark green: the cell is affected by an _allow_ rule.
+- Pale green: the cell inherit an _allow_ rule by virtue of uMatrix's rule-propagation logic.
+
 ### Scope selector
 
 ![b](https://user-images.githubusercontent.com/585534/33210614-f90bb638-d0e8-11e7-8639-8566c3577cd3.png)
@@ -70,7 +76,11 @@ Given a rule `source destination type action`, the _destination_ cell controls t
 
 ![b](https://user-images.githubusercontent.com/585534/33214229-068bc20c-d0f9-11e7-8efa-d12d5d443d20.png)
 
-These cells serve to visualize what resource for what destination are allowed/blocked in the current scope. They can also be used to add/remove rules for specific destination and type of resources. Typically, it is inconvenient to strictly work at such granularity, one will usually assign rules to whole domains or whole types, but the _destination & type_ are very useful in case overriding an inherited rule from a lower scope or lower precedence cell.
+These cells serve to visualize what resource for what destination are allowed/blocked in the current scope. They can also be used to add/remove rules for specific destination and type of resources.
+
+The count reported in these cells represent the number of _distinct_ URLs which were used to connect (or attempted connection) to the remote server.
+
+Typically, it is inconvenient to strictly work at such granularity, one will usually assign rules to whole domains or whole types, but the _destination & type_ are very useful in case overriding an inherited rule from a lower scope or lower precedence cell.
 
 But as usual, it's up to you to make use of this ability to go more granular when you craft your ruleset.
 
