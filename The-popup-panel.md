@@ -18,6 +18,11 @@ As per uMatrix rule-propagation logic, all cells for which there is no explicit 
 
 Given a rule `source destination type action`, the _all_ cell means that `source`, `destination`, and `type` are all `*`.
 
-The type cells
+The "type" cells
 
 ![b](https://user-images.githubusercontent.com/585534/33211240-a160542c-d0eb-11e7-99f3-c237113076b8.png)
+
+Given a rule `source destination type action`, a _type_ cell controls the `type` part of that rule.
+
+Currrently, the _type_ cells translates into these network request types internally:
+
