@@ -1,3 +1,17 @@
+Preamble: The core of uMatrix is the sum of all your rules -- i.e. your ruleset. All rules are of the form:
+
+    source destination type action
+
+- `source` is the scope in which the rule must be enforced.
+    - The special scope `*` represents the global scope, meaning a rule in that scope will apply everywhere, unless overridden by a higher precedence rule.
+- `destination` is the remote server for which the rule applies.
+    - The special destination `*` means "all destinations", meaning a rule that will be enforced for all destinations, unless overridden by a higher precedence rule.
+- `type` is the type of resource for which the rule applies.
+    - The special type `*` means "all types", meaning a rule that will be enforced for all types of resources, unless overridden by a higher precedence rule.
+- `action` is whether the resource must be blocked or allowed.
+
+The matrix UI in the popup panel is a **direct and accurate view of your ruleset** for the current scope.
+
 ![a](https://user-images.githubusercontent.com/585534/33213085-ff74afd8-d0f3-11e7-8232-4c204925d274.png)
 
 ## Scope selector
