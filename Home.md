@@ -1,9 +1,6 @@
 - [Changes from HTTP Switchboard](https://github.com/gorhill/uMatrix/wiki/Changes-from-HTTP-Switchboard)
 - [About the required permissions](https://github.com/gorhill/uMatrix/wiki/About-the-required-permissions)
-- [Walkthrough for first time users](https://github.com/gorhill/uMatrix/wiki/Very-bare-walkthrough-for-first-time-users)
-- Community-provided guides:
-    - These guides may or may not reflect my opinion of how to _optimally_ use uMatrix. Feel free to contribute a guide.
-    - [Setting domain-specific & global rules](https://github.com/gorhill/uMatrix/wiki/Setting-Domain-Specific-&-Global-Rules)
+- [The popup panel](https://github.com/gorhill/uMatrix/wiki/The-popup-panel)
 - [How to block 1st-party scripts everywhere by default](https://github.com/gorhill/uMatrix/wiki/How-to-block-1st-party-scripts-everywhere-by-default)
 - [Cookies](https://github.com/gorhill/uMatrix/wiki/Cookies)
 - [Scope selector](https://github.com/gorhill/uMatrix/wiki/Scope-selector)
@@ -15,6 +12,9 @@
 - [FAQ](https://github.com/gorhill/uMatrix/wiki/FAQ)
 - [Latest user agent strings](https://github.com/gorhill/uMatrix/wiki/Latest-user-agent-strings)
 - [Translation work contributors](https://github.com/gorhill/uMatrix/wiki/Translation-work-contributors)
+- Community-provided guides:
+    - These guides may or may not reflect my opinion of how to _optimally_ use uMatrix. Feel free to contribute a guide.
+    - [Setting domain-specific & global rules](https://github.com/gorhill/uMatrix/wiki/Setting-Domain-Specific-&-Global-Rules)
 - Spotted on the WWW:
     - [WebExtension uMatrix disponible sur Firefox pour Android](https://primokorn.wordpress.com/2017/11/23/webextension-umatrix-disponible-sur-firefox-pour-android/) (Français)
     - [Firefox 57: Sicher ohne NoScript](https://www.youtube.com/watch?v=R9dePpq9OnQ) (German)
