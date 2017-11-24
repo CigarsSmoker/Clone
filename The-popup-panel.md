@@ -58,7 +58,7 @@ Rules on a base domain or subdomains propagate to all descendant subdomains. Gen
 
 Again, keep in mind that rules from broader scopes propagate to narrower scopes, so for some it might be convenient to set an _allow_ rule in the global scope for a base domain they completely trust, for example this is convenient for content delivery network ("CDN") which use is widespread: `* jquery.com * allow` (but really this is a matter of opinion, many will argue that it is not good to wholly allow even such popular CDN: in the end, it's your choice).
 
-The _1st-party_ row is a special row used to assign default rules to whatever is 1st-party to the current site. Typically the rules for 1st-party are set in the global scope -- it's a bit weird to set a _1st-party_ rule in a narrower scope, but it is possible after all.
+The _1st-party_ row is a special row used to assign default rules to whatever is 1st-party to the current site (what is reported in the scope selector). Typically the rules for 1st-party are set in the global scope -- it's a bit weird to set a _1st-party_ rule in a narrower scope, but it is possible after all.
 
 All hostnames which are explicitly blocked are sent at the bottom of the matrix, so as to reduce visual noise for destination which are of little interest since they have been blacklisted. You can collapse/expand that section of the matrix. Typically all the blocked rules created as a result of loading hosts files are reported at the bottom. Keep in mind you can override these built-in block rules as you wish with either a _noop_ rule or an _allow_ rule.
 
