@@ -16,7 +16,11 @@ Given a rule `source destination type action`, the scope selector controls the `
 
 ![b](https://user-images.githubusercontent.com/585534/33214668-e5e3fa68-d0fa-11e7-8c73-d703988b5855.png)
 
-The matrix is made of cells, and the color of a cell tells whether the cell will result in a _block_ or _allow_ action:
+The matrix is made of cells.
+
+All cells in the matrix map to a `source destination type action` rule internally. For any given cell, an associated  rule may or may not exist. This mapping allows you to easily visualize your ruleset for the currently selected scope, and to easily add/remove rules to/from your ruleset through easy point-and-click.
+
+The color of a cell tells whether the underlying resource will result in a _block_ or _allow_ action:
 - Dark red: the cell is affected by a _block_ rule.
 - Pale red: the cell inherit a _block_ rule by virtue of uMatrix's rule-propagation logic.
 - Dark green: the cell is affected by an _allow_ rule.
