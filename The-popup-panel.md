@@ -16,7 +16,7 @@ Given a rule `source destination type action`, the scope selector controls the `
 
 ![b](https://user-images.githubusercontent.com/585534/33210981-667e08d2-d0ea-11e7-8fb5-dc563916405e.png)
 
-The _all_ cell allows you to set the default rule which will affect all other cells in the matrix for the current scope. 
+The _all_ cell allows you to set the default rule which will affect all other cells in the matrix for the current scope, and related narrower scopes as per rule-propagation logic.
 
 As per uMatrix rule-propagation logic, all cells for which there is no explicit rules will inherit the state of the _all_ cell.
 
