@@ -26,7 +26,7 @@ The color of a cell tells whether the underlying resource will result in a _bloc
 - Dark green: the cell is affected by an _allow_ rule.
 - Pale green: the cell inherit an _allow_ rule by virtue of uMatrix's rule-propagation logic.
 
-The matrix is a view on the current state of the temporary ruleset. The temporary ruleset is always what uMatrix uses to decide whether a network request must be blocked or allowed.
+The matrix is a view on the current state of the temporary ruleset. The temporary ruleset is always what uMatrix uses to decide whether a resource must be blocked or allowed.
 
 The matrix will however also show you the permanent rule assigned to a cell, if any: the little triangle in the top left corner of a cell when present represent a permanent rule that exists for that cell.
 
