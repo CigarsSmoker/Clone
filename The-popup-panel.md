@@ -30,6 +30,8 @@ The matrix is a view on the current state of the temporary ruleset. The temporar
 
 The matrix will however also show you the permanent rule assigned to a cell, if any: the little triangle in the top left corner of a cell when present represent a permanent rule that exists for that cell.
 
+If a cell has a permanent rule assigned to it and you change the state of the cell, you will see that the permanent state and the temporary become different as a result. The discrepancy will disappear when you persist the temporary rules in the current scope by clicking the padlock icon.
+
 ***
 
 ### The "all" cell
