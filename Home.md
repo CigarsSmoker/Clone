@@ -2,7 +2,7 @@
 - [About the required permissions](https://github.com/gorhill/uMatrix/wiki/About-the-required-permissions)
 - [The popup panel](https://github.com/gorhill/uMatrix/wiki/The-popup-panel)
 - [How to block 1st-party scripts everywhere by default](https://github.com/gorhill/uMatrix/wiki/How-to-block-1st-party-scripts-everywhere-by-default)
-- [How to work in hard 3rd-party default deny by default](https://github.com/gorhill/uMatrix/wiki/How-to-work-in-hard-3rd-party-default-deny-by-default)
+- [How to work in hard 3rd-party default-deny mode by default](https://github.com/gorhill/uMatrix/wiki/How-to-work-in-hard-3rd-party-default-deny-by-default)
 - [Cookies](https://github.com/gorhill/uMatrix/wiki/Cookies)
 - [Scope selector](https://github.com/gorhill/uMatrix/wiki/Scope-selector)
 - [Per-scope switches](https://github.com/gorhill/uMatrix/wiki/Per-scope-switches)
