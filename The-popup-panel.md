@@ -25,7 +25,9 @@ The scope currently selected in the picture above is `sciencemag.org`.
 
 The scope selector allows you to pick the scope to visualize which rules are part of, or propagate to that scope, and also from which scope rules will be added/removed when you click on a cell in the matrix.
 
-Using the picture above as example, one can use the scope selector to visualize or add/remove rules specific to the `www.sciencemag.org`, `sciencemag.org`, `org`, and even the global scope, `*`.
+Using the picture above as example, one can use the scope selector to visualize or add/remove rules specific to the `www.sciencemag.org`, `sciencemag.org`, `org`, and even the global scope, `*`:
+
+![a](https://user-images.githubusercontent.com/585534/33230289-6d441da4-d1ae-11e7-8094-f64130da4e4f.png)<br><sup>Just click the proper hostname label to select various scopes.</sup>
 
 As per uMatrix rule-propagation logic, remember that rules from a broader scope propagate to narrower scopes, unless of course there is an explicit rule on the way.
 
