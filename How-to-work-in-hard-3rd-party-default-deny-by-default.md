@@ -4,7 +4,7 @@ Out of the box, uMatrix's ruleset is "soft" 3rd-party default-deny.
 
 With a few clicks, you can modify the ruleset so that uMatrix works in "hard" 3rd-party default-deny everywhere.
 
-"Hard" here means that even 3rd-party passive resources will be forbidden by uMatrix. This quite increases the likelihood of web sites not rendering properly visually, but for some the benefits are worth it because forbids **all** 3rd-party network requests when loading web pages.
+"Hard" here means that even 3rd-party passive resources will be forbidden by uMatrix. This quite increases the likelihood of web sites not rendering properly visually, but for some the benefits are worth it because this prevents **all** 3rd-party network requests when loading web pages.
 
 First, this is a web page with uMatrix's out-of-the-box ruleset at work:
 
