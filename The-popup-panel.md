@@ -86,11 +86,11 @@ Currently, the _type_ cells translate into these network request types internall
 | (invisible)   | `doc`       | root document      |
 | cookie        | `cookie`    | cookies,<br>local storages (as browser API allows) |
 | css           | `css`       | stylesheets,<br>fonts |
-| image         | `image`     | images |
+| image         | `image`     | images (`<img>`, `<picture>`) |
 | media         | `media`     | audio (`<audio>`),<br>video (`<video>`),<br>plugins (`<object>`, `<embed>`) |
 | script        | `script`    | scripts |
 | XHR           | `xhr`       | [XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest), [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) |
-| frame         | `frame`     | embedded documents (`iframe`, `frame`) |
+| frame         | `frame`     | embedded documents (`<iframe>`, `<frame>`) |
 | other         | `other`     | everything [which does not fit in previous types](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/webRequest/ResourceType#):<br>beacons,<br>[CSP reports](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/report-uri),<br>[ping](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-ping),<br>[Web App Manifest](https://developer.mozilla.org/en-US/docs/Web/Manifest),<br> [XBL](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XBL),<br> [DTD](https://developer.mozilla.org/en-US/docs/Glossary/DTD),<br>[XSLT](https://developer.mozilla.org/en-US/docs/Web/XSLT), and other unspecified types |
 
 ***
