@@ -14,7 +14,7 @@ From there, select the global scope:
 
 ![a](https://user-images.githubusercontent.com/585534/33232106-32a84538-d1ce-11e7-8688-86962052efea.png)
 
-Then remove both _allow_ rules for _css_ and _image_:
+Then remove both _allow_ rules for _css_ and _image_ (this removes `* * css allow` and `* * image allow` from your ruleset):
 
 ![a](https://user-images.githubusercontent.com/585534/33232118-4b6f3842-d1ce-11e7-8673-0b16183aac7f.png)
 
