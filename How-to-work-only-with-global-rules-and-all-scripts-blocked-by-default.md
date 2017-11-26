@@ -40,4 +40,8 @@ Now persist these changes by clicking the padlock icon (which should report that
 
 This is it.
 
-Scripts and frames are now blocked everywhere, and simply creating an allow rule directly on whatever domain will enable scripts and frames to be loaded for that domain. If you persist such rule by clicking on the padlock, they become permanently part of your ruleset.
+Scripts and frames are now blocked everywhere, and simply creating an allow rule directly on whatever domain will enable scripts and frames to be loaded for that domain. If you persist such rule by clicking on the padlock, they become permanently part of your ruleset, and applies everywhere since they are created in the global scope.
+
+For example: create _allow_ rules for _googlevideo.com_, _youtube.com_, and _ytimg.com_ in the global scope (which is now always selected by default) and persist them with the padlock. You can now have embedded Youtube videos properly play on all sites:
+
+![a](https://user-images.githubusercontent.com/585534/33241139-6ff13d66-d28f-11e7-885f-c82d17e24540.png)
