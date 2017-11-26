@@ -48,6 +48,7 @@ For example: create _allow_ rules for `googlevideo.com`, `youtube.com`, and `yti
 
 If you care to deal with base domains only, then just collapse base domain sections by default:
 
-![a](https://user-images.githubusercontent.com/585534/33241234-b817700a-d290-11e7-8c7c-8742ef2e37c4.png)
+
+![b](https://user-images.githubusercontent.com/585534/33243544-55dbe30a-d2b6-11e7-9418-46148d3ca41b.png)
 
 You can expand specific base domain sections independently of the others if ever you want to set more granular subdomain-level rules.
