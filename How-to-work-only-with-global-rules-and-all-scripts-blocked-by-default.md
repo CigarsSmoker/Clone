@@ -1,7 +1,3 @@
-The motivation for this article is the following argument I've seen being made:
-
->  I like the way NoScrip works. If you think a domain should be untrusted, you untrust it everywhere. If you trust it, and require the domain, then you white list it.
-
 The way you work your ruleset with uMatrix is not dictated by uMatrix. If you want to work strictly with global rules, i.e. rules that apply everywhere, uMatrix allows that.
 
 Using an example page, this is uMatrix with out-of-the-box ruleset -- by default uMatrix is set up to work with per-base domain rules:
