@@ -40,4 +40,4 @@ Now persist these changes by clicking the padlock icon (which should report that
 
 This is it.
 
-Scripts and frames are not blocked everywhere, and simply creating an allow rule directly on whatever domain will enable scripts and frames to be loaded for that domain. If you persist such rule by clicking on the padlock, they become permanently part of your ruleset.
+Scripts and frames are now blocked everywhere, and simply creating an allow rule directly on whatever domain will enable scripts and frames to be loaded for that domain. If you persist such rule by clicking on the padlock, they become permanently part of your ruleset.
