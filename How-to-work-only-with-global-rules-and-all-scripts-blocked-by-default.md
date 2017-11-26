@@ -4,7 +4,7 @@ The motivation for this article is the following argument made at Wilders Securi
 
 The way you work your ruleset with uMatrix is not dictated by uMatrix. If you want to work strictly with global rules, i.e. rules that apply everywhere, uMatrix allows that.
 
-Using an example page, this is uMatrix with out-of-the-box ruleset:
+Using an example page, this is uMatrix with out-of-the-box ruleset -- by default uMatrix is set up to work with per-base domain rules:
 
 ![a](https://user-images.githubusercontent.com/585534/33240862-77db100a-d28b-11e7-8e51-416ea0e5cafb.png)
 
