@@ -38,4 +38,6 @@ Now persist these changes by clicking the padlock icon (which should report that
 
 ![a](https://user-images.githubusercontent.com/585534/33241002-c12b7ffe-d28d-11e7-9af3-b9e78891aa70.png)
 
+This is it.
 
+Scripts and frames are not blocked everywhere, and simply creating an allow rule directly on whatever domain will enable scripts and frames to be loaded for that domain. If you persist such rule by clicking on the padlock, they become permanently part of your ruleset.
