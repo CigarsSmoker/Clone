@@ -1,4 +1,4 @@
-The motivation for this article is the following argument made at Wilders Security against uMatrix:
+The motivation for this article is the following argument I've seen being made:
 
 >  I like the way NoScrip works. If you think a domain should be untrusted, you untrust it everywhere. If you trust it, and require the domain, then you white list it.
 
