@@ -22,3 +22,20 @@ From now on, the global scope will always be selected by default when you open t
 
 ![a](https://user-images.githubusercontent.com/585534/33240893-5c192c48-d28c-11e7-89b4-70fb14318887.png)
 
+Now we will change the out-of-the-box ruleset to achieve our goal of working only with global rules and to only block/allow scripts and frames, i.e. everything will be allowed by default. All these modifications to the default ruleset can be done from the popup panel:
+
+![a](https://user-images.githubusercontent.com/585534/33240946-eaab32d0-d28c-11e7-87bb-297d68d78b2c.png)
+
+As seen in the picture above:
+
+- The global scope is now always selected by default.
+- The _cookie_, _media_, _XHR_, and _other_ cells were whitelisted.
+- The _frame_ cell was un-blacklisted.
+- The _1st-party_ cell was un-whitelisted.
+- The _1st-party_/_frame_ cell was un-whitelisted.
+
+Now persist these changes by clicking the padlock icon (which should report that 7 rules were changed):
+
+![a](https://user-images.githubusercontent.com/585534/33241002-c12b7ffe-d28d-11e7-9af3-b9e78891aa70.png)
+
+
