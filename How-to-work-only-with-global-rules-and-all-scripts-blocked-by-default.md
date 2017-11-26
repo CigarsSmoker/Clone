@@ -11,7 +11,7 @@ Using an example page, this is uMatrix with out-of-the-box ruleset -- by default
 From there, we will set up uMatrix to work as follow:
 
 - All rules will be global.
-- All script resources will be blocked by default.
+- All script and frame resources will be blocked by default.
 - Scripts from a specific domain will be allowed/blocked with a single click on that domain.
 
 First, select _"Global"_ as the default scope in uMatrix's _Settings_:
