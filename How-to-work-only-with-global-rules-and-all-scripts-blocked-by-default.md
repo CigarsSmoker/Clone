@@ -45,3 +45,7 @@ Scripts and frames are now blocked everywhere, and simply creating an allow rule
 For example: create _allow_ rules for `googlevideo.com`, `youtube.com`, and `ytimg.com` in the global scope (which is now always selected by default) and persist them with the padlock. You can now have embedded Youtube videos properly play on all sites:
 
 ![a](https://user-images.githubusercontent.com/585534/33241139-6ff13d66-d28f-11e7-885f-c82d17e24540.png)
+
+If you care only to deal with base domains, then just collapse base domain sections by default:
+
+![a](https://user-images.githubusercontent.com/585534/33241234-b817700a-d290-11e7-8c7c-8742ef2e37c4.png)
