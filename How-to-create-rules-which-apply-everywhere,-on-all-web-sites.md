@@ -66,4 +66,4 @@ For reference, the three rules created in the current tutorial were:
 
 Always keep in mind that all rules you create are temporary, so you have to explicitly persist them using the padlock to make them permanent.
 
-The badge count on the padlock shows you how many temporary rules have not been saved in the current context. It won't show you temporary rules from other context however. You may go to _My rules_ pane in the dashboard to see all the current temporary rules.
+The badge count on the padlock shows you how many temporary rules have not been saved in the current context. It won't show you temporary rules from other contexts however. You may go to _My rules_ pane in the dashboard to see all the current temporary rules.
