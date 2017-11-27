@@ -64,7 +64,7 @@ For reference, the three rules created in the current tutorial were:
     * youtube.com frame allow
     * googlevideo.com * allow
 
-If you know beforehand which domains you want to trust everywhere, you can enter the rules directly in the _My rules_ pane in the dashboard. A rule which applies on all site would look like this:
+If you know beforehand which domains you want to trust everywhere, you can enter the rules directly in the _My rules_ pane in the dashboard. A rule which applies on all sites would look like this:
 
     * ajax.googleapis.com * allow
 
