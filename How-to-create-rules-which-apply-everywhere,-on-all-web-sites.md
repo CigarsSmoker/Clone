@@ -64,6 +64,12 @@ For reference, the three rules created in the current tutorial were:
     * youtube.com frame allow
     * googlevideo.com * allow
 
+If you know beforehand which domains you want to trust everywhere, you can enter the rules directly in the _My rules_ pane in the dashboard. A rule which applies on all site would look like this:
+
+    * ajax.googleapis.com * allow
+
+Just replace `ajax.googleapis.com` with whatever is in your list of trusted domain names.
+
 Always keep in mind that all rules you create are temporary, so you have to explicitly persist them using the padlock to make them permanent.
 
 The badge count on the padlock shows you how many temporary rules have not been saved in the current context. It won't show you temporary rules from other contexts however. You may go to _My rules_ pane in the dashboard to see all the current temporary rules.
