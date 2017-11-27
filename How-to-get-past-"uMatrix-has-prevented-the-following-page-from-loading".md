@@ -20,10 +20,15 @@ Now force a refresh of the page:
 
 ![a](https://user-images.githubusercontent.com/585534/33291196-03b673d2-d393-11e7-9033-e9c48ff3b9d5.png)
 
-Result -- the page now loaded fine:
+Result -- the page now loads fine:
 
 ![a](https://user-images.githubusercontent.com/585534/33291269-43523378-d393-11e7-97e7-24c31a596954.png)
 
-If you want the bypass of the block rule to be permanent, don't forget to use the padlock to persist the rule. Though in the example above, un-blacklisting `google-analytics.com` merely allowed a the redirection to another server to succeed. In such case, you will have to persist your rule from the _My rules_ pane in the dashboard.
+If you want the bypass of the block rule to be permanent, don't forget to use the padlock to persist the rule. Though in the example above, un-blacklisting `google-analytics.com` merely allowed a redirection to another server to succeed. In such case, you will have to persist your rule from the _My rules_ pane in the dashboard.
 
+## Sidenotes
+
+In the above example, the _block_ rule originates from one of the hosts file. In such case, it is not possible to literally remove the _block_ rule. What occurs internally is that uMatrix created an _inherit_ rule, which tell uMatrix that the cell must inherit it's _block_ or _allow_ status from a higher precedence cell in the **current** scope, rather than in a broader scope. The rule would look like this in your ruleset:
+
+    google-analytics.com google-analytics.com * inherit
 
