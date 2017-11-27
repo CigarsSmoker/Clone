@@ -4,7 +4,7 @@ When a domain is blacklisted, uMatrix will block all network requests to the rem
 
 Most of the time it is likely a site blacklisted as a result of subscribing to one of the hosts files in the _Hosts files_ pane.
 
-If you really want to be able to pull web pages from the remote server, it's just a matter of modifying your ruleset appropriately.
+If you really want to be able to pull web pages from the blacklisted remote server, it's just a matter of modifying your ruleset appropriately.
 
 Open the popup panel:
 
