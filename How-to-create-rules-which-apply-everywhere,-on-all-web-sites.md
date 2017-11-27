@@ -48,7 +48,7 @@ Since these global rules proved to work fine to unbreak embedded Youtube videos,
 
 ![a](https://user-images.githubusercontent.com/585534/33275690-6a76b76c-d361-11e7-91af-e6a20622bad3.png)
 
-Now you have created three glocal rules which will un-break embedded Youtube videos on all sites -- as seen with another site here:
+Now you have created three global rules which will un-break embedded Youtube videos on all sites -- as seen with another site here:
 
 ![a](https://user-images.githubusercontent.com/585534/33276255-0ba79fe2-d363-11e7-8982-5fbfebc02eb9.png)
 
