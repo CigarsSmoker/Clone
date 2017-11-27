@@ -1,4 +1,4 @@
-When a domain is blacklisted, uMatrix will block all network requests to the remote server, including the network requests for the root document:
+When a domain is blacklisted, uMatrix will block all network requests to the remote server, including the network requests for the root documents:
 
 ![a](https://user-images.githubusercontent.com/585534/33290912-358e2de2-d392-11e7-8612-0d38631a6fd2.png)
 
