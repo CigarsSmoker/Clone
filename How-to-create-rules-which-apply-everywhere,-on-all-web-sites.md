@@ -52,3 +52,6 @@ Now you have created three glocal rules which will un-break embedded Youtube vid
 
 ![a](https://user-images.githubusercontent.com/585534/33276255-0ba79fe2-d363-11e7-8982-5fbfebc02eb9.png)
 
+As seen in the matrix, the global rules created above are propagating to the narrower domain scope:
+
+![a](https://user-images.githubusercontent.com/585534/33276326-475c828c-d363-11e7-97aa-ab2c82a2e3c1.png)
