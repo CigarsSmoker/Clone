@@ -55,3 +55,13 @@ Now you have created three glocal rules which will un-break embedded Youtube vid
 As seen in the matrix, the global rules created above are propagating to the narrower domain scope:
 
 ![a](https://user-images.githubusercontent.com/585534/33276326-475c828c-d363-11e7-97aa-ab2c82a2e3c1.png)
+
+## Sidenotes
+
+For reference, the three rules created in that tutorial were:
+
+    * youtube.com * allow
+    * youtube.com frame allow
+    * googlevideo.com * allow
+
+Always keep in mind that all rules you create are temporary, so you have to explicitly persist them using the padlock to make them permanent.
