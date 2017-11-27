@@ -16,7 +16,7 @@ Then just remove the blacklist rule by clicking on it:
 
 **Important:** Note that the removing of the rule is done from the local scope, there is no need to remove this rule from the global scope.
 
-Now for a refresh of the page:
+Now force a refresh of the page:
 
 ![a](https://user-images.githubusercontent.com/585534/33291196-03b673d2-d393-11e7-9033-e9c48ff3b9d5.png)
 
