@@ -14,7 +14,7 @@ Then just remove the blacklist rule by clicking on it:
 
 ![a](https://user-images.githubusercontent.com/585534/33291029-8d830cac-d392-11e7-967d-79f193697531.png)
 
-**Important:** Note that the removing of the rule is done from the local scope, there is no need to remove this rule from the global scope.
+**Important:** Note that the removing of the rule is done from the local scope, there is no need to remove this rule from the global scope. By removing it only in the local scope, the domain will still be blacklisted everywhere else.
 
 Now force a refresh of the page:
 
