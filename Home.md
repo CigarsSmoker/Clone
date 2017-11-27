@@ -2,6 +2,7 @@
 - [About the required permissions](https://github.com/gorhill/uMatrix/wiki/About-the-required-permissions)
 - [The popup panel](https://github.com/gorhill/uMatrix/wiki/The-popup-panel)
 - [How to block 1st-party scripts everywhere by default](https://github.com/gorhill/uMatrix/wiki/How-to-block-1st-party-scripts-everywhere-by-default)
+- [How to create rules which apply everywhere, on all web sites](https://github.com/gorhill/uMatrix/wiki/How-to-create-rules-which-apply-everywhere,-on-all-web-sites)
 - [How to work in hard 3rd-party default-deny mode by default](https://github.com/gorhill/uMatrix/wiki/How-to-work-in-hard-3rd-party-default-deny-by-default)
 - [How to work only with global rules and all scripts blocked by default](https://github.com/gorhill/uMatrix/wiki/How-to-work-only-with-global-rules-and-all-scripts-blocked-by-default)
 - [How to "allow all" in uMatrix](https://github.com/gorhill/uMatrix/wiki/How-to-%22allow-all%22-in-uMatrix)
