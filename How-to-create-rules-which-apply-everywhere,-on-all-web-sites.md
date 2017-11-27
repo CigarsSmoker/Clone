@@ -58,7 +58,7 @@ As seen in the matrix, the global rules created above are propagating to the nar
 
 ## Sidenotes
 
-For reference, the three rules created in that tutorial were:
+For reference, the three rules created in the current tutorial were:
 
     * youtube.com * allow
     * youtube.com frame allow
