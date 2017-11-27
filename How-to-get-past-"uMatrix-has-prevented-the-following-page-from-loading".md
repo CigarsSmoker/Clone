@@ -28,7 +28,9 @@ If you want the bypass of the block rule to be permanent, don't forget to use th
 
 ## Sidenotes
 
-In the above example, the _block_ rule originates from one of the hosts file. In such case, it is not possible to literally remove the _block_ rule. What occurs internally is that uMatrix created an _inherit_ rule, which tell uMatrix that the cell must inherit it's _block_ or _allow_ status from a higher precedence cell in the **current** scope, rather than in a broader scope. The rule would look like this in your ruleset:
+In the above example, the _block_ rule originates from one of the hosts file. In such case, it is not possible to literally remove the _block_ rule.
+
+What occurs internally is that uMatrix created an _inherit_ rule, which tell uMatrix that the cell must inherit it's _block_ or _allow_ status from a higher precedence cell in the **current** scope, rather than in a broader scope. The rule would look like this in your ruleset:
 
     google-analytics.com google-analytics.com * inherit
 
