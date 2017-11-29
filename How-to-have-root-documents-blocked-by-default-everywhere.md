@@ -1,6 +1,8 @@
-By default, uMatrix does not prevent root documents from loading.
+By default, uMatrix does not prevent root documents from loading -- unless the domain itself is blacklisted. It would be quite impractical to block all root documents by default.
 
-There is a built-in _allow_ rule (`* * doc allow`) in uMatrix such that root documents are properly loaded even when there is a _block_ rule on the _all_ cell, and even if the current domain is not whitelisted (this will happen if you remove the `* 1st-party * allow` rule from your ruleset).
+There is a built-in _allow_ rule (`* * doc allow`) in uMatrix such that root documents are properly loaded even when there is a _block_ rule on the _all_ cell, and even if the current domain is not whitelisted (this will happen if you remove the `* 1st-party * allow` rule from your ruleset):
+
+![a](https://user-images.githubusercontent.com/585534/33379786-01b0c5ba-d4e7-11e7-8b30-6c50c287c235.png)<br><sup>`* 1st-party * allow` was removed, root document still loaded fine.</sup>
 
 If you want even root document to inherit the state of lower precedence block rules, you will need to override the built-in _allow_ rule for root document. To do so, you will have to add the following rule into your ruleset by manually editing through _My rules_ pane in the dashboard:
 
