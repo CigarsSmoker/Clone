@@ -61,6 +61,15 @@ If a cell has a permanent rule assigned to it and you change the state of the ce
 
 The above picture shows that the cell has a temporary _allow_ rule assigned to it, and a permanent _block_ rule, meaning that if you revert all temporary rules, the cell will go back to its saved _block_ state.
 
+There are four distinct sections in the matrix, from top to bottom:
+
+- Top section is for _1st-party_ domain and subdomains.
+- Second section is for _whitelisted_ domains.
+- Third section is for _graylisted_ domains, i.e. domains which are neither whitelisted or blacklisted.
+- Fourth section is for _blacklisted_ domains.
+
+The fourth section is fully collapsible, as it's content can be considered "noise", as it is unlikely you will need to modify rules in that section (though it _may_ happen you will need to do so).
+
 ***
 
 ### The "all" cell
