@@ -8,7 +8,7 @@ If you want even root document to inherit the state of lower precedence block ru
 
     * * doc inherit
  
-If additionally you remove the `* 1st-party * allow` rule from your ruleset, then all root documents will become blocked by default:
+If additionally you remove the `* 1st-party * allow` rule from your ruleset, then all root documents will become blocked by default (assuming the lower precedence _all_ cell is blacklisted):
 
 ![a](https://user-images.githubusercontent.com/585534/33379162-50cdf37c-d4e5-11e7-8ef9-4fdb349fcaa8.png)
 
