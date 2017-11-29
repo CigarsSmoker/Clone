@@ -68,7 +68,7 @@ There are four distinct sections in the matrix, from top to bottom:
 - Third section is for _graylisted_ domains, i.e. domains which are neither whitelisted or blacklisted.
 - Fourth section is for _blacklisted_ domains.
 
-The fourth section is fully collapsible, as it's content can be considered "noise", as it is unlikely you will need to modify rules in that section (though it _may_ happen you will need to do so).
+The fourth section is fully collapsible, as its content can be considered "noise", as it is unlikely you will need to modify rules in that section (though it _may_ happen you will need to do so).
 
 ***
 
