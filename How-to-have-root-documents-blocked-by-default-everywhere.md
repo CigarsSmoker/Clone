@@ -18,4 +18,4 @@ And you will have to explicitly create an _allow_ rule for the root document to 
 
 I do not expect many users to work this way, but I document it here so that it hopefully answers questions about how root documents are handled in uMatrix.
 
-Note that the built-in rule `* * doc allow` never appears in _My rules_, because of a history of users blanket removing all rules and then opening an issue about uMatrix now blocking too much. The rule is now built-in and must be overridden with an explicit `* * doc inherit` in order for root documents to inherit their block/allow status from the _all_ cell.
+Note that the built-in rule `* * doc allow` never appears in _My rules_, because of a history of users blanket-removing all rules and then opening an issue about uMatrix now blocking too much. The rule is now built-in and must be overridden with an explicit `* * doc inherit` in order for root documents to inherit their block/allow status from the _all_ cell.
