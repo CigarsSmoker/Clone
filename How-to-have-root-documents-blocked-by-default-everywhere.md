@@ -4,7 +4,7 @@ There is a built-in _allow_ rule (`* * doc allow`) in uMatrix such that root doc
 
 ![a](https://user-images.githubusercontent.com/585534/33379786-01b0c5ba-d4e7-11e7-8b30-6c50c287c235.png)<br><sup>`* 1st-party * allow` was removed, root document still loaded fine.</sup>
 
-If you want even root document to inherit the state of lower precedence block rules, you will need to override the built-in _allow_ rule for root document. To do so, you will have to add the following rule into your ruleset by manually editing through _My rules_ pane in the dashboard:
+If you want even root document to inherit the state of lower precedence cells, you will need to override the built-in _allow_ rule for root document. To do so, you will have to add the following rule into your ruleset by manually editing through _My rules_ pane in the dashboard:
 
     * * doc inherit
  
