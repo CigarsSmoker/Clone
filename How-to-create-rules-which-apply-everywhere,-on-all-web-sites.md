@@ -2,7 +2,7 @@ Just a quick guide to show how to create rules which apply everywhere. This is c
 
 ![a](https://user-images.githubusercontent.com/585534/33275036-c29e1c98-d35f-11e7-9194-55c8e3012f9c.png)
 
-The popup panel shows what you get when using uMatrix with out-of-the-box ruleset:
+The popup panel shows what you get when using uMatrix with out-of-the-box ruleset (**correction:** the cookie _block_ rule is not part of the out-of-the-box ruleset, it's my own rule I forgot to remove):
 
 ![a](https://user-images.githubusercontent.com/585534/33275092-f3c368a0-d35f-11e7-8f0b-b869b96bb6db.png)
 
