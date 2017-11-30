@@ -98,7 +98,7 @@ Currently, the _type_ cells translate into these network request types internall
 | cookie        | `cookie`    | cookies,<br>local storages (as browser API allows) |
 | css           | `css`       | stylesheets,<br>fonts |
 | image         | `image`     | images (`<img>`, `<picture>`) |
-| media         | `media`     | audio (`<audio>`),<br>video (`<video>`),<br>plugins (`<object>`, `<embed>`)<br><sup>it is expected that users of uMatrix will have their click-to-play setting enabled in their browser</sup> |
+| media         | `media`     | audio (`<audio>`),<br>video (`<video>`),<br>plugins (`<object>`, `<embed>`)<br><br><sup>it is expected that users of uMatrix will have their click-to-play setting enabled in their browser</sup> |
 | script        | `script`    | scripts |
 | XHR           | `xhr`       | [XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest), [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) |
 | frame         | `frame`     | embedded documents (`<iframe>`, `<frame>`) |
