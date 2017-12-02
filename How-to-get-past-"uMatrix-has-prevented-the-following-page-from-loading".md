@@ -42,4 +42,4 @@ Starting with version 1.1.14, uMatrix will parse the parameters of a URL, if any
 
 ![a](https://user-images.githubusercontent.com/585534/33518287-69f606e6-d760-11e7-8db9-68c0ede5602a.png)
 
-When this happens, you may want to simply click on the destination URL and bypass all the intermediary servers.
+When this happens, you may want to simply click on the destination URL and bypass all the intermediate servers.
