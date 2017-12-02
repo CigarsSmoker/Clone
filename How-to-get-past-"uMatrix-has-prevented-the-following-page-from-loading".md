@@ -32,7 +32,7 @@ What occurs internally is that uMatrix created an _inherit_ rule, which tell uMa
 
     google-analytics.com google-analytics.com * inherit
 
-## Bypass redirect
+## Bypass redirects
 
 Sometimes uMatrix may block a document which is simply meant to be a redirect to another site.
 
