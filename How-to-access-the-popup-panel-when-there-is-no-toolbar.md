@@ -8,7 +8,7 @@ There is a workaround for this situation though, but you need to find a way to l
 
 ![a](https://user-images.githubusercontent.com/585534/33516598-7172ce30-d743-11e7-8240-35d6dbec43fd.png)
 
-Once you have the logger opened, force a refresh of the content of your toolbar-less popup window. This will cause the logger to be filled with entries which are related to the content of the popup window.
+Once you have the logger opened, force a refresh of the content of your toolbar-less popup window (<kbd>F5</kbd> should do the job). This will cause the logger to be filled with entries which are related to the content of the popup window.
 
 Next, find any entry related to the popup window (you can use the dropdown list at the top of the logger to see only entries for a specific web page), and click the second cell of any row:
 
