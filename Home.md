@@ -8,6 +8,7 @@
 - [How to "allow all" in uMatrix](https://github.com/gorhill/uMatrix/wiki/How-to-%22allow-all%22-in-uMatrix)
 - [How to get past "uMatrix has prevented the following page from loading"](https://github.com/gorhill/uMatrix/wiki/How-to-get-past-%22uMatrix-has-prevented-the-following-page-from-loading%22)
 - [How to have root documents blocked by default everywhere](https://github.com/gorhill/uMatrix/wiki/How-to-have-root-documents-blocked-by-default-everywhere)
+- [How to access the popup panel when there is no toolbar](https://github.com/gorhill/uMatrix/wiki/How-to-access-the-popup-panel-when-there-is-no-toolbar)
 - [Cookies](https://github.com/gorhill/uMatrix/wiki/Cookies)
 - [Scope selector](https://github.com/gorhill/uMatrix/wiki/Scope-selector)
 - [Per-scope switches](https://github.com/gorhill/uMatrix/wiki/Per-scope-switches)
