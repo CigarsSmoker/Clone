@@ -4,6 +4,8 @@ There are no preset whitelist rules for specific domains in uMatrix: whether a d
 
 uMatrix will never come with out of the box whitelist rules for specific domains. There are millions of web sites out there, and uMatrix won't make a stand for any of them by packaging preset whitelist rules for specific web sites.
 
+The only specific whitelist rules in uMatrix are the ones you create yourself.
+
 However, hopefully I will one day be able to bring back the library of presets from where you can pick ready-to-use set of rules for specific purpose. See [issue #30](https://github.com/gorhill/uMatrix/issues/30).
 
 ## Preset blacklist rules
