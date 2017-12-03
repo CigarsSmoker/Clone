@@ -9,6 +9,7 @@
 - [How to get past "uMatrix has prevented the following page from loading"](https://github.com/gorhill/uMatrix/wiki/How-to-get-past-%22uMatrix-has-prevented-the-following-page-from-loading%22)
 - [How to have root documents blocked by default everywhere](https://github.com/gorhill/uMatrix/wiki/How-to-have-root-documents-blocked-by-default-everywhere)
 - [How to access the popup panel when there is no toolbar](https://github.com/gorhill/uMatrix/wiki/How-to-access-the-popup-panel-when-there-is-no-toolbar)
+- [Default ruleset at installation](https://github.com/gorhill/uMatrix/wiki/Default-ruleset-at-installation)
 - [Preset whitelisted and blacklisted domains](https://github.com/gorhill/uMatrix/wiki/Preset-whitelisted-and-blacklisted-domains)
 - [Cookies](https://github.com/gorhill/uMatrix/wiki/Cookies)
 - [Scope selector](https://github.com/gorhill/uMatrix/wiki/Scope-selector)
