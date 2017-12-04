@@ -36,6 +36,8 @@ If you want to block 1st-party scripts everywhere by default, you might want to 
 
 ![a](https://user-images.githubusercontent.com/585534/33565583-81b505de-d8eb-11e7-89e6-76b344d164e8.png)
 
+Note that the setting is currently disable by default: this is to ensure that the behavior of existing installations of uMatrix is not changed. Once version 1.1.14 is widespread, I will enable that setting by default.
+
 Since it's not _always_ desirable to have the content of `<noscript>` tags to be rendered, that setting can be overridden on a per-site basis using the per-scope _"`<noscript>` tags spoofing"_ switch in the popup panel.
 
 ## Reminder
