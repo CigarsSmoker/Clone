@@ -30,6 +30,12 @@ And from now on you will have to allow scripts manually as you see fit, locally 
 
 ![a](https://user-images.githubusercontent.com/585534/33189212-aab6c5ce-d06e-11e7-9975-a1657fbe7eb9.png)
 
+## `<noscript>` tags
+
+If you want to block 1st-party scripts everywhere by default, you might want to enable the setting _"Spoof `<noscript>` tags when 1st-party scripts are blocked"_ in the _Settings_ pane in uMatrix's dashboard:
+
+![a](https://user-images.githubusercontent.com/585534/33565583-81b505de-d8eb-11e7-89e6-76b344d164e8.png)
+
 ## Reminder
 
 All rules are temporary by default in uMatrix. As you build your ruleset from the ground up for the sites you visit regularly, you will find yourself using less and less the padlock, and stick to only temporary rules for all those other sites you visit once in a while or even just once. Hence temporary rules are really the more natural approach in the long term.
