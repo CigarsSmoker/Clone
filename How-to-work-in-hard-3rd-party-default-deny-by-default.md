@@ -18,7 +18,7 @@ Then remove both _allow_ rules for _css_ and _image_ (this removes `* * css allo
 
 ![a](https://user-images.githubusercontent.com/585534/33232118-4b6f3842-d1ce-11e7-8673-0b16183aac7f.png)
 
-Don't forget the persist your changes if you plan to keep that "hard" 3rd-party default-deny for good:
+Don't forget to persist your changes if you plan to keep that "hard" 3rd-party default-deny for good:
 
 ![a](https://user-images.githubusercontent.com/585534/33232126-702013c8-d1ce-11e7-8bbf-832386778088.png)
 
