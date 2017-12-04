@@ -19,7 +19,6 @@
 - [Examples of useful rulesets](https://github.com/gorhill/uMatrix/wiki/Examples-of-useful-rulesets)
 - [Logger](https://github.com/gorhill/uMatrix/wiki/Logger)
 - [FAQ](https://github.com/gorhill/uMatrix/wiki/FAQ)
-- [Latest user agent strings](https://github.com/gorhill/uMatrix/wiki/Latest-user-agent-strings)
 - [Translation work contributors](https://github.com/gorhill/uMatrix/wiki/Translation-work-contributors)
 - Community-provided guides:
     - These guides may or may not reflect my opinion of how to _optimally_ use uMatrix. Feel free to contribute a guide.
