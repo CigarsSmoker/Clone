@@ -14,7 +14,7 @@ Next, find any entry related to the popup window (you can use the dropdown list 
 
 ![a](https://user-images.githubusercontent.com/585534/33516619-db581a26-d743-11e7-920b-a5f91ac41552.png)
 
-This will bring up a fully functioning embedded popup panel for the web page associated with the entry you clicked (there is currently a regression -- the popup panel does not resizing properly, fixed in current dev build as seen below):
+This will bring up a fully functioning embedded popup panel for the web page associated with the entry you clicked:
 
 ![a](https://user-images.githubusercontent.com/585534/33516656-707e44c2-d744-11e7-83ec-7d8761265f01.png)
 
