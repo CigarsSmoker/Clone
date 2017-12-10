@@ -70,5 +70,5 @@ This one is useful when you click on a blocked Youtube embedded in a frame on a 
 ---
 
 #### Third-party rules:
-- https://github.com/Rictusempra/uMatrix-Rules
+- https://github.com/uMatrix-Rules
 - https://github.com/kristerkari/umatrix-recipes
