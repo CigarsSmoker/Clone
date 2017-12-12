@@ -24,6 +24,7 @@
     - These guides may or may not reflect my opinion of how to _optimally_ use uMatrix. Feel free to contribute a guide.
     - [Setting domain-specific & global rules](https://github.com/gorhill/uMatrix/wiki/Setting-Domain-Specific-&-Global-Rules)
 - Spotted on the WWW:
+    - [uMatrix add-on for Firefox – Secure browsing](https://www.youtube.com/watch?v=IEynFMmmMJo)
     - [WebExtension uMatrix disponible sur Firefox pour Android](https://primokorn.wordpress.com/2017/11/23/webextension-umatrix-disponible-sur-firefox-pour-android/) (Français)
     - [Firefox 57: Sicher ohne NoScript](https://www.youtube.com/watch?v=R9dePpq9OnQ) (German)
     - **Recommended:** [How to use uMatrix to protect your online privacy & improve security | uMatrix tutorial](https://www.youtube.com/watch?v=TVozpo3zUBk)
