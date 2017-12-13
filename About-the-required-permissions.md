@@ -22,4 +22,4 @@ uMatrix requires the following permissions to work properly:
 * [**webNavigation**](http://developer.chrome.com/extensions/webNavigation): to listen to [onBeforeNavigate](http://developer.chrome.com/extensions/webNavigation.html#event-onBeforeNavigate) events in order to set up HTTPSB's internal data structure for a specific web page.
 * [**webRequest**](http://developer.chrome.com/extensions/webRequest): to allow intercepting all requests in order to inspect them.
 * [**webRequestBlocking**](http://developer.chrome.com/extensions/webRequest#manifest): to be able to block a request if the object of the request is blacklisted.
-* `<all_urls>`: to be able to inspect network requests for all URLs (`http:`, `https:`, `ws:`, `wss:`, `data:`, etc.) -- necessary in order to decide whether a block directive should be enforced)
+* `<all_urls>`: to be able to inspect network requests for all URLs (`http:`, `https:`, `ws:`, `wss:`, `data:`, etc.) -- necessary in order to decide whether a network request should be blocked.
