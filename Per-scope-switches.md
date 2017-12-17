@@ -24,7 +24,7 @@ The per-scope switches layer just like matrix rules layer.
 
 First, if you are not familiar with what "mixed content" is, here are some places to learn more about it:
 
-- [Mozilla Developer Network: Mixed Content](https://developer.mozilla.org/en-US/docs/Security/MixedContent)
+- [Mozilla Developer Network: Mixed Content](https://developer.mozilla.org/docs/Security/MixedContent)
 - [Qualys Blog: HTTPS Mixed Content: Still the Easiest Way to Break SSL](https://community.qualys.com/blogs/securitylabs/2014/03/19/https-mixed-content-still-the-easiest-way-to-break-ssl)
 - [W3C: Mixed Content](https://w3c.github.io/webappsec/specs/mixedcontent/)
 
