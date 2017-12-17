@@ -33,17 +33,16 @@ Probably needs more rules, but I don't have a Facebook account, can't tell. But 
     skyscraperlive.com ustream.tv script allow
     skyscraperlive.com www.ustream.tv frame allow
 
-### stackoveflow.com
+#### stackoverflow.com
     stackoverflow.com ajax.googleapis.com script allow
     stackoverflow.com sstatic.net image allow
     stackoverflow.com sstatic.net script allow
 
 #### twitch.tv
 
-    twitch.tv api.swiftype.com script allow
-    twitch.tv web-cdn.ttvnw.net script allow
-    twitch.tv jtvnw.net plugin allow
-    twitch.tv jtvnw.net script allow
+    twitch.tv akamaized.net xhr allow
+    twitch.tv ttvnw.net xhr allow
+    twitch.tv static.twitchcdn.net script allow
 
 #### youtube.com
 
