@@ -15,8 +15,8 @@ The per-scope switches layer just like matrix rules layer.
 ### The per-scope switches
 
 - [Forbid mixed content](#forbid-mixed-content)
-- [Spoof Referer header](#spoof-referer-header)
-- [Spoof noscript tags](#spoof-noscript-tags)
+- [Spoof `Referer` header](#spoof-referer-header)
+- [Spoof `noscript` tags](#spoof-noscript-tags)
 
 ***
 
@@ -30,7 +30,7 @@ First, if you are not familiar with what "mixed content" is, here are some place
 
 When the _"Forbid mixed content"_ switch is turned on, mixed content will be forbidden.
 
-_"Forbid mixed content"_ is more than to just protect MITM attacks. Without _"Forbid mixed content"_, data-mining by 3rd-parties can still occur, as evil ISPs like Verizon et al. could still inject tagging information in the HTTP headers of outgoing network requests which are not done through encrypted connections.
+_"Forbid mixed content"_ is more than to just protect MITM attacks. Without _"Forbid mixed content"_, data-mining by 3rd-parties can still occur, as unscrupulous ISPs like Verizon et al. could still inject tagging information in the HTTP headers of outgoing network requests which are not done through encrypted connections.
 
 Chromium/Firefox forbid **some** mixed content by default. When there is mixed content on a web page, a little shield icon will appear in the address bar, and a user may click on it to load the content which was forbidden from loading natively by the browser. However, as [investigated by a user](https://github.com/gorhill/uMatrix/issues/67), this [does not apply to image, video and audio resources](https://www.bennish.net/mixed-content.html).
 
@@ -38,7 +38,7 @@ Since uMatrix 0.9.0.0, unsecure network requests are blocked directly by uMatrix
 
 ***
 
-### Spoof Referer header
+### Spoof `Referer` header
 
 Referer spoofing has been transformed from a global setting into a per-scope setting, so that you can now disable/enable it specifically on a per-scope basis.
 
