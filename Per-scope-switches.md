@@ -59,5 +59,3 @@ Since spoofing `<noscript>` is not necessarily _always_ desirable, the global se
 This feature is most useful to users who [block 1st-party scripts by default.](https://github.com/gorhill/uMatrix/wiki/How-to-block-1st-party-scripts-everywhere-by-default)
 
 Note that this might be the long term approach used for enabling `<noscript>` tags: the [approach planned by Firefox](https://bugzilla.mozilla.org/show_bug.cgi?id=1392090) is not really suitable to uMatrix, as this would require to completely disable javascript for a site (causing the matrix ruleset to be disregarded), while with the current approach, one can still enable 3rd-party scripts and yet have the `<noscript>` tags spoofed.
-
-I have observed that the feature behave slightly differently on Firefox than on Chromium: Firefox will not react to `<meta http-equiv="refresh">` tags, while Chromium does. I do believe this can be fixed, and I will experiment more with this.
