@@ -4,9 +4,7 @@ Per-scope switches allow a user to customize various settings for a specific sco
 
 The state of a per-scope switch in a broad scope will be inherited by narrower scopes, unless a more specific rule override the broader rule.
 
-For example, setting the per-scope switch _"Spoof Referer header"_ in the global (`*`) scope will cause the referer header information to be spoofed everywhere. However, spoofing could cause a site to not work properly, and it is thus possible to override the global state of the _"Spoof Referer header"_ switch by disabling the switch just for the scope where it causes problem.
-
-The per-scope switches layer just like matrix rules layer.
+For example, setting the per-scope switch _"Spoof `Referer` header"_ in the global (`*`) scope will cause the referrer header information to be spoofed everywhere. However, spoofing could cause a site to not work properly, and it is thus possible to override the global state of the _"Spoof `Referer` header"_ switch by disabling the switch just for the scope where it causes problem.
 
 **Important:** The per-scope switches are independent from the matrix filtering switch, meaning that if you toggle off matrix filtering, the per-scope switches which are toggled on will still apply. For example, one could turn off matrix filtering while keeping the ability to forbid mixed content.
 
