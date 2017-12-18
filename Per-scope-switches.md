@@ -48,9 +48,9 @@ Also, notice that now I use the term "spoofing". Whereas before the referer stri
 
 ### Spoof `<noscript>` tags
 
- With uMatrix 1.1.14, user agent spoofing has been [removed](https://github.com/gorhill/uMatrix/releases/tag/1.1.14) and a new switch,  spoof `<noscript>` tags has been added, which is on by default.
+ With uMatrix 1.1.14, user agent spoofing has been [removed](https://github.com/gorhill/uMatrix/releases/tag/1.1.14) and a new switch, spoof `<noscript>` tags has been added, which is on by default.
 
-Since spoofing `<noscript>` is not necessarily _always_ desirable, the global setting can be overridden on a per-scope basis with the _"`<noscript>` tag spoofing"_ switch.
+Since spoofing `<noscript>` is not necessarily _always_ desirable, the global setting can be overridden on a per-scope basis with the _"Spoof `<noscript>` tags"_ switch.
 
 This feature is most useful to users who [block 1st-party scripts by default.](https://github.com/gorhill/uMatrix/wiki/How-to-block-1st-party-scripts-everywhere-by-default)
 
