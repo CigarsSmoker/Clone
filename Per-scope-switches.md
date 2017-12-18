@@ -26,7 +26,7 @@ First, if you are not familiar with what "mixed content" is, here are some place
 
 When the _"Forbid mixed content"_ switch is turned on, mixed content will be forbidden.
 
-_"Forbid mixed content"_ is more than to just protect MITM attacks. Without _"Forbid mixed content"_, data-mining by 3rd-parties can still occur, as unscrupulous ISPs like Verizon et al. could still inject tagging information in the HTTP headers of outgoing network requests which are not done through encrypted connections.
+_"Forbid mixed content"_ is more than to just protect MITM attacks. Without _"Forbid mixed content"_, data-mining by 3rd-parties can still occur, as unscrupulous ISPs like [Verizon](https://www.eff.org/deeplinks/2014/11/verizon-x-uidh) et al. could still inject tagging information in the HTTP headers of outgoing network requests which are not done through encrypted connections.
 
 Chromium/Firefox forbid **some** mixed content by default. When there is mixed content on a web page, a little shield icon will appear in the address bar, and a user may click on it to load the content which was forbidden from loading natively by the browser. However, as [investigated by a user](https://github.com/gorhill/uMatrix/issues/67), this [does not apply to image, video and audio resources](https://www.bennish.net/mixed-content.html).
 
