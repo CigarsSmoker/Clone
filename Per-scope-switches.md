@@ -1,8 +1,6 @@
 Per-scope switches, introduced in version 0.8.1.0, allow a user to customize various settings for a specific scope.
 
-![Per scope switches](https://raw.githubusercontent.com/gorhill/uMatrix/master/doc/img/per-scope-switches.png)
-
-[TODO] Update image.
+![Per scope switches](https://user-images.githubusercontent.com/585534/34109064-6eda7828-e3d0-11e7-922c-99047a298c6e.png)
 
 The state of a per-scope switch in a broad scope will be inherited by narrower scopes, unless a more specific rule override the broader rule.
 
