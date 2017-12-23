@@ -18,6 +18,7 @@
 - [Rules syntax](https://github.com/gorhill/uMatrix/wiki/Rules-syntax)
 - [Examples of useful rulesets](https://github.com/gorhill/uMatrix/wiki/Examples-of-useful-rulesets)
 - [Logger](https://github.com/gorhill/uMatrix/wiki/Logger)
+- [About "the page is still broken after I created all necessary rules"](https://github.com/gorhill/uMatrix/wiki/About-%22the-page-is-still-broken-after-I-created-all-necessary-rules%22)
 - [FAQ](https://github.com/gorhill/uMatrix/wiki/FAQ)
 - [Translation work contributors](https://github.com/gorhill/uMatrix/wiki/Translation-work-contributors)
 - Community-provided guides:
