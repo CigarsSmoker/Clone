@@ -1,4 +1,4 @@
-It may happen that a page is still broken after reload after you have created all the needed _allow_ rules for it.
+It may happen that a page is still broken after force-reloading once you have created all the needed _allow_ rules for it.
 
 Here are some things to consider.
 
