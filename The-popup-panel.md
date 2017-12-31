@@ -100,7 +100,7 @@ Currently, the _type_ cells translate into these network request types internall
 | image         | `image`     | images (`<img>`, `<picture>`) |
 | media         | `media`     | audio (`<audio>`),<br>video (`<video>`),<br>plugins (`<object>`, `<embed>`)<br><br><sup>it is expected that users of uMatrix will have their click-to-play setting enabled in their browser</sup> |
 | script        | `script`    | scripts |
-| XHR           | `xhr`       | [XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest), [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) |
+| XHR           | `xhr`       | [XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest), [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API), [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) |
 | frame         | `frame`     | embedded documents (`<iframe>`, `<frame>`) |
 | other         | `other`     | everything [which does not fit in previous types](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/webRequest/ResourceType#):<br>beacons,<br>[CSP reports](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/report-uri),<br>[ping](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-ping),<br>[Web App Manifest](https://developer.mozilla.org/en-US/docs/Web/Manifest),<br> [XBL](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XBL),<br> [DTD](https://developer.mozilla.org/en-US/docs/Glossary/DTD),<br>[XSLT](https://developer.mozilla.org/en-US/docs/Web/XSLT), and other unspecified types |
 
