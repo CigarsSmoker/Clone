@@ -1,3 +1,7 @@
+These settings are for users who want to further customize the behavior or appearance of uMatrix.
+
+Keep in mind that any of these raw settings may be removed in the future, more may be added, or existing one may become mainstream settings with a dedicated UI. Some of these raw settings may exist for experimental purpose only.
+
 #### `framePlaceholder`
 
 - Type: boolean
