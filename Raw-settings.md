@@ -35,7 +35,7 @@ To restore any one setting to its original built-in value, just remove the whole
 - `true` (default): replace non-collapsed blocked image with a placeholder.
 - `false`: do not replace non-collapsed blocked image with a placeholder.
 
-Use `false` to prevent the use of placeholder for images and thus eliminate the ability of image placeholder styling information to be used as fingerprint information.
+Use `false` to prevent the use of placeholder for blocked images and thus eliminate the ability of image placeholder styling information to be used as fingerprint information.
 
 ***
 
