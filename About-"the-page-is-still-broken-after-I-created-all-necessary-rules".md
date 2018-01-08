@@ -11,4 +11,5 @@ Here are some things to consider.
     - For example, see <https://github.com/gorhill/uMatrix/issues/893>.
     - Firefox-specific: I also found that sometimes opening the broken page in a new tab fix a breakage issue.
 - Did you enable matrix filtering in the behind-the-scene scope?
-    - If you enable matrix filter in the behind-the-scene scope, you may suffer more obscure breakage as a result.
+    - If you enable matrix filtering in the behind-the-scene scope, you may suffer more obscure breakage as a result.
+    - As mentioned above, using the logger is key.
