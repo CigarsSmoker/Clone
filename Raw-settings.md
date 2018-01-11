@@ -10,6 +10,7 @@ To restore any one setting to its original built-in value, just remove the whole
 - Type: boolean
 - `false` (default): do inject a `Content-Security-Policy-Report-Only` header in response headers, as needed.
 - `true`: never inject a `Content-Security-Policy-Report-Only` header in response headers.
+    - Disabling the injection of `Content-Security-Policy-Report-Only` will render uMatrix unable to report to you whether web workers are used by a web page when these are not to be blocked.
 
 The `Content-Security-Policy-Report-Only` is currently injected by uMatrix to detect the use of web workers on a site, when web workers are not forbidden.
 
