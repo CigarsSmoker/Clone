@@ -14,6 +14,8 @@ To restore any one setting to its original built-in value, just remove the whole
 
 The `Content-Security-Policy-Report-Only` is currently injected by uMatrix to detect the use of web workers on a site, when web workers are not forbidden.
 
+The main purpose of this setting is to serve as a workaround for [issue #912](https://github.com/gorhill/uMatrix/issues/912). This setting may go away whenever to root issue is resolved in Chromium.
+
 ***
 
 #### `framePlaceholder`
