@@ -5,6 +5,13 @@ Keep in mind that any of these raw settings may be removed in the future, more m
 To restore any one setting to its original built-in value, just remove the whole setting.
 
 ***
+
+#### `contributorMode`
+
+[TODO]
+
+***
+
 #### `disableCSPReportInjection`
 
 - Type: boolean
@@ -15,6 +22,16 @@ To restore any one setting to its original built-in value, just remove the whole
 The `Content-Security-Policy-Report-Only` is currently injected by uMatrix to detect the use of web workers on a site, when web workers are not forbidden.
 
 The main purpose of this setting is to serve as a workaround for [issue #912](https://github.com/gorhill/uMatrix/issues/912). This setting may go away whenever the [root issue](https://bugs.chromium.org/p/chromium/issues/detail?id=801237) is resolved in Chromium.
+
+***
+
+#### `enforceEscapedFragment`
+
+- Type: boolean (default to `true`)
+
+Whether uMatrix should replace an instance of `#!` to `?_escaped_fragment_=` in a document URL when first-party scripts are blocked.
+
+See [issue #940](https://github.com/gorhill/uMatrix/issues/940) for details.
 
 ***
 
