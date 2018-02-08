@@ -31,7 +31,7 @@ Case 2: If active resources are needed, then a broad rule should appear before t
 
 ***
 
-Using rules for hostnames which are public suffix list or below is frowned upon, though it is something impractical to stick to this rules. When this happens, a convincing argument in favor of the exception should be made.
+Using rules for hostnames which are public suffix or below is frowned upon, though it is sometimes impractical to stick to this rules. When this happens, a convincing argument in favor of the exception should be made.
 
 In the same vein, type-based rules must be avoided. Bad:
 
