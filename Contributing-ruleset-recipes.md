@@ -6,6 +6,7 @@ The character `_` is placeholder for "current scope".
 
 The strictest ruleset for which recipes must un-break sites is:
 
+- The rule `* 1st-party * allow` is present
 - All 3rd-party requests blocked by default (including images/css)
 - All scripts blocked by default (including 1st-party scripts)
 - All 3rd-party frames are blocked by default
