@@ -29,6 +29,8 @@ Case 2: If active resources are needed, then a broad rule should appear before t
     _ somecdn.com script
     _ somecdn.com frame
 
+When a rule such as `_ somecdn.com *` is used in a recipe, there is no need to explicitly declare rules for passive content (i.e. no need for `_ somecdn.com image`).
+
 ***
 
 Using rules for hostnames which are public suffix or below is frowned upon, though it is sometimes impractical to stick to this rules. When this happens, a convincing argument in favor of the exception should be made.
