@@ -66,6 +66,11 @@ This one is useful when you click on a blocked Youtube embedded in a frame on a 
     youtube-nocookie.com googlevideo.com xhr allow
     youtube-nocookie.com ytimg.com * allow
 
+#### reddit.com
+
+    reddit.com redditmedia.com frame allow
+    reddit.com redditstatic.com script allow
+
 ---
 
 #### Third-party rules:
