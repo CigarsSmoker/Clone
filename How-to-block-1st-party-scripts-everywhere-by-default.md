@@ -36,7 +36,7 @@ If you want to block 1st-party scripts everywhere by default, you might want to 
 
 ![a](https://user-images.githubusercontent.com/585534/33565583-81b505de-d8eb-11e7-89e6-76b344d164e8.png)
 
-Since it's not _always_ desirable to have the content of `<noscript>` tags to be rendered, that setting can be overridden on a per-site basis using the per-scope _"`<noscript>` tags spoofing"_ switch in the popup panel.
+Since it's not _always_ desirable to have the content of `<noscript>` tags to be rendered, that setting can be overridden on a per-site basis using the per-scope _"Spoof `<noscript>` tags"_ switch in the popup panel.
 
 ## Reminder
 
