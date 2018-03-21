@@ -1,5 +1,6 @@
 - [Changes from HTTP Switchboard](https://github.com/gorhill/uMatrix/wiki/Changes-from-HTTP-Switchboard)
 - [About the required permissions](https://github.com/gorhill/uMatrix/wiki/About-the-required-permissions)
+- [The extension icon](https://github.com/gorhill/uMatrix/wiki/The-extension-icon)
 - [The popup panel](https://github.com/gorhill/uMatrix/wiki/The-popup-panel)
 - [How to block 1st-party scripts everywhere by default](https://github.com/gorhill/uMatrix/wiki/How-to-block-1st-party-scripts-everywhere-by-default)
 - [How to create rules which apply everywhere, on all web sites](https://github.com/gorhill/uMatrix/wiki/How-to-create-rules-which-apply-everywhere,-on-all-web-sites)
