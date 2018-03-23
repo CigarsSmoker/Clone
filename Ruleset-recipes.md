@@ -44,7 +44,7 @@ Once a user imports a recipe, uMatrix will evaluate each rule in order of appear
 
 For example, if a user imports the above recipe into the default ruleset (the one in effect when you first install uMatrix), the rule `[current scope] player.vimeo.com script allow` won't be imported, because the rule `[current scope] player.vimeo.com * allow` will already have caused the `[current scope] player.vimeo.com script` cell to be allowed, and similarly the rule `[current scope] vimeocdn.com script allow` won't be be needed.
 
-Recipe contributors must never specify globally-scoped rules in their recipes, unless such behavior is _explicitly_ stated by the recipe name. For example, the following recipe could be crafted to whitelist some popular CDN:
+Recipe contributors must never specify globally-scoped rules in their recipes, unless such behavior is made _very clear_  by the recipe name. For example, the following recipe could be crafted to whitelist some popular CDN:
 
     Globally whitelist jsDelivr CDN
         * cdn.jsdelivr.net
