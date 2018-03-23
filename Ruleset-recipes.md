@@ -18,7 +18,7 @@ Recipe authors should craft their recipes as if they were to be imported in the 
 
 This is the most restrictive destination ruleset supported: all 3rd-party resources are blocked, all scripts (1st- and 3rd-party) are blocked.
 
-In order to minimize the amount of rules to be imported, recipes should list the necessary rules from broadest to narrowest -- uMatrix will always discard rules from a recipe which are not necessary for given the content of the destination ruleset.
+In order to minimize the amount of rules to be imported, recipes should list the necessary rules from broadest to narrowest -- uMatrix will always discard rules from a recipe which are not necessary given the content of the destination ruleset.
 
 Here is an example using an existing stock recipe:
 
