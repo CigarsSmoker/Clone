@@ -2,6 +2,7 @@ Ruleset recipes ("recipe(s)" thereafter) are community-contributed rulesets sugg
 
 When one or more recipes are available for a given web site, they will be suggested to you in the popup panel (through the _puzzle_ icon), such that you can inspect the rules and easily import them into your own ruleset if you agree with the rules.
 
+![Example](https://user-images.githubusercontent.com/585534/37831619-9417b488-2e7c-11e8-928a-1eb8e39a732c.png)
 
 Recipes are _never_ automatically imported, they always require that you explicitly import them.
 
