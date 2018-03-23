@@ -22,7 +22,7 @@ Some recipes may contain rules which are not visible from the current matrix, or
             accounts.google.com gstatic.com *
             accounts.google.com gstatic.com script
 
-When you import this recipe (let's say into the `example.com` scope), temporary rules will be created in the current scope, and rules will also be created in the `accounts.google.com` scope (to allow logging in in the current case). If you are satisfied that all the rules in the recipe are to be kept permanently, click the padlock icon _aside_ the recipe, this will save all the rules for that specific recipe. If you were to use the popup panel padlock, only the rules which are currently visible in the popup panel would be saved.
+When you import this recipe (let's say into the `example.com` scope), temporary rules will be created in the current scope, and rules will also be created in the `accounts.google.com` scope (to allow logging in the current case). If you are satisfied that all the rules in the recipe are to be kept permanently, click the padlock icon _aside_ the recipe, this will save all the rules for that specific recipe. If you were to use the popup panel padlock, only the rules which are currently visible in the popup panel would be saved.
 
 ## Contributing recipes
 
