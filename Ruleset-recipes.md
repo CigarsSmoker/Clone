@@ -1,6 +1,6 @@
 [documentation is currently being fleshed out]
 
-Ruleset recipes ("recipe(s)" thereafter) are community-contributed rulesets suggested to you when you visit a given web site. Recipes are specific, they contain only the necessary rules to un-break a specific web site or behavior.
+Ruleset recipes ("recipes" thereafter) are community-contributed rulesets suggested to you when you visit a given web site. Recipes are specific, they contain only the necessary rules to un-break a specific web site or behavior.
 
 When one or more recipes are available for a given web site, they will be suggested to you in the popup panel (through the _puzzle_ icon), such that you can inspect the rules and easily import them into your own ruleset if you agree with the rules.
 
