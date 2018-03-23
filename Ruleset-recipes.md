@@ -36,6 +36,10 @@ The second line is the condition which tells uMatrix when a recipe should be pre
 
 In the specific example above, the condition to match is `* player.vimeo.com`, which means: the recipe is relevant for any given scope in which `player.vimeo.com` is a 3rd-party.
 
-The other lines are rules to be imported. Once a user imports a recipe, uMatrix will evaluate each rule in order of appearance, and determine whether it must be imported according to whether the resources specified in a rule is currently blocked or not. If a resource is not blocked, the rule won't be imported.
+The other lines are rules to be imported.
 
 The special underscore symbol `_` is a scope placeholder, it is meant to be replaced by the scope currently selected in the popup panel.
+
+Once a user imports a recipe, uMatrix will evaluate each rule in order of appearance, and determine whether it must be imported according to whether the resources specified in a rule is currently blocked or not. If a resource is not blocked, the rule won't be imported.
+
+For example, if a user imports the above recipe into the default ruleset (the one in effect when you first install uMatrix), the rule `[current scope] player.vimeo.com script allow` won't be imported, because the rule `[current scope] player.vimeo.com * allow` will already have caused the `[current scope] player.vimeo.com script` cell to be allowed, and similarly the the rule `[current scope] vimeocdn.com script allow` won't be be needed.
