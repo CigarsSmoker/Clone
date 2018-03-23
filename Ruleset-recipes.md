@@ -43,3 +43,12 @@ The special underscore symbol `_` is a scope placeholder, it is meant to be repl
 Once a user imports a recipe, uMatrix will evaluate each rule in order of appearance, and determine whether it must be imported according to whether the resources specified in a rule is currently blocked or not. If a resource is not blocked, the rule won't be imported.
 
 For example, if a user imports the above recipe into the default ruleset (the one in effect when you first install uMatrix), the rule `[current scope] player.vimeo.com script allow` won't be imported, because the rule `[current scope] player.vimeo.com * allow` will already have caused the `[current scope] player.vimeo.com script` cell to be allowed, and similarly the rule `[current scope] vimeocdn.com script allow` won't be be needed.
+
+Recipe contributors must never specify globally-scoped rules in their recipes, unless such behavior is _explicitly_ stated by the recipe name. For example, the following recipe could be crafted to whitelist some popular CDN:
+
+    Globally whitelist jsDelivr CDN
+        _ cdn.jsdelivr.net
+            * cdn.jsdelivr.net *
+            * cdn.jsdelivr.net script
+
+Note the use of the word _globally_ in the recipe name, and not that the wildcard `*` was used as the scope, rather than the placeholder `_`.
