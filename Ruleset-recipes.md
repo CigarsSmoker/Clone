@@ -47,7 +47,7 @@ For example, if a user imports the above recipe into the default ruleset (the on
 Recipe contributors must never specify globally-scoped rules in their recipes, unless such behavior is _explicitly_ stated by the recipe name. For example, the following recipe could be crafted to whitelist some popular CDN:
 
     Globally whitelist jsDelivr CDN
-        _ cdn.jsdelivr.net
+        * cdn.jsdelivr.net
             * cdn.jsdelivr.net *
             * cdn.jsdelivr.net script
 
