@@ -13,6 +13,7 @@ Recipe authors should craft their recipes as if they were to be imported in the 
     * * * block
     * * script block
     * * frame block
+    * first-party * allow
     * first-party frame allow
 
 This is the most restrictive destination ruleset supported: all 3rd-party resources are blocked, all scripts (1st- and 3rd-party) are blocked.
