@@ -6,7 +6,7 @@ When one or more recipes are available for a given web site, they will be sugges
 
 Everybody is free to create whatever ruleset they see fit.
 
-Given this, it is impossible to guarantee that any given recipe will un-break a given web site as intended by the recipe author. Hence there are some guidelines about contributing recipes that are likely to work for most users. If a recipes does not work as intended because they are imported into rather restrictive personal ruleset, this will be for the user to work out.
+Given this, it is impossible to guarantee that any given recipe will un-break a given web site as intended by the recipe author. Hence there are some guidelines about contributing recipes that are likely to work for most users. If a recipe does not work as intended because they are imported into rather restrictive personal ruleset, this will be for the user to work out.
 
 Recipe authors should craft their recipes as if they were to be imported in the following ruleset -- this will be the most restrictive destination ruleset supported by recipe contributors:
 
