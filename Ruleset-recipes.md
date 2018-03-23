@@ -10,7 +10,7 @@ Recipes are _never_ automatically imported, they always require that you explici
 
 When you import a recipe, the rules are always imported into your temporary ruleset.
 
-Some recipes may contain rules which are not visible from the current matrix, or contain rules which affect multiple scopes. Here is an example of such recipe, already present in the stock one:
+Some recipes may contain rules which are not visible from the current matrix, or contain rules which affect multiple scopes. Here is an example of such recipe, already present as a stock one:
 
     Youtube with account
         youtube.com *
