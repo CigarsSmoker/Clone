@@ -4,9 +4,23 @@ When one or more recipes are available for a given web site, they will be sugges
 
 ![Example](https://user-images.githubusercontent.com/585534/37831619-9417b488-2e7c-11e8-928a-1eb8e39a732c.png)
 
-Recipes are _never_ automatically imported, they always require that you explicitly import them.
+Recipes are _never_ automatically imported, they always require that you explicitly import them. You may inspect all the rules by expanding the recipe.
 
 When you import a recipe, the rules are always imported into your temporary ruleset.
+
+Some recipes may contain rules which are not visible from the current matrix, or contain rules which affect multiple scopes. Here is an example of such recipe, already present in the stock one:
+
+    Youtube with account
+        youtube.com *
+            example.com 1st-party script
+            example.com googlevideo.com *
+            example.com googlevideo.com xhr
+            accounts.google.com 1st-party *
+            accounts.google.com 1st-party cookie
+            accounts.google.com gstatic.com *
+            accounts.google.com gstatic.com script
+
+When you import this recipe (let's say into the `example.com` scope), temporary rules will be created in the current scope, and rules will also be created in the `accounts.google.com` scope (to allow logging in in the current case). If you are satisfied that all the rules in the recipe are to be kept permanently, click the padlock icon _aside_ the recipe, this will save all the rules for that specific recipe. If you were to use the popup panel padlock, only the rules which are currently visible in the popup panel would be saved.
 
 ## Contributing recipes
 
