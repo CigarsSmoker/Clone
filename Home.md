@@ -15,6 +15,7 @@
 - [Cookies](https://github.com/gorhill/uMatrix/wiki/Cookies)
 - [Scope selector](https://github.com/gorhill/uMatrix/wiki/Scope-selector)
 - [Per-scope switches](https://github.com/gorhill/uMatrix/wiki/Per-scope-switches)
+- [Ruleset recipes](https://github.com/gorhill/uMatrix/wiki/Ruleset-recipes)
 - [Raw settings](https://github.com/gorhill/uMatrix/wiki/Raw-settings)
 - [Lingering domain entries in the matrix](https://github.com/gorhill/uMatrix/wiki/Lingering-domain-entries-in-the-matrix)
 - [Rules syntax](https://github.com/gorhill/uMatrix/wiki/Rules-syntax)
