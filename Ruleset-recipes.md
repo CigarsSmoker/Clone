@@ -6,6 +6,8 @@ When one or more recipes are available for a given web site, they will be sugges
 
 Recipes are _never_ automatically imported, they always require that you explicitly import them.
 
+When you import a recipe, the rules are always imported into your temporary ruleset.
+
 ## Contributing recipes
 
 Everybody is free to create whatever ruleset they see fit.
