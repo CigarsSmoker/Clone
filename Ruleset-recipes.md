@@ -51,4 +51,4 @@ Recipe contributors must never specify globally-scoped rules in their recipes, u
             * cdn.jsdelivr.net *
             * cdn.jsdelivr.net script
 
-Note the use of the word _globally_ in the recipe name, and not that the wildcard `*` was used as the scope, rather than the placeholder `_`.
+Note the use of the word _globally_ in the recipe name, and also note that global scope `*` was used as the scope, rather than the placeholder `_` typically found in non-global recipes.
