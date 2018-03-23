@@ -30,7 +30,7 @@ Here is an example using an existing stock recipe:
             _ vimeocdn.com *
             _ vimeocdn.com script
 
-The first line is the ruleset recipe is the name of the recipe, to be used in the popup panel. It must make the purpose of the recipe obvious.
+The first line is the name of the recipe, to be used in the popup panel. It must make the purpose of the recipe obvious.
 
 The second line is the condition which tells uMatrix when a recipe should be presented to the user in the popup panel. It's made of two parts: the 1st-party hostname and the 3rd-party hostname which must be matched in the current matrix for the recipe to be considered relevant.
 
