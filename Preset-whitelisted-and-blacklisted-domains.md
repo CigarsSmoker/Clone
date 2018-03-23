@@ -6,7 +6,7 @@ uMatrix will never come with out of the box whitelist rules for specific domains
 
 The only _specific_ whitelist rules in uMatrix are the ones you create yourself.
 
-However, hopefully I will one day be able to bring back the library of presets from where you can pick ready-to-use set of rules for specific purpose. See [issue #30](https://github.com/gorhill/uMatrix/issues/30).
+However you can explicitly import if you wish community-contributed [ruleset recipes](https://github.com/gorhill/uMatrix/wiki/Ruleset-recipes).
 
 ## Preset blacklist rules
 
