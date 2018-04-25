@@ -74,3 +74,11 @@ Recipe contributors must never specify globally-scoped rules in their recipes, u
             * cdn.jsdelivr.net script
 
 Note the use of the word _globally_ in the recipe name, and also note that global scope `*` was used as the scope in the rules rather than the placeholder `_` typically found in non-global recipes.
+
+The only types supported in recipe ruleset are the following: `*`, `script`, `frame` -- these are the only types needed to accommodate the strictest supported ruleset. There is an exception however: you **may** declare a rule for any other types **if and only if** this the only type necessary to unbreak the site. An example of this:
+
+    Google Translate API: globally allow
+        * translate.googleapis.com
+            * translate.googleapis.com xhr
+
+The ruleset recipe above is useful for Chromium-based browsers, as it allows the _"Translate to English"_ feature to work properly. Nothing more than a `xhr` is needed for the feature to work properly.
