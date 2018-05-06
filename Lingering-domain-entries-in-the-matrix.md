@@ -6,4 +6,4 @@ Now the following is very important to keep in mind: **uMatrix does not clean th
 
 The reason for this is that uMatrix wants to be sure everything is reported to the user, to ensure the user will be properly informed should there be a rare network request made to some strange 3rd party server, which could otherwise more than likely go unseen or unnoticed if uMatrix was to clean the slate between each page loads from the same site.
 
-For any given site, the slate is cleaned when you navigate to a new site (i.e. the hostname in the URL address changes), or when you close the tab -- i.e. loading the same site in a new tab will cause that tab to start with a clean slate.
+For any given site(except if the scope is `behind-the-scene` as it never goes away, so **the slate is NOT cleaned until a relaunch of the extension or the browser itself**), the slate is cleaned when you navigate to a new site (i.e. the hostname in the URL address changes), or when you close the tab -- i.e. loading the same site in a new tab will cause that tab to start with a clean slate.
