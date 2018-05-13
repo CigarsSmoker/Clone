@@ -26,7 +26,11 @@ When you import this recipe (let's say into the `example.com` scope), temporary 
 
 ## Contributing recipes
 
-Everybody is free to create whatever ruleset they see fit.
+First: a ruleset recipes file MUST start with the following line:
+
+    ! uMatrix: Ruleset recipes 1.0
+
+Now, everybody is free to create whatever ruleset they see fit.
 
 Given this, it is impossible to guarantee that any given recipe will un-break a given web site as intended by the recipe author. Hence there are some guidelines about contributing recipes that are likely to work for most users. If a recipe does not work as intended because they are imported into rather restrictive personal ruleset, this will be for the user to work out.
 
