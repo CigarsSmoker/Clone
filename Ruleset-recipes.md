@@ -26,11 +26,7 @@ When you import this recipe (let's say into the `example.com` scope), temporary 
 
 ## Contributing recipes
 
-First: a ruleset recipes file MUST start with the following line:
-
-    ! uMatrix: Ruleset recipes 1.0
-
-Now, everybody is free to create whatever ruleset they see fit.
+Everybody is free to create whatever ruleset they see fit.
 
 Given this, it is impossible to guarantee that any given recipe will un-break a given web site as intended by the recipe author. Hence there are some guidelines about contributing recipes that are likely to work for most users. If a recipe does not work as intended because they are imported into rather restrictive personal ruleset, this will be for the user to work out.
 
@@ -86,3 +82,18 @@ The only types which should be used explicitly in a recipe ruleset are the follo
             * translate.googleapis.com xhr
 
 The ruleset recipe above is useful for Chromium-based browsers, as it allows the _"Translate to English"_ feature to work properly. Nothing more than a `xhr` is needed for the feature to work properly.
+
+## Creating your own ruleset recipes file
+
+A ruleset recipes file MUST start with the following line:
+
+    ! uMatrix: Ruleset recipes 1.0
+
+If this line is not present, uMatrix will (silently) ignore the content of the file (even though you will be able to import it).
+
+Optionally, the following lines -- which may be used by uMatrix:
+
+    ! Title: Rulesets for English websites
+    ! Maintainer: uMatrix
+
+Each ruleset recipe MUST be separated by an empty line.
