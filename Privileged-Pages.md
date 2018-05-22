@@ -26,7 +26,7 @@ sync.services.mozilla.com
 testpilot.firefox.com
 ```
 
-- Just like Chrome, Firefox's WebExtensions will also cease to work on that domains.
+- Just like Chrome, Firefox's WebExtensions will also cease to work on those domains.
 
 
 ***
