@@ -2,7 +2,7 @@ Privileged Pages are the webpages that browser-developers consider as an entitle
 
 For Chromium<sup>1</sup>:
 ```
-chrome.google.com
+chrome.google.com/webstore/*
 ```
 
 - On the aformentioned domain, ALL Chromium/Chrome extensions will cease their functionality.
