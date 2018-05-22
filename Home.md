@@ -1,5 +1,6 @@
 - [Changes from HTTP Switchboard](https://github.com/gorhill/uMatrix/wiki/Changes-from-HTTP-Switchboard)
 - [Permissions](https://github.com/gorhill/uMatrix/wiki/Permissions)
+- [Privileged Pages](https://github.com/gorhill/uMatrix/wiki/Privileged-Pages)
 - [The extension icon](https://github.com/gorhill/uMatrix/wiki/The-extension-icon)
 - [The popup panel](https://github.com/gorhill/uMatrix/wiki/The-popup-panel)
 - [How to block 1st-party scripts everywhere by default](https://github.com/gorhill/uMatrix/wiki/How-to-block-1st-party-scripts-everywhere-by-default)
