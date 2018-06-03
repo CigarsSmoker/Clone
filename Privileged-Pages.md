@@ -5,7 +5,7 @@ For Chromium<sup>1</sup>:
 chrome.google.com/webstore/*
 ```
 
-- On the aformentioned domain, ALL Chromium/Chrome extensions will cease their functionality.
+- On the aformentioned domain, all Chromium/Chrome extensions will cease their functionality.
 
 For Firefox<sup>2</sup>:
 ```
