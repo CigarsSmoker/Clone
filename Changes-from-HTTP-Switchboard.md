@@ -1,4 +1,4 @@
-uMatrix and [uBlock](https://github.com/gorhill/uBlock) are both spin-off of [HTTP Switchboard](https://github.com/gorhill/httpswitchboard) ("HTTPSB"). They both improve significantly on HTTPSB. Essentially, HTTPSB is the fancy prototype, proof of concept to test many ideas. uMatrix and uBlock are the final products.
+uMatrix and [uBlock Origin](https://github.com/gorhill/uBlock) are both spin-off of [HTTP Switchboard](https://github.com/gorhill/httpswitchboard) ("HTTPSB"). They both improve significantly on HTTPSB. Essentially, HTTPSB is the fancy prototype, proof of concept to test many ideas. uMatrix and uBlock are the final products.
 
 uMatrix inherited the task of matrix-based filtering, while uBlock inherited the task of pattern-based filtering.
 
