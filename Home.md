@@ -6,6 +6,7 @@
 - [How to block 1st-party scripts everywhere by default](https://github.com/gorhill/uMatrix/wiki/How-to-block-1st-party-scripts-everywhere-by-default)
 - [How to create rules which apply everywhere, on all web sites](https://github.com/gorhill/uMatrix/wiki/How-to-create-rules-which-apply-everywhere,-on-all-web-sites)
 - [How to work in hard 3rd-party default-deny mode by default](https://github.com/gorhill/uMatrix/wiki/How-to-work-in-hard-3rd-party-default-deny-by-default)
+- [How to work in hardcore "block almost everything" mode](https://github.com/gorhill/uMatrix/wiki/How-to-work-in-hardcore-%22block-almost-everything%22-mode)
 - [How to work only with global rules and all scripts blocked by default](https://github.com/gorhill/uMatrix/wiki/How-to-work-only-with-global-rules-and-all-scripts-blocked-by-default)
 - [How to "allow all" in uMatrix](https://github.com/gorhill/uMatrix/wiki/How-to-%22allow-all%22-in-uMatrix)
 - [How to get past "uMatrix has prevented the following page from loading"](https://github.com/gorhill/uMatrix/wiki/How-to-get-past-%22uMatrix-has-prevented-the-following-page-from-loading%22)
