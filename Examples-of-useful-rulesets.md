@@ -73,6 +73,19 @@ This worked for me:
 
 Even if you blocked all things Google in the global scope, Youtube will work just fine with these rules.
 
+A more granular ruleset that might be useful is:
+
+    youtube.com clients1.google.com script allow
+    youtube.com googlevideo.com media allow
+    youtube.com googlevideo.com xhr allow
+    youtube.com www.google.com script allow
+    youtube.com www.youtube.com other allow
+    youtube.com www.youtube.com xhr allow
+    youtube.com youtube.com script allow
+    youtube.com ytimg.com script allow
+
+This has yet to break anything for me (i.e. I can watch Youtube videos just fine on youtube.com).
+
 #### youtube-nocookie.com
 
 This one is useful when you click on a blocked Youtube embedded in a frame on a 3rd-party page (click the label). It worked for me.
