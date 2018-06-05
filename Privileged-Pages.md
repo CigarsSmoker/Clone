@@ -28,9 +28,10 @@ testpilot.firefox.com
 
 - Just like Chrome, Firefox's WebExtensions will also cease to work on these aformentioned domains.
 
-- To allow WebExtensions in Firefox to run on these pages (at your own risk) open about:config and modify the following:
+- To allow WebExtensions in Firefox to run on these pages (at your own risk) open about:config and modify the following <sup>3</sup>:
 
-    - Set `extensions.webextensions.restrictedDomains` to be an empty string<sup>3</sup>.
+    - Set `extensions.webextensions.restrictedDomains` to be an empty string<sup>4</sup>
+    - Set `privacy.resistFingerprinting.block_mozAddonManager` to `true`<sup>5</sup> (must be manually created by right clicking and selecting _New > Boolean_<sup>3</sup>)
 
 ***
 
@@ -38,4 +39,9 @@ testpilot.firefox.com
 
 [2] https://hg.mozilla.org/mozilla-central/rev/39e131181d44
 
-[3] https://bugzilla.mozilla.org/show_bug.cgi?id=1310082
+[3] https://www.ghacks.net/2017/10/27/how-to-enable-firefox-webextensions-on-mozilla-websites/
+
+[4]  https://bugzilla.mozilla.org/show_bug.cgi?id=1445663#ch-3
+
+[5] https://bugzilla.mozilla.org/show_bug.cgi?id=1310082#c24
+
