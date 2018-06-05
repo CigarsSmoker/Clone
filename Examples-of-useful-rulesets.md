@@ -87,6 +87,7 @@ Should allow you to translate stuff, listen to pronunciations, and so on. Probab
     twitter.com abs.twimg.com script allow
     twitter.com api.twitter.com xhr allow
     twitter.com mobile.twitter.com script allow
+    twitter.com ton.twimg.com script allow
     twitter.com twitter.com cookie allow
     twitter.com twitter.com frame allow
     twitter.com twitter.com script allow
