@@ -11,6 +11,20 @@ To copy a specific ruleset below into your own ruleset, go to _"My rules"_ in th
 
 Probably needs more rules, but I don't have a Facebook account, can't tell. But for those without a Facebook account, this worked good enough to browse Facebook pages.
 
+A more granular version that might be useful is:
+
+    facebook.com 1st-party xhr allow
+    facebook.com facebook.com cookie allow
+    facebook.com fbcdn.net script allow
+    facebook.com fbcdn.net xhr allow
+    facebook.com staticxx.facebook.com frame allow
+    facebook.com video-ort2-2.xx.fbcdn.net media allow
+    facebook.com www.facebook.com frame allow
+    facebook.com www.facebook.com media allow
+    facebook.com www.facebook.com xhr allow
+
+This works for logging in (including 2-factor auth!) and browsing Facebook, posting comments, viewing images/videos, etc.
+
 #### github.com
 
     github.com ghconduit.com xhr allow
