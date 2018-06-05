@@ -35,6 +35,19 @@ This works for logging in (including 2-factor auth!) and browsing Facebook, post
     github.com s3.amazonaws.com other allow
     github.com s3.amazonaws.com xhr allow
 
+#### reddit.com
+
+    reddit.com cdn.embedly.com frame allow
+    reddit.com gateway.reddit.com xhr allow
+    reddit.com oops.redditmedia.com xhr allow
+    reddit.com www.reddit.com script allow
+    reddit.com www.reddit.com xhr allow
+    reddit.com www.redditmedia.com frame allow
+    reddit.com www.redditmedia.com script allow
+    reddit.com www.redditstatic.com script allow
+
+Should let you browse Reddit comfortably. Probably need more whitelisting to log in. Need additional rules to view embedded content (Youtube and so on).
+
 #### skyscraperlive.com
 
     skyscraperlive.com brightcove.com plugin allow
@@ -52,11 +65,35 @@ This works for logging in (including 2-factor auth!) and browsing Facebook, post
     stackoverflow.com sstatic.net image allow
     stackoverflow.com sstatic.net script allow
 
+#### translate.google.com
+
+    translate.google.com ssl.gstatic.com script allow
+    translate.google.com translate.google.com media allow
+    translate.google.com translate.google.com script allow
+    translate.google.com translate.google.com xhr allow
+    translate.google.com www.gstatic.com script allow
+
+Should allow you to translate stuff, listen to pronunciations, and so on. Probably need a more relaxed ruleset to allow login and so on.
+
 #### twitch.tv
 
     twitch.tv akamaized.net xhr allow
     twitch.tv ttvnw.net xhr allow
     twitch.tv static.twitchcdn.net script allow
+
+#### twitter.com
+
+    twitter.com abs-0.twimg.com script allow
+    twitter.com abs.twimg.com script allow
+    twitter.com api.twitter.com xhr allow
+    twitter.com mobile.twitter.com script allow
+    twitter.com twitter.com cookie allow
+    twitter.com twitter.com frame allow
+    twitter.com twitter.com script allow
+    twitter.com twitter.com xhr allow
+    twitter.com video.twimg.com xhr allow
+
+Should allow you to login to Twitter, like stuff, comment on stuff, post stuff, watch videos, etc.
 
 #### youtube.com
 
