@@ -79,7 +79,6 @@ A more granular ruleset that might be useful is:
     youtube.com googlevideo.com media allow
     youtube.com googlevideo.com xhr allow
     youtube.com www.google.com script allow
-    youtube.com www.youtube.com other allow
     youtube.com www.youtube.com xhr allow
     youtube.com youtube.com script allow
     youtube.com ytimg.com script allow
