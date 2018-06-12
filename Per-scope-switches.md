@@ -32,6 +32,8 @@ Chromium/Firefox forbid **some** mixed content by default. When there is mixed c
 
 Since uMatrix 0.9.0.0, unsecure network requests are blocked directly by uMatrix, rather than by the browser through a CSP directive. This means if a page has mixed content, your browser will notify you about the mixed content on that page, though the connections were blocked by uMatrix (use the logger to see for yourself).
 
+- Note: Having this switch toggled to ON can break some websites, that doesn't mean it's a bug, it's the intended behaviour and the switch should be disabled for the specific website instead.
+
 ***
 
 ### Spoof `Referer` header
@@ -43,6 +45,8 @@ The setting in the _Settings_ tab is still there, and its purpose is to control 
 The logic behind referer spoofing is simpler now: it's whether the switch referer spoofing is turned on, and whether the domain of the referer URL is third-party to the domain of the request URL. Whether the domain of the URL of a request is whitelisted is now irrelevant.
 
 Also, notice that now I use the term "spoofing". Whereas before the referer string was blanked, the referer information will now be foiled using the root URL derived from the URL of the request. For example, if the URL of a request is `http://www.example.com/blahblahblah/boring.html` and the referer is `http://google.com`, the referer will be spoofed using the `http://www.example.com/` string.
+
+- Note: Having this switch toggled to ON can break some websites, that doesn't mean it's a bug, it's the intended behaviour and the switch should be disabled for the specific website instead.
 
 ***
 
