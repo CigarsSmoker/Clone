@@ -4,4 +4,4 @@ Once these blacklisted cookies have been accounted for by uMatrix, you can ask u
 
 ***
 
-[1] This is about standard [HTTP Cookie](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cookie) header. Cookies can still be "stolen", and send to remote server by rogue javascript in other data structures (POST request for example). This can be counteracted by blocking such rogue scripts in uMatrix and using specialized cookie-blocking extensions ([#7](https://github.com/uBlockOrigin/uMatrix-issues/issues/7))
+[1] This is about standard [HTTP Cookie](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cookie) header. Cookies can still be "stolen", and send to remote server by a rogue javascript in other data structures (POST request for example). This can be counteracted by blocking such rogue scripts in uMatrix and using specialized cookie-blocking extensions ([#7](https://github.com/uBlockOrigin/uMatrix-issues/issues/7))
