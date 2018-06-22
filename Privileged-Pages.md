@@ -37,7 +37,7 @@ testpilot.firefox.com
 
 [1] [stackoverflow.com](https://stackoverflow.com/questions/11613371/chrome-extension-content-script-on-https-chrome-google-com-webstore/11614440#11614440), [chrome_extensions_client.cc](https://chromium.googlesource.com/chromium/src/+/ba355f657a607c74f0de82ad925a4dc1a7c9a95b/chrome/common/extensions/chrome_extensions_client.cc#235), [extension_urls.cc](https://chromium.googlesource.com/chromium/src/+/ba355f657a607c74f0de82ad925a4dc1a7c9a95b/extensions/common/extension_urls.cc#33)
 
-[2] https://hg.mozilla.org/mozilla-central/rev/39e131181d44
+[2] [code change](https://hg.mozilla.org/mozilla-central/rev/39e131181d44), [bug report](https://bugzilla.mozilla.org/show_bug.cgi?id=1415644)
 
 [3] https://www.ghacks.net/2017/10/27/how-to-enable-firefox-webextensions-on-mozilla-websites/
 
