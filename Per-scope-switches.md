@@ -11,6 +11,7 @@ For example, setting the per-scope switch _"Spoof `Referer` header"_ in the glob
 ### The per-scope switches
 
 - [Forbid mixed content](#forbid-mixed-content)
+- [Forbid web workers](#forbid-web-workers)
 - [Spoof `Referer` header](#spoof-referer-header)
 - [Spoof `noscript` tags](#spoof-noscript-tags)
 
@@ -35,7 +36,21 @@ Since uMatrix 0.9.0.0, unsecure network requests are blocked directly by uMatrix
 - Note: Having this switch toggled to ON can break some websites, that doesn't mean it's a bug, but rather an un-intended side effect and the switch should be disabled for the specific website instead.
 
 ***
+### Forbid web workers
 
+For those unfamiliar with web workers in general, listed below is some valuable documentation to gather information from:
+
+- [Mozilla Developer Network: Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers)
+- [HTML5 Web Workers](https://www.w3schools.com/html/html5_webworkers.asp)
+- [W3C Web Workers](https://w3c.github.io/workers/)
+
+Toggling this switch to ON, forbids Web Workers from being created via a CSP policy inserted by uMatrix. Also to keep in mind that there's no global toggle switch for this per-scope switch yet, but a suggestion has been made, that's why toggling it ON on a particular website will result in rule created for that website only. To apply this switch globally, replace the domain name with `*` in _My Rules_ and save it. 
+
+Forbiding Web Workers was specifically added back to foil websites loading miners by engaging web workers without any kind of opt-in/opt-out or prior notification to users.
+
+- Note: Having this switch toggled to ON can break some websites, that doesn't mean it's a bug, but rather an un-intended side effect and the switch should be disabled for the specific website instead.
+
+***
 ### Spoof `Referer` header
 
 Referer spoofing has been transformed from a global setting into a per-scope setting, so that you can now disable/enable it specifically on a per-scope basis.
