@@ -13,3 +13,6 @@ Here are some things to consider.
 - Did you enable matrix filtering in the behind-the-scene scope?
     - If you enable matrix filtering in the behind-the-scene scope, you may suffer more obscure breakage as a result.
     - As mentioned above, using the logger is key.
+- Is Firefox Tracking Protection enabled? 
+    - This can prevent uMatrix from seeing requests
+    - As of version 61, Firefox tracking protection will not always disable fully via the shield icon and will not always show the shield icon when removing page elements
