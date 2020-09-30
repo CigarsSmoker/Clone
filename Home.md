@@ -36,5 +36,4 @@
     - [Firefox 57: Sicher ohne NoScript](https://www.youtube.com/watch?v=R9dePpq9OnQ) (German)
     - **Recommended:** [How to use uMatrix to protect your online privacy & improve security | uMatrix tutorial](https://www.youtube.com/watch?v=TVozpo3zUBk)
     - [uMatrix avec Firefox](https://vive-gnulinux.fr.cr/firefox-umatrix-1/) (Français)
-    - [uMatrix: A Desperately Needed User’s Guide](http://adamantine.me/index.php/2015/11/18/umatrix-desperately-needed-guide/)
     - [Chrome: uMatrix - Das wichtigste Addon](https://www.youtube.com/watch?v=af0tUR0GZUI) (German)
